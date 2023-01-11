@@ -1,16 +1,10 @@
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-
 # hammondm.github.io
 
 This is a web page.
 
-Here is some math:
+[Here](http://www.u.arizona.edu/~hammond/) is my actual web page.
 
-$$
-\sum_{i=1}^{10} i^2
-$$
-
-and a table:
+Here's a table:
 
 something | how many
 :--------:|--------:
