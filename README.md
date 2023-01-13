@@ -10,3 +10,9 @@ something | how many
 :--------:|--------:
 apples    | 25
 oranges   | 210
+
+Here is some code:
+
+```python
+print('wow')
+```
