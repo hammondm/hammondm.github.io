@@ -1,4 +1,4 @@
-# hammondm.github.io
+# Michael Hammond
 
 This is a web page.
 
