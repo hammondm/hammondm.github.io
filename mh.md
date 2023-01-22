@@ -1,9 +1,6 @@
 ---
-title: 'page d''accueil de Mike Hammond'
+title: Mike Hammond
 ---
-
-Mike Hammond
-============
 
 **General stuff**
 
@@ -16,45 +13,22 @@ I work in the [Linguistics Department](http://linguistics.arizona.edu/) at the [
 **Materials associated with my books**
 
 1.  [Programs](http://www.u.arizona.edu/~hammond/bookcode.zip) for my book *Python for Linguists*
-2.  List of [errata](http://www.u.arizona.edu/~hammond/errata.htm) from
-    my book *The Phonology of English*.
-3.  Programs from my book *Programming in Java for Linguists*. Available
-    as a [gzipped tar
-    file](http://dingo.sbs.arizona.edu/~hammond/mhw3/mh/javaling/programs.tar.gz),
-    as a [jar
-    file](http://dingo.sbs.arizona.edu/~hammond/mhw3/mh/javaling/programs.jar),
-    as a [Mac self-extracting
-    archive](http://dingo.sbs.arizona.edu/~hammond/mhw3/mh/javaling/programs.sea),
-    as a [Mac binhexed self-extracting
-    archive](http://dingo.sbs.arizona.edu/~hammond/mhw3/mh/javaling/programs.sea.Hqx),
-    or as a [zipped
-    archive](http://dingo.sbs.arizona.edu/~hammond/mhw3/mh/javaling/Programs.zip).
-4.  Programs from my book *Programming in Perl for Linguists*. Available
-    as a [gzipped tar
-    file](http://dingo.sbs.arizona.edu/~hammond/perlling/perlprog.tar.gz),
-    as a [zipped
-    archive](http://dingo.sbs.arizona.edu/~hammond/perlling/perlprogs.zip),
-    or as a [Mac self-extracting
-    archive](http://dingo.sbs.arizona.edu/~hammond/perlling/perlprogs.sit).
-    (The
-    [websearch.pl](http://dingo.sbs.arizona.edu/~hammond/perlling/websearch.txt)
-    program and [sentences.pl](sentences.txt) program can be downloaded
-    separately.) [Answers](perlex.zip) to selected exercises.
-5.  List of [errata](http://www.u.arizona.edu/~hammond/perlerrata.html)
-    from my book *Programming in Perl for Linguists*.
+1.  List of [errata](http://www.u.arizona.edu/~hammond/errata.htm) from my book *The Phonology of English*.
+1.  Programs from my book *Programming in Java for Linguists*. Available as a [gzipped tar file](http://dingo.sbs.arizona.edu/~hammond/mhw3/mh/javaling/programs.tar.gz), as a [jar file](http://dingo.sbs.arizona.edu/~hammond/mhw3/mh/javaling/programs.jar), as a [Mac self-extracting archive](http://dingo.sbs.arizona.edu/~hammond/mhw3/mh/javaling/programs.sea), as a [Mac binhexed self-extracting archive](http://dingo.sbs.arizona.edu/~hammond/mhw3/mh/javaling/programs.sea.Hqx), or as a [zipped archive](http://dingo.sbs.arizona.edu/~hammond/mhw3/mh/javaling/Programs.zip).
+1.  Programs from my book *Programming in Perl for Linguists*. Available as a [gzipped tar file](http://dingo.sbs.arizona.edu/~hammond/perlling/perlprog.tar.gz), as a [zipped archive](http://dingo.sbs.arizona.edu/~hammond/perlling/perlprogs.zip), or as a [Mac self-extracting archive](http://dingo.sbs.arizona.edu/~hammond/perlling/perlprogs.sit). (The [websearch.pl](http://dingo.sbs.arizona.edu/~hammond/perlling/websearch.txt) program and [sentences.pl](sentences.txt) program can be downloaded separately.) [Answers](perlex.zip) to selected exercises.
+1.  List of [errata](http://www.u.arizona.edu/~hammond/perlerrata.html) from my book *Programming in Perl for Linguists*.
 
 ------------------------------------------------------------------------
 
 **Selected older computational projects**
 
 1.  Gen with Lazy Evaluation: [paper](http://www.u.arizona.edu/~hammond/lazy.pdf) and [Haskell code](http://www.u.arizona.edu/~hammond/lazy.lhs). (Note that the code/paper are written in Literate Haskell style, which means the code file \"is\" the paper source.
-2.  [Finite State Playground](http://www.u.arizona.edu/~hammond/flbi1.02.tar.gz). A set of xml-based command-line utilities for manipulating FSAs. These are **beta** and **not** industrial strength. Transducers are not included; comments welcome (v 1.02; 1/21/07).
-3.  [LingML](http://dingo.sbs.arizona.edu/~hammond/lingml/lingml.html): This was a very rough idea for general XML/XSLT applications for linguistics analogous to the MathML initiative of the W3 consortium.
-4.  Slides and demos from my presentation [\"Toward LingML: is the notation really the
-    theory\"](http://dingo.sbs.arizona.edu/~hammond/georgia/gindex.html) (10/6/03).
-5.  \"Parsing syllables: modeling OT computationally\", [Rutgers Archive](http://roa.rutgers.edu/)
-6.  [Code](http://www.u.arizona.edu/~hammond/mhlocweb) for the above.
-7.  The [code](http://www.u.arizona.edu/~hammond/sylpars) in Perl for my 1995 constraint-based syllable parser. (The paper: \"Syllable parsing in English and French\", [Rutgers Archive](http://roa.rutgers.edu/))
+1.  [Finite State Playground](http://www.u.arizona.edu/~hammond/flbi1.02.tar.gz). A set of xml-based command-line utilities for manipulating FSAs. These are **beta** and **not** industrial strength. Transducers are not included; comments welcome (v 1.02; 1/21/07).
+1.  [LingML](http://dingo.sbs.arizona.edu/~hammond/lingml/lingml.html): This was a very rough idea for general XML/XSLT applications for linguistics analogous to the MathML initiative of the W3 consortium.
+1.  Slides and demos from my presentation [\"Toward LingML: is the notation really the theory\"](http://dingo.sbs.arizona.edu/~hammond/georgia/gindex.html) (10/6/03).
+1.  \"Parsing syllables: modeling OT computationally\", [Rutgers Archive](http://roa.rutgers.edu/)
+1.  [Code](http://www.u.arizona.edu/~hammond/mhlocweb) for the above.
+1.  The [code](http://www.u.arizona.edu/~hammond/sylpars) in Perl for my 1995 constraint-based syllable parser. (The paper: \"Syllable parsing in English and French\", [Rutgers Archive](http://roa.rutgers.edu/))
 
 ------------------------------------------------------------------------
 
