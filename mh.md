@@ -2,32 +2,18 @@
 title: 'page d''accueil de Mike Hammond'
 ---
 
-![The University of Arizona](uofatext.gif)
-
 Mike Hammond
 ============
 
-![](ball.blue.gif)**General stuff**
+**General stuff**
 
-I work in the [Linguistics Department](http://linguistics.arizona.edu/)
-at the [University of Arizona](http://www.arizona.edu/). I am also
-affiliated with the [Human Language Technology
-Program](https://linguistics.arizona.edu/master-science-human-language-technology-hlt),
-the [Cognitive Science Program](https://cogsci.arizona.edu), the joint
-[Linguistics-Anthropology Ph.D.
-Program](https://linguistics.arizona.edu/content/joint-phd-anthropology-linguistics-also-known-anli-degree),
-and the [SLAT](http://slat.arizona.edu) program. My research areas
-include: phonology, morphology, computational linguistics, English
-phonology and morphology, poetic meter, psycholinguistics, Welsh, and
-Scottish Gaelic. I have a lab for my experimental research ([SPAM
-Lab](http://www.u.arizona.edu/~hammond/spamho.html)). I was also
-involved in the Arizona Native American Online Dictionary Project.
-(Click here to see [my current
-CV](http://www.u.arizona.edu/~hammond/cvanon.pdf)).
+I work in the [Linguistics Department](http://linguistics.arizona.edu/) at the [University of Arizona](http://www.arizona.edu/). I am also affiliated with the [Human Language Technology Program](https://linguistics.arizona.edu/master-science-human-language-technology-hlt), the [Cognitive Science Program](https://cogsci.arizona.edu), the joint [Linguistics-Anthropology Ph.D. Program](https://linguistics.arizona.edu/content/joint-phd-anthropology-linguistics-also-known-anli-degree), and the [SLAT](http://slat.arizona.edu) program. My research areas include: phonology, morphology, computational linguistics, English phonology and morphology, poetic meter, psycholinguistics, Welsh, and Scottish Gaelic.
+
+(Click here to see [my current CV](cv.pdf)).
 
 ------------------------------------------------------------------------
 
-![](ball.purple.gif)**Selected computational projects**
+**Selected computational projects**
 
 [Some of these are dated and here for historical interest.]{.small}
 
