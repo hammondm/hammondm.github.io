@@ -2,6 +2,8 @@
 title: 'page d''accueil de Mike Hammond'
 ---
 
+**This is a work in progress!**
+
 Mike Hammond
 ============
 
@@ -15,7 +17,7 @@ I work in the [Linguistics Department](http://linguistics.arizona.edu/) at the [
 
 **Selected computational projects**
 
-[Some of these are dated and here for historical interest.]{.small}
+[Some of these are dated and here for historical interest.]
 
 1.  Gen with Lazy Evaluation: [paper](lazy.pdf) and [Haskell
     code](lazy.lhs). (Note that the code/paper are written in Literate
@@ -41,7 +43,7 @@ I work in the [Linguistics Department](http://linguistics.arizona.edu/) at the [
 
 ------------------------------------------------------------------------
 
-![](ball.orange.gif)**Various presentations**
+**Various presentations**
 
 1.  [Handout](gho.pdf) from a talk in Aberystwyth, Wales on
     \'Variability in Welsh grammatical gender\' (July 2014).
@@ -86,7 +88,7 @@ I work in the [Linguistics Department](http://linguistics.arizona.edu/) at the [
 
 ------------------------------------------------------------------------
 
-![](ball.green.gif)**Materials associated with my books**
+**Materials associated with my books**
 
 1.  [Programs](bookcode.zip) for my book *Python for Linguists*
 2.  List of [errata](http://www.u.arizona.edu/~hammond/errata.htm) from
