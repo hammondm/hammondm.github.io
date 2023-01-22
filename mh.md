@@ -1,5 +1,5 @@
 ---
-title: 'page d\''accueil de Mike Hammond'
+title: 'page d\'accueil de Mike Hammond'
 ---
 
 ![The University of Arizona](uofatext.gif)
