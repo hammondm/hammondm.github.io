@@ -9,7 +9,7 @@ Mike Hammond
 
 I work in the [Linguistics Department](http://linguistics.arizona.edu/) at the [University of Arizona](http://www.arizona.edu/). I am also affiliated with the [Human Language Technology Program](https://linguistics.arizona.edu/master-science-human-language-technology-hlt), the [Cognitive Science Program](https://cogsci.arizona.edu), the joint [Linguistics-Anthropology Ph.D. Program](https://linguistics.arizona.edu/content/joint-phd-anthropology-linguistics-also-known-anli-degree), and the [SLAT](http://slat.arizona.edu) program. My research areas include: phonology, morphology, computational linguistics, English phonology and morphology, poetic meter, psycholinguistics, Welsh, and Scottish Gaelic.
 
-(Click here to see [my current CV](cv.pdf)).
+(Click here to see [my current CV](http://www.arizona.edu/~hammond/cvanon.pdf)).
 
 ------------------------------------------------------------------------
 
