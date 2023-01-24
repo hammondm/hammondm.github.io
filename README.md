@@ -25,7 +25,7 @@ selected exercises.
 
 ------------------------------------------------------------------------
 
-**Some selected older computational projects with sentimental value**
+**Some older computational projects with sentimental value**
 
 1.  Gen with Lazy Evaluation: [paper](http://www.u.arizona.edu/~hammond/lazy.pdf) and [Haskell code](http://www.u.arizona.edu/~hammond/lazy.lhs). (Note that the code/paper are written in Literate Haskell style, which means the code file \"is\" the paper source.
 1.  [Finite State Playground](http://www.u.arizona.edu/~hammond/flbi1.02.tar.gz). A set of xml-based command-line utilities for manipulating FSAs. These are **beta** and **not** industrial strength. Transducers are not included (v 1.02; 1/21/07).
