@@ -13,7 +13,7 @@ I'm a professor in the [Linguistics Department](http://linguistics.arizona.edu/)
 **Materials associated with my books**
 
 1.  [Programs](bookcode.zip) for my book *Python for Linguists*
-1.  List of [errata](errata.htm) from my book *The Phonology of English*.
+1.  List of [errata](errata.html) from my book *The Phonology of English*.
 1.  Programs from my book *Programming in Java for Linguists*. Available as a [gzipped tar
 file](programs.tar.gz), as a [jar
 file](programs.jar), or as a [zipped
