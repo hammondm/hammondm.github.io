@@ -12,14 +12,13 @@ I'm a professor in the [Linguistics Department](http://linguistics.arizona.edu/)
 
 **Materials associated with my books**
 
-1.  [Programs](http://www.u.arizona.edu/~hammond/bookcode.zip) for my book *Python for Linguists*
-1.  List of [errata](http://www.u.arizona.edu/~hammond/errata.htm) from my book *The Phonology of English*.
+1.  [Programs](bookcode.zip) for my book *Python for Linguists*
+1.  List of [errata](errata.htm) from my book *The Phonology of English*.
 1.  Programs from my book *Programming in Java for Linguists*. Available as a [gzipped tar
-file](http://dingo.sbs.arizona.edu/~hammond/mhw3/mh/javaling/programs.tar.gz), as a [jar
-file](http://dingo.sbs.arizona.edu/~hammond/mhw3/mh/javaling/programs.jar), or as a [zipped
-archive](http://dingo.sbs.arizona.edu/~hammond/mhw3/mh/javaling/Programs.zip).
-1.  Programs from my book *Programming in Perl for Linguists*. Available as a [gzipped tar file](http://dingo.sbs.arizona.edu/~hammond/perlling/perlprog.tar.gz), as a [zipped
-archive](http://dingo.sbs.arizona.edu/~hammond/perlling/perlprogs.zip). (The [websearch.pl](http://dingo.sbs.arizona.edu/~hammond/perlling/websearch.txt) program and [sentences.pl](sentences.txt) program can be downloaded separately.) [Answers](http://www.u.arizona.edu/~hammond/perlex.zip) to
+file](programs.tar.gz), as a [jar
+file](programs.jar), or as a [zipped
+archive](Programs.zip).
+1.  Programs from my book *Programming in Perl for Linguists*. Available as a [gzipped tar file](perlprog.tar.gz), as a [zipped archive](perlprogs.zip). (The [websearch.pl](websearch.txt) program and [sentences.pl](sentences.txt) program can be downloaded separately.) [Answers](perlex.zip) to
 selected exercises.
 1.  List of [errata](http://www.u.arizona.edu/~hammond/perlerrata.html) from my book *Programming in Perl for Linguists*.
 
