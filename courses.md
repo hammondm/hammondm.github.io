@@ -1,0 +1,64 @@
+# Linguistics Courses
+
+## Current courses
+
+- Linguistics 501 (Fall '23)
+- Linguistics 578 (Fall '23)
+
+## Some recent and not so recent courses
+
+- <a href="https://d2l.arizona.edu/d2l/home/1251751">Linguistics 696g</a> (Spring '23, D2L site for registered students only unfortunately)
+- <a href="https://faculty.sbs.arizona.edu/hammond/ling410510-f22/">Linguistics 410/510</a> (Fall '22)
+- <a href="https://d2l.arizona.edu/d2l/home/1192836">Linguistics 578</a> (Fall '22, D2L site for registered students only unfortunately)
+- <a href="https://faculty.sbs.arizona.edu/hammond/ling408508-s22/">Linguistics 408/508</a> (Spring '22)
+- <a href="https://d2l.arizona.edu/d2l/home/1152539">Linguistics 696g</a> (Spring '22, D2L site for registered students only unfortunately)
+- <a href="https://faculty.sbs.arizona.edu/hammond/ling501-f21/">Linguistics 501</a> (Fall '21)
+- <a href="https://d2l.arizona.edu/d2l/home/1079300">Linguistics 578</a> (Fall '21, D2L site for registered students only unfortunately)
+- <a href="https://d2l.arizona.edu/d2l/home/935473">Linguistics 529</a> (Fall '20, D2L site for registered students only unfortunately)
+- <a href="https://d2l.arizona.edu/d2l/home/935478">Linguistics 531</a> (Fall '20, D2L site for registered students only unfortunately)
+- <a href="https://faculty.sbs.arizona.edu/hammond/ling514-sp20/">Linguistics 514</a> (Spring '20)
+- <a href="https://faculty.sbs.arizona.edu/hammond/ling578-sp20/">Linguistics 478/578</a> (Spring '20)
+- <a href="https://faculty.sbs.arizona.edu/hammond/ling123-f19/">Linguistics 123</a> (Fall '19)
+- <a href="https://faculty.sbs.arizona.edu/hammond/ling408508-f19/">Linguistics 408/508</a> (Fall '19)
+- <a href="https://faculty.sbs.arizona.edu/hammond/ling578-sp19/">Linguistics 478/578</a> (Spring '19)
+- <a href="https://faculty.sbs.arizona.edu/hammond/ling501-f18/">Linguistics 501</a> (Fall '18)
+- <a href="https://faculty.sbs.arizona.edu/hammond/ling410510-f18/">Linguistics 410/510</a> (Fall '18)
+- <a href="https://faculty.sbs.arizona.edu/hammond/ling578-sp18/">Linguistics 478/578</a> (Spring '18)
+- <a href="https://faculty.sbs.arizona.edu/hammond/ling696b-sp18/">Linguistics 696b</a> (Spring '18)
+- <a href="https://faculty.sbs.arizona.edu/hammond/ling508-f17/">Linguistics 408/508</a> (Fall '17)
+- <a href="https://faculty.sbs.arizona.edu/hammond/ling514-sp17/">Linguistics 514</a> (Spring '17)
+- <a href="https://faculty.sbs.arizona.edu/hammond/ling696g-sp17/">Linguistics 696g</a> (with Robert Henderson; Spring '17)
+- <a href="http://dingo.sbs.arizona.edu/~hammond/ling501-f16/">Linguistics 501</a> (Fall '16)
+- <a href="http://dingo.sbs.arizona.edu/~hammond/ling123-sp16/"> Linguistics 123</a> (Spring '16)
+- <a href="http://dingo.sbs.arizona.edu/~hammond/ling578-sp16/"> Linguistics 478/578</a> (Spring '16)
+- <a href="http://dingo.sbs.arizona.edu/~hammond/ling410-f15/"> Linguistics 410/510</a> (Fall '15)
+- <a href="http://dingo.sbs.arizona.edu/~hammond/ling514-sp15/"> Linguistics 514</a> (Spring '15)
+- <a href="http://dingo.sbs.arizona.edu/~hammond/ling578-sp15/"> Linguistics 478/578</a> (Spring '15)
+- <a href="http://dingo.sbs.arizona.edu/~hammond/ling439-f14/"> Linguistics 439/539</a> (Fall '14)
+- <a href="http://dingo.sbs.arizona.edu/~hammond/ling408-f13/">Linguistics 408/508</a> (Fall '13)
+- <a href="http://dingo.sbs.arizona.edu/~hammond/ling439-f13/">Linguistics 439/539</a> (Fall '13)
+- <a href="http://dingo.sbs.arizona.edu/~hammond/ling578-sp13/">Linguistics 478/578</a> (Spring '13)
+- <a href="http://dingo.sbs.arizona.edu/~hammond/ling501-f12/">Linguistics 501</a> (Fall '12)
+- <a href="http://dingo.sbs.arizona.edu/~hammond/ling696b-f12/">Linguistics 696b</a> (Fall '12)
+- <a href="http://dingo.sbs.arizona.edu/~hammond/ling514-sp12/">Linguistics 514</a> (Spring '12)
+- <a href="http://dingo.sbs.arizona.edu/~hammond/lsasummer11/">Linguistics 7800-015</a> (LSA Summer Institute, 11)
+- <a href="http://dingo.sbs.arizona.edu/~hammond/ling501-sp11/">Linguistics 501</a> (Spring '11)
+- <a href="http://dingo.sbs.arizona.edu/~hammond/ling696b-f09/">Linguistics 696b</a> (Fall '09)
+- <a href="http://dingo.sbs.arizona.edu/~hammond/ling408-s09/">Linguistics 408/508</a> (Spring '09)
+- <a href="http://dingo.sbs.arizona.edu/~hammond/ling501-f07/">Linguistics 501</a> (Fall '07)
+- <a href="http://dingo.sbs.arizona.edu/~hammond/ling178-sp06/">Linguistics 178</a> (Spring '06)
+- <a href="http://dingo.sbs.arizona.edu/~hammond/ling501-f05/">Linguistics 501</a> (Fall '05)
+- <a href="http://dingo.sbs.arizona.edu/~hammond/ling696b-sp05/">Linguistics 696b</a> (Spring '05)
+- <a href="http://dingo.sbs.arizona.edu/~hammond/ling408-f03/">Linguistics 408/508</a> (Fall '03)
+- <a href="http://dingo.sbs.arizona.edu/~hammond/lsasummer03/">Linguistics 901T</a> (LSA Summer Institute, 03)
+- <a href="http://dingo.sbs.arizona.edu/~hammond/ling696f-sp03/">Linguistics 696f</a> (Spring '03)
+- <a href="http://dingo.sbs.arizona.edu/~hammond/ling195b-sp03/">Linguistics 195b</a> (Spring '03)
+- <a href="http://dingo.sbs.arizona.edu/~hammond/mhw3/mh/408f01/CTFL.html">Ling 408/508</a> (Fall '01)
+- <a href="http://dingo.sbs.arizona.edu/~hammond/mhw3/mh/101s01/overview.html">INDV 101</a> (Spring '01)
+- <a href="http://dingo.sbs.arizona.edu/~hammond/mhw3/mh/510f00/index.html">Phonology I</a> (Fall '00)
+- <a href="http://dingo.sbs.arizona.edu/~hammond/mhw3/mh/696f00/index.html">Probability and Grammar</a> (Fall '00)
+- <a href="http://dingo.sbs.arizona.edu/~hammond/mhw3/mh/514s99/overview.html">Phonology II (514)</a> (Spring '99).
+
+
+
+
