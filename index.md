@@ -27,12 +27,12 @@ selected exercises.
 **Some older computational projects with sentimental value**
 
 1.  Gen with Lazy Evaluation: [paper](lazy.pdf) and [Haskell code](lazy.lhs). (Note that the code/paper are written in Literate Haskell style, which means the code file \"is\" the paper source.
-1.  [Finite State Playground](http://www.u.arizona.edu/~hammond/flbi1.02.tar.gz). A set of xml-based command-line utilities for manipulating FSAs. These are **beta** and **not** industrial strength. Transducers are not included (v 1.02; 1/21/07).
+1.  [Finite State Playground](flbi1.02.tar.gz). A set of xml-based command-line utilities for manipulating FSAs. These are **beta** and **not** industrial strength. Transducers are not included (v 1.02; 1/21/07).
 1.  [LingML](http://dingo.sbs.arizona.edu/~hammond/lingml/lingml.html): This was a very rough idea for general XML/XSLT applications for linguistics analogous to the MathML initiative of the W3 consortium.
 1.  Slides and demos from my presentation [\"Toward LingML: is the notation really the theory\"](http://dingo.sbs.arizona.edu/~hammond/georgia/gindex.html) (10/6/03).
 1.  \"Parsing syllables: modeling OT computationally\", [Rutgers Archive](http://roa.rutgers.edu/)
-([Code](http://www.u.arizona.edu/~hammond/mhlocweb))
-1.  The [code](http://www.u.arizona.edu/~hammond/sylpars) in Perl for my 1995 constraint-based syllable parser. (The paper: \"Syllable parsing in English and French\", [Rutgers Archive](http://roa.rutgers.edu/))
+([Code](mhlocweb))
+1.  The [code](sylpars) in Perl for my 1995 constraint-based syllable parser. (The paper: \"Syllable parsing in English and French\", [Rutgers Archive](http://roa.rutgers.edu/))
 
 ------------------------------------------------------------------------
 

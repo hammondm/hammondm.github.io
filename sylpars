@@ -1,0 +1,344 @@
+#!/usr/local/bin/perl
+
+####################sylpars##################
+
+#This is a fragment of a constraint-based syllable
+#parser written by Mike Hammond in Perl. This code
+#is described in "Syllable parsing in English and
+#French". If you know nothing of Perl, this code can
+#be run in most UNIX systems by making this file
+#executable ('chmod u+x sylpars') and then invoking
+#it directly. The program can take any alphabetic string
+#as input (though it doesn't understand anything beyond
+#the difference between consonants and vowels). Stress
+#is indicated with an apostrophe preceding the
+#relevant vowel. The program will run with either
+#French or English ranking on any input. For example,
+#to run 'hat' with English ranking, type:
+
+#sylpars "e" "h'at"
+
+#Output can be saved by redirection to a file,
+#e.g.
+
+#sylparse "e" "h'at" > myfile
+
+#The program can be invoked without specifying the
+#langauge or input on the command line, but then output
+#cannot be saved as easily.
+
+#Mike Hammond
+#Linguistics
+#University of Arizona
+#Tucson, AZ 85721
+
+#hammond@aruba.ccit.arizona.edu
+
+#################################beginning of program
+
+#debug flag (for annoyingly verbose output)
+
+#$mhdebug = 1;
+
+################################beginning of main
+
+#sets the language
+
+&language;
+
+#this gets the word
+
+&getword;
+
+#make the cv template....
+
+&addcv;
+
+#submits the word to the constraints
+
+&submitword;
+
+print "#" x 20;
+print "\n\nword: $theword";
+print "language: $language\n";
+print "All done!\n\n";
+
+
+#####################################end of main
+
+#sets the flag controlling the constraint ranking
+
+sub language {
+   if ($ARGV[0] =~ /^$/) {
+     print "\nEnglish (e: default) or French (f)?:";
+     $language = <STDIN>;
+   }
+   else {
+     $language = $ARGV[0];
+   }
+   if ($language =~ /^$/) { $language = "e"; }
+   if ($language =~ /^[eE]$/) { $language = 'English'; }
+   elsif ($language =~ /^[fF]$/) { $language = 'French'; }
+   else { die "You can only enter \"e\" or \"f\".\n"; }
+}
+
+#this gets the word to be parsed
+
+sub getword {
+  if ($ARGV[1] ne "") {
+     $theword = $ARGV[1] . "\n";
+  }
+  else {
+    print "\nEnter word: ";
+    $theword = <STDIN>;
+  }
+
+  #this splits the characters up and puts them in an array
+
+  $size = length($theword) - 1;
+  if (defined($mhdebug)) {
+     print "number of characters: $size\n";
+     }
+  for ($i = 0; $i < $size; $i++) {
+     $mhinput[$i] = substr($theword, $i, 1);
+     }
+
+  #this checks that letters are letters
+
+  for ($i = 0; $i <= $#mhinput; $i++) {
+     $mhinput[$i] =~ /[a-zA-Z\']/ || die "Illegal characters!\n";
+     }
+
+  #this copies the stress mark into the same
+  #array as the following vowel
+
+  for ($i = 0; $i <= $#mhinput; $i++) {
+     if ($mhinput[$i-1] =~ /\'/) {
+        $mhinput[$i] =~ s/([aeiouyAEIOUY])/\'$1/;
+        }
+  }
+
+  #this removes stressmarks alone
+
+  foreach $letter (@mhinput) {
+      if ($letter !~ /\'$/) {
+         push(@tempinput, $letter);
+      }
+  }
+  @mhinput = @tempinput;
+}
+
+#creates the cv array
+
+sub addcv {
+     foreach $let (@mhinput) {
+       if ($let =~ /[aeiouyAEIOUY]/) {
+           push (@mhcv, 'V');
+       }
+       else {
+           push (@mhcv, 'C');
+       }
+     }
+  if (defined($mhdebug)) {
+     print "CV skeleton:";
+     print join (" ", @mhcv);
+     print "\n\n";
+     }
+}
+
+#simulates the left to right identification of
+#segments and the gradual identification of
+#individual segments
+
+sub submitword {
+    $pass = 1;
+    for ($i = 0; $i <= $#mhinput; $i++) {
+
+       #adds unidentified CVs to the input string
+
+       push(@submission, ($mhcv[$i]));
+       push(@structure, '-');
+       if (defined($mhdebug)) {
+         print "submitting...\n";
+       }
+
+       print "parse #$pass\n";
+       $writething = join(" ", @submission);
+       $writestruc = join(" ", @structure);
+       print "$writestruc\n";
+       print "$writething\n\n";
+
+       #generates candidate syllabifications
+
+       &mhgen;
+
+       #eliminates candidates via eval
+
+       &doconstraints;
+
+       #replaces CVs with real consonants and vowels
+
+       splice(@submission, $#submission, 1, $mhinput[$i]);
+
+       if (defined($mhdebug)) {
+         print "submitting...\n";
+       }
+
+       print "parse #$pass\n";
+       $writething = join(" ", @submission);
+       $writestruc = join(" ", @structure);
+       print "$writestruc\n";
+       print "$writething\n\n";
+
+       #eliminates more candidates with eval
+
+       &doconstraints;
+    }
+}
+
+#this figures out the optimal syllabification
+#parse >> noonset >> onset in English
+#parse >> onset >> noonset in French
+
+sub doconstraints {
+     print "pass #$pass\n";
+     $pass++;
+     print "input candidate(s):\n";
+     $writething = join(" ", @submission);
+     $writestruc = join(" ", @structure);
+     print "$writestruc\n";
+     print "$writething\n\n";
+
+  #the basic constraint set is in dobasictypes and the
+  #different rankings in the two languages in ordering of
+  #the different specific constraints following
+
+  print "output candidate(s):\n";
+  &dobasictypes;
+  if ($language eq "English") {
+     &doparse;
+     &donoonset;
+     if ($skipflag != 1) {
+       &doonset;
+     }
+  }
+  else {
+     &doparse;
+     &doonset;
+     &donoonset;
+  }
+
+  $skipflag = 0;
+
+  if (defined($mhdebug)) {
+      print "outputting...\n";
+  }
+  $writething = join(" ", @submission);
+  $writestruc = join(" ", @structure);
+  print "$writestruc\n";
+  print "$writething\n\n";
+}
+
+#the following creates the candidate syllabifications for
+#different segments. Coding for syllabic position:
+# o: onset, n: nucleus, c: coda,
+# -: unanalyzed, u: unsyllabified
+
+sub mhgen {
+  if (defined($mhdebug)) {
+      print "generating candidate set...\n";
+  }
+  splice(@structure, $#structure, 1, 'oncu');
+}
+
+#the following handles a bunch of generalizations
+#not treated by the explicit constraints and entailed
+#by the local coding above.
+
+sub dobasictypes {
+  if (defined($mhdebug)) {
+       print "checking basic stuff...\n";
+  }
+
+   #vowels can't be onsets or codas
+
+   if ($submission[$#submission] =~ /V/) {
+      $structure[$#structure] =~ s/[oc]//g;
+   }
+
+   #consonants can't be nuclei
+
+   if ($submission[$#submission] =~ /C/) {
+      $structure[$#structure] =~ s/n//;
+   }
+
+   #word-initial consonants can't be codas
+
+   if ($#structure == 0) {
+       $structure[0] =~ s/(.)c/$1/;
+   }
+
+   #word-final consonants can't be onsets
+
+   if ($#structure == $#mhinput) {
+       $structure[$#mhinput] =~ s/o(.)/$1/;
+   }
+
+   #preconsonantal consonants can't be onsets
+
+   if ($submission[$#submission] =~ /C/ && $#submission > 0) {
+       $structure[$#structure-1] =~ s/o(.)/$1/;
+   }
+
+   #postonset consonants can't be codas
+
+   if ($structure[$#structure-1] =~ /o/) {
+       $structure[$#structure] =~ s/(.)c/$1/;
+   }
+
+}
+
+#PARSE eliminates 'u' as a candidate if other parses
+#are available
+
+sub doparse {
+  if (defined($mhdebug)) {
+     print "checking PARSE...\n";
+  }
+  $structure[$#structure] =~ s/(.)u/$1/;
+}
+
+#NOONSET eliminates 'o' as an option for the preceding
+#segment if the current segment is a stressless vowel
+
+sub donoonset {
+  if (defined($mhdebug)) {
+    print "checking NOONSET...\n";
+  }
+  if ($submission[$#submission] =~ /^[aeiouyAEIOUY]$/) {
+     if ($#submission > 0) {
+        $structure[$#structure-1] =~ s/o(.)/$1/;
+     }
+  }
+  if ($submission[$#submission] =~ /V/) {
+    $skipflag = 1;
+  }
+}
+
+#ONSET eliminates 'c' as an option if the current segment
+#is a vowel
+
+sub doonset {
+  if (defined($mhdebug)) {
+    print "checking ONSET...\n";
+  }
+  if ($submission[$#submission] =~ /V/ || $submission[$#submission] =~ /[aeiouyAEIOUY]/) {
+      if ($#submission > 0) {
+        $structure[$#structure-1] =~ s/(.)c/$1/;
+      }
+  }
+}
+
+
+
+

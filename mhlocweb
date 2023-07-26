@@ -1,0 +1,325 @@
+/* Mike Hammond, University of Arizona, 1997.
+
+	This is the locally encoded syllable parser with
+	one-pass complete sampling of the input string.
+	Here candidate syllabifications are indicated
+	in terms of properties of the current segment. This
+	method also makes use of a cyclic CON-EVAL procedure.
+	The doit loop is the 'main'.
+
+	The other parsers invoke cyclic constraint
+	evaluation by itself (mhcyclicparse), an
+	incremental parse by itself (mhlrparse), and
+	a cyclic/local parser with a left-to-right
+	parse (mhlrlocalparse). There is also a parser
+	that invokes nothing special (mhdumbparse). */
+
+doit :-
+	babble,
+	unix(argv([Word|Constraints])),
+	makelist(Word,Inputlist),
+	check(Inputlist),
+	dwrite('acceptable word...'),dnl,
+	gen(Inputlist,Syllabified),
+	dwrite('candidates generated...'),dnl,
+	doconstraints(Syllabified,Constraints,Winners),
+	dwrite('**********************'),dnl,
+	printlist(Winners,_).
+
+/*	To get annoyingly verbose output, change
+	false to true. */
+
+mhdebug :- true.
+
+/*	byline */
+
+babble :-
+	write('Locally encoded syllable parser<br>'),nl,
+	write('Michael Hammond<br>'),nl,
+	write('University of Arizona<br>'),nl,
+	write('1997<p>'),nl.
+
+/*	These routines allow for the annoyingly verbose output. */
+
+dwrite(X) :-
+	mhdebug,
+	write(X).
+dwrite(_).
+
+dnl :-
+	mhdebug,
+	write('<br>'),
+	nl.
+dnl.
+
+dtab(X) :-
+	mhdebug,
+	tab(X).
+dtab(_).
+
+/* The following routines get an input word from
+	the user, check it against the alphabet defined
+	at the end, and convert it into an appropriate
+	data structure. */
+
+getword(Word) :-
+	write('word to parse: '),
+	read(Word).
+
+makelist(Input,Inputlist) :-
+	name(Input,Templist),
+	numchar(Templist,Inputlist).
+
+numchar([],[]).
+numchar([H|T],[H1|T1]) :-
+	name(H1,[H]),
+	numchar(T,T1).
+
+check([]).
+check([H|T]) :-
+	segment(H),
+	check(T).
+
+/* each segment has four options: unparsed (u), onset (o),
+	coda (c), nucleus(n). */
+
+gen([],[]).
+gen([H|T],[H/[o,n,c,u]|T2]) :- gen(T,T2).
+
+/* 'doconstraints' applies the constraints to the
+	input one by one. For each parse, first a full
+	tableau is created, and then eval is called to
+	select winning candidates to pass on to the next
+	parse. */
+
+doconstraints(Final,[],Final).
+doconstraints(Theparse,[Topcon|Othercons],Final) :-
+	formal(Theparse,Tempparse),
+	It =.. [Topcon,Tempparse,Nextparse],
+	call(It),
+	dwrite(Topcon),
+	dwrite(': '),
+	dwrite(Theparse),
+	dwrite(': '),
+	dwrite(Nextparse),dnl,
+	doconstraints(Nextparse,Othercons,Final).
+
+/*	'formal' does the housekeeping between constraints */
+
+formal(X,W) :-
+	formali(X,Y),
+	formalf(Y,Z),
+	formalmo(Z,A),
+	formalmc(A,W).
+
+formali([A/X|B],[A/Y|B]) :- remove(X,c,Y).
+formali(X,X).
+
+formalf([A/X],[A/Y]) :- remove(X,o,Y).
+formalf([],[]).
+formalf([H|T],[H|T2]) :- formalf(T,T2).
+
+formalmc([],[]).
+formalmc([A/X|B/[c]],[A/Y|B/[c]]) :- remove(X,o,Y).
+formalmc([H,H2|T],[H4,H5|T2]) :-
+	formalmc([H2|T],[H3|T2]),
+	formalmc([H|H3],[H4|H5]).
+formalmc([H|T],[H|T2]) :- formalmc(T,T2).
+
+formalmo([],[]).
+formalmo([A/[o],B/X|T],[A/[o],B/Z|T2]) :-
+	remove(X,c,Y),
+	formalmo([B/Y|T],[B/Z|T2]).
+formalmo([H|T],[H|T2]) :- formalmo(T,T2).
+
+/*	Various basic tasks.... */
+
+contains(X,Y) :- append(_,[Y|_],X).
+
+remove(X,Y,Z) :-
+	append(P,[Y|Q],X),
+	append(P,Q,Z),
+	notempty(Z).
+
+notempty([_]).
+notempty([_|T]) :- notempty(T).
+
+append([],L,L).
+append([H|T],L,[H|T2]) :- append(T,L,T2).
+
+/* The following routines are responsible for
+	the different constraints. */
+
+parse([],[]).
+parse([Left/Options|Right],[Left/Newoptions|Newright]) :-
+	remove(Options,u,Newoptions),
+	parse(Right,Newright).
+parse([Left|Right],[Left|Newright]) :- parse(Right,Newright).
+
+onset(X,Z) :-
+	wonset(X,Y),
+	monset(Y,Z).
+
+wonset([Y/L1|X],[Y/L2|X]) :- remove(L1,n,L2).
+wonset(X,X).
+
+monset([],[]).
+monset([First/L1,Second/[n]|Rest],[First/[o],Second/[n]|Newrest]) :-
+	contains(L1,o),
+	monset(Rest,Newrest).
+monset([H|T],[H|T2]) :- monset(T,T2).
+
+nocoda([],[]).
+nocoda([First/L1|Right],[First/L2|Newright]) :-
+	remove(L1,c,L2),
+	nocoda(Right,Newright).
+nocoda([H|T],[H|T2]) :- nocoda(T,T2).
+
+complex([],[]).
+complex([First/[c],Second/L2|Right],[First/[c],Second/L3|Newright]) :-
+	remove(L2,c,L3),
+	complex(Right,Newright).
+complex([First/[o],Second/L2|Right],[First/[o],Second/L3|Newright]) :-
+	remove(L2,o,L3),
+	complex(Right,Newright).
+complex([First/L2,Second/[c]|Right],[First/L3,Second/[c]|Newright]) :-
+	remove(L2,c,L3),
+	complex(Right,Newright).
+complex([First/L2,Second/[o]|Right],[First/L3,Second/[o]|Newright]) :-
+	remove(L2,o,L3),
+	complex(Right,Newright).
+complex([H|T],[H|T2]) :- complex(T,T2).
+
+vmargin([],[]).
+vmargin([V/X|T],[V/Y|T2]) :-
+	vowel(V),
+	remove(X,o,Z),
+	remove(Z,c,Y),
+	vmargin(T,T2).
+vmargin([V/X|T],[V/Y|T2]) :-
+	vowel(V),
+	remove(X,o,Y),
+	vmargin(T,T2).
+vmargin([V/X|T],[V/Y|T2]) :-
+	vowel(V),
+	remove(X,c,Y),
+	vmargin(T,T2).
+vmargin([H|T],[H|T2]) :- vmargin(T,T2).
+
+cpeak([],[]).
+cpeak([C/X|T],[C/Y|T2]) :-
+	consonant(C),
+	contains(X,n),
+	remove(X,n,Y),
+	cpeak(T,T2).
+cpeak([H|T],[H|T2]) :- cpeak(T,T2).
+
+/* The following routines massage the winning candidates
+	into a visually appropriate form and print them out. */
+
+printlist(Realwinners,Biglist) :-
+	convert(Realwinners,Biglist),
+	prettyprint(Biglist,_).
+
+convert([],[[]]).
+convert([H|T],New) :-
+	makecans(H,Cans),
+	convert(T,T2),
+	cartesian(Cans,T2,New).
+
+makecans(Seg/[X],[Seg/X]).
+makecans(Seg/[H|T],[Seg/H|T2]) :- makecans(Seg/T,T2).
+
+cartesian([],_,[]).
+cartesian([H|T],X,Done) :-
+	cartesian(T,X,Postdone),
+	ractesian(H,X,Predone),
+	append(Predone,Postdone,Done).
+
+ractesian(_,[],[]).
+ractesian(X,[H|T],[H2|T2]) :-
+	append([X],H,H2),
+	ractesian(X,T,T2).
+
+prettyprint([],[]).
+prettyprint([H|T],[H6|T2]) :-
+	dwrite(H),dtab(1),
+	leftedge(H,H2),
+	rightedge(H2,H3),
+	stripseg(H3,H4),
+	listmake(H4,H5),
+	name(H6,H5),
+	write(H6),
+	write('<br>'),nl,
+	prettyprint(T,T2).
+
+listmake([],[]).
+listmake([H|T],[X|T1]) :-
+	name(H,[X]),
+	listmake(T,T1).
+
+stripseg([],[]).
+stripseg([X/_|T],[X|T2]) :- stripseg(T,T2).
+stripseg([H|T],[H|T2]) :- stripseg(T,T2).
+
+rightedge(X,Y) :-
+	marknucr(X,Z),
+	markcod(Z,Y).
+
+marknucr([],[]).
+marknucr([X/n|T],[X/n,')'|T2]) :- marknucr(T,T2).
+marknucr([H|T],[H|T2]) :- marknucr(T,T2).
+
+markcod(A,B) :-
+    append(C,[')',D/c|E],A),
+    append(C,[D/c,')'|E],F),
+    markcod(F,B).
+markcod(A,A).
+
+leftedge(X,Y) :-
+	marknuc(X,Z),
+	markons(Z,Y).
+
+marknuc([],[]).
+marknuc([X/n|T],['(',X/n|T2]) :- marknuc(T,T2).
+marknuc([H|T],[H|T2]) :- marknuc(T,T2).
+
+markons(A,B) :-
+    append(C,[D/o,'('|E],A),
+    append(C,['(',D/o|E],F),
+    markons(F,B).
+markons(A,A).
+
+/* The following facts define the acceptable alphabet */
+
+segment(X) :- vowel(X).
+segment(X) :- consonant(X).
+
+vowel(a).
+consonant(b).
+consonant(c).
+consonant(d).
+vowel(e).
+consonant(f).
+consonant(g).
+consonant(h).
+vowel(i).
+consonant(j).
+consonant(k).
+consonant(l).
+consonant(m).
+consonant(n).
+vowel(o).
+consonant(p).
+consonant(q).
+consonant(r).
+consonant(s).
+consonant(t).
+vowel(u).
+consonant(v).
+consonant(w).
+consonant(x).
+consonant(y).
+consonant(z).
+
+/*	That's all! */
