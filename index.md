@@ -10,6 +10,8 @@ Click here to see [my current CV](cvanon.pdf).
 
 Click here to see [current and past courses](courses.html).
 
+I have an official web page [over here](https://sites.arizona.edu/hammond/), but that just refers you back to this page.
+
 ------------------------------------------------------------------------
 
 **Materials associated with my books**
