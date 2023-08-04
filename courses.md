@@ -41,7 +41,7 @@
 - <a href="http://dingo.sbs.arizona.edu/~hammond/ling501-f12/">Linguistics 501</a> (Fall '12)
 - <a href="http://dingo.sbs.arizona.edu/~hammond/ling696b-f12/">Linguistics 696b</a> (Fall '12)
 - <a href="http://dingo.sbs.arizona.edu/~hammond/ling514-sp12/">Linguistics 514</a> (Spring '12)
-- <a href="http://dingo.sbs.arizona.edu/~hammond/lsasummer11/">Linguistics 7800-015</a> (LSA Summer Institute, 11)
+- <a href="http://dingo.sbs.arizona.edu/~hammond/lsasummer11/">Linguistics 7800-015</a> (with Diane Ohala, LSA Summer Institute, 11)
 - <a href="http://dingo.sbs.arizona.edu/~hammond/ling501-sp11/">Linguistics 501</a> (Spring '11)
 - <a href="http://dingo.sbs.arizona.edu/~hammond/ling696b-f09/">Linguistics 696b</a> (Fall '09)
 - <a href="http://dingo.sbs.arizona.edu/~hammond/ling408-s09/">Linguistics 408/508</a> (Spring '09)
