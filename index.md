@@ -42,7 +42,7 @@ selected exercises.
 
 **Accents**
 
-Some years ago, the Arizona Department of Education had plans to bar teachers with "heavily accented or ungrammatical" speech from classrooms with English-learning children. The ostensible goal is to ensure that children would be exposed to examples of "perfect (unaccented) English." Some colleagues and I wrote an [op-ed](barring.pdf) about this and a larger group of colleagues from our department signed a [statement](ling_statement_final.pdf) drawing on our piece.
+Some years ago, the Arizona Department of Education had plans to bar teachers with "heavily accented or ungrammatical" speech from classrooms with English-learning children. The ostensible goal was to ensure that children would be exposed to examples of "perfect (unaccented) English." Some colleagues and I wrote an [op-ed](barring.pdf) about this and a larger group of colleagues from our department signed a [statement](ling_statement_final.pdf) drawing on our piece.
 
 ------------------------------------------------------------------------
 
