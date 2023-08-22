@@ -2,7 +2,7 @@
 
 ## Current courses
 
-- Linguistics 501 (Fall '23)
+- <a href="https://faculty.sbs.arizona.edu/hammond/ling501-f23/">Linguistics 501</a> (Fall '23)
 - <a href="https://d2l.arizona.edu/d2l/home/1345139">Linguistics 578</a> (Fall '23, D2L site for registered students only unfortunately)
 
 ## Some recent and not so recent courses
