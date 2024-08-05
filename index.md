@@ -28,6 +28,12 @@ selected exercises.
 
 ------------------------------------------------------------------------
 
+**Presentations**
+
+1. [Slides and code](future.zip) for my presentation *Phonology looking forward* at the Iranian summer school.
+
+------------------------------------------------------------------------
+
 **Some older computational projects with sentimental value**
 
 1.  Gen with Lazy Evaluation: [paper](lazy.pdf) and [Haskell code](lazy.lhs). (Note that the code/paper are written in Literate Haskell style, which means the code file \"is\" the paper source.
