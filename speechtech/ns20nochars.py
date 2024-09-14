@@ -2,29 +2,36 @@ import os
 
 from trainer import Trainer,TrainerArgs
 
-from TTS.config.shared_configs import BaseAudioConfig
-#from TTS.trainer import Trainer, TrainingArgs
-from TTS.tts.configs.shared_configs import BaseDatasetConfig
-from TTS.tts.configs.tacotron2_config import Tacotron2Config
-from TTS.tts.datasets import load_tts_samples
-from TTS.tts.models.tacotron2 import Tacotron2
-from TTS.utils.audio import AudioProcessor
+from TTS.config.shared_configs import \
+	BaseAudioConfig
+from TTS.tts.configs.shared_configs \
+	import BaseDatasetConfig
+from TTS.tts.configs.tacotron2_config \
+	import Tacotron2Config
+from TTS.tts.datasets import \
+	load_tts_samples
+from TTS.tts.models.tacotron2 \
+	import Tacotron2
+from TTS.utils.audio import \
+	AudioProcessor
+from TTS.tts.utils.text.tokenizer \
+	import TTSTokenizer
+from TTS.tts.configs.shared_configs \
+	import CharactersConfig
 
-from TTS.tts.utils.text.tokenizer import TTSTokenizer
-
-output_path = os.path.dirname(os.path.abspath(__file__))
-
-from TTS.tts.configs.shared_configs import CharactersConfig
+output_path = os.path.dirname(
+	os.path.abspath(__file__)
+)
  
-#welsh characters
+#welsh characters would be listed here!
 characters = CharactersConfig(
-	characters="fàaDozwOrpŵNäKïuFglABHnŷYxIáûtöy' + \
-		'kGsvMmëCÂhjéWEJLeSUbîRTiêâcdPô",
-	punctuations="?¬\";,-!.:",
+	characters="list all characters here!",
+	punctuations="list all punctuation here!",
 	phonemes=None,
 	is_unique=True,
 )
 
+#data location
 dataset_config = BaseDatasetConfig(
 	formatter="ljspeech",
 	meta_file_train="onespeaker.csv",
@@ -34,6 +41,7 @@ dataset_config = BaseDatasetConfig(
 	)
 )
 
+#audio configuration
 audio_config = BaseAudioConfig(
 	sample_rate=16000,
 	do_trim_silence=True,
@@ -47,9 +55,11 @@ audio_config = BaseAudioConfig(
 	preemphasis=0.0,
 )
 
+#training parameters
 config = Tacotron2Config(
 	characters=characters,
 	audio=audio_config,
+	#adjust for GPU limits
 	batch_size=8,
 	eval_batch_size=8,
 	num_loader_workers=4,
@@ -67,6 +77,8 @@ config = Tacotron2Config(
 	attention_type="dynamic_convolution",
 	double_decoder_consistency=True,
 	epochs=2,
+	#Welsh is character-based since
+	#no available g2p system
 	text_cleaner="basic_cleaners",
 	use_phonemes=False,
 	print_step=25,
@@ -78,17 +90,24 @@ config = Tacotron2Config(
 
 ap = AudioProcessor.init_from_config(config)
 
-tokenizer,config = TTSTokenizer.init_from_config(config)
+tokenizer,config = \
+	TTSTokenizer.init_from_config(
+		config
+)
 
+#partition training data
 train_samples,eval_samples = load_tts_samples(
 	dataset_config,
 	eval_split=True,
-	eval_split_max_size=config.eval_split_max_size,
+	eval_split_max_size=\
+		config.eval_split_max_size,
 	eval_split_size=config.eval_split_size,
 )
 
+#initialize model
 model = Tacotron2(config,ap,tokenizer)
 
+#initialize training
 trainer = Trainer(
 	TrainerArgs(),
 	config,
@@ -98,6 +117,5 @@ trainer = Trainer(
 	eval_samples=eval_samples,
 	training_assets={"audio_processor": ap},
 )
-
+#train
 trainer.fit()
-
