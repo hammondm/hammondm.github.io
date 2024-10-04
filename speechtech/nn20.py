@@ -1,29 +1,33 @@
 import numpy as np
-import matplotlib.pyplot as plt
 
-#how many data points
-r = 50
+#softmax function
+def softmax(x):
+	e = np.exp(x)
+	return e/e.sum()
 
-#encoding function
-def enc(pos,vsize):
-	pe = np.zeros(vsize)
-	for i in range(0,vsize,2):
-		#sine values
-		pe[i] = np.sin(
-			pos/(10000**((2*i)/vsize))
-		)
-		#cosine values
-		pe[i+1] = np.cos(
-			pos/(10000**((2*i)/vsize))
-		)
-	return pe
+#keys (indices)
+k = np.array([
+	[5,0,0],
+	[0,5,0],
+	[2,1,2]
+])
 
-#calculate values
-res = []
-for i in range(r):
-	val = enc(i,4)
-	res.append(val)
+dk = k.shape[1]
 
-#plot
-plt.plot(range(r),res)
-plt.show()
+#query
+q = np.array(
+	[0,5,0]
+)
+
+#values (what we want)
+v = np.array([7,8,9])
+
+#find the best fit
+res = q.dot(k.T)/np.sqrt(dk)
+
+#softmax normalization
+print(softmax(res))
+
+#values weighted by fit
+print(softmax(res)*v)
+

@@ -1,33 +1,16 @@
 import numpy as np
+import torch as t
+import torch.nn.functional as F
 
-#softmax function
-def softmax(x):
-	e = np.exp(x)
-	return e/e.sum()
+#input
+inp = t.tensor([5.,2.,7.])
 
-#keys (indices)
-k = np.array([
-	[5,0,0],
-	[0,5,0],
-	[2,1,2]
-])
-
-dk = k.shape[1]
-
-#query
-q = np.array(
-	[0,5,0]
+print('input:',inp)
+#softmax by hand
+print('softmax:',(inp.exp()/inp.exp().sum()))
+print(
+	'log softmax by hand:',
+	(inp.exp()/inp.exp().sum()).log()
 )
-
-#values (what we want)
-v = np.array([7,8,9])
-
-#find the best fit
-res = q.dot(k.T)/np.sqrt(dk)
-
-#softmax normalization
-print(softmax(res))
-
-#values weighted by fit
-print(softmax(res)*v)
-
+#softmax with torch
+print('log softmax:',F.log_softmax(inp,dim=0))

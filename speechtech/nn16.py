@@ -1,16 +1,15 @@
-import numpy as np
-import torch as t
-import torch.nn.functional as F
+#tweaked from
+#https://pytorch.org/docs/stable/generated/torch.nn.GRU.html
 
-#input
-inp = t.tensor([5.,2.,7.])
+import torch
+import torch.nn as nn
 
-print('input:',inp)
-#softmax by hand
-print('softmax:',(inp.exp()/inp.exp().sum()))
-print(
-	'log softmax by hand:',
-	(inp.exp()/inp.exp().sum()).log()
-)
-#softmax with torch
-print('log softmax:',F.log_softmax(inp,dim=0))
+#features,layers*features,layers
+gru = nn.GRU(10,20,2)
+#length,batch,features
+inp = torch.randn(5,3,10)
+#layers,batch,layers*features
+h0 = torch.randn(2,3,20)
+
+output,hn = gru(inp,h0)
+

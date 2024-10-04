@@ -1,26 +1,14 @@
-import torch as t
 import torch.nn as nn
+import torch as t
 
-#log softmax nodes
-m = nn.LogSoftmax(dim=1)
-#negative log likelihood loss
-loss = nn.NLLLoss()
+emb = nn.Embedding(5,3)
 
-#random input
-inp = t.randn(4,5)
-print('input:\n',inp)
-#target
-target = t.tensor([2,1,3,2])
-print('target:\n',target)
-#current output
-output = m(inp)
-print('output:\n',output)
-#calculate loss
-print('loss:\n',loss(output,target))
+#get the parameters
+params = emb.named_parameters()
+for name,param in params:
+   print(f'{name}:\n{param}\n')
 
-#loss by hand
-val = 0
-for n,t in enumerate(target):
-	val += -1 * output[n,t]
+inp = t.tensor(2)
 
-print(val/len(target))
+print(f'input {inp}\noutput: {emb(inp)}')
+
