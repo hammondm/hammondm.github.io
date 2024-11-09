@@ -31,6 +31,7 @@ selected exercises.
 **Presentations**
 
 1. [Slides and code](future.zip) for my presentation *Phonology looking forward* at the Iranian summer school (August 5, 2024).
+1. [Slides and code](https://faculty.sbs.arizona.edu/hammond/slat24/) for my presentation *Programming for SLAT* (Nov 8, 2024).
 
 ------------------------------------------------------------------------
 
