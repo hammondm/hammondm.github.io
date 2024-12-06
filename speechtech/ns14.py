@@ -2,7 +2,7 @@ import torch,torchvision
 import torch.nn as nn
 import torchvision.transforms as transforms
 
-pfx = '/home/hammond/Desktop/'
+pfx = '/Users/hammond/Desktop/'
 epochs = 10
 batchsize = 100
 learningrate = 0.001
