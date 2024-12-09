@@ -67,8 +67,7 @@ model:
 
   #specify input
   preprocessor:
-    _target_: "nemo.collections.asr.modules.\
-       AudioToMelSpectrogramPreprocessor"
+    _target_: "nemo.collections.asr.modules.AudioToMelSpectrogramPreprocessor"
     sample_rate: 16000
     normalize: "per_feature"
     window_size: 0.025
@@ -84,8 +83,7 @@ model:
 
   #do augmentation
   spec_augment:
-    _target_: "nemo.collections.asr.modules.\
-      SpectrogramAugmentation"
+    _target_: "nemo.collections.asr.modules.SpectrogramAugmentation"
     freq_masks: 2
     time_masks: 10
     freq_width: 27
@@ -93,8 +91,7 @@ model:
 
   #specify encoder architecture
   encoder:
-    _target_: "nemo.collections.asr.modules.\
-      ConformerEncoder"
+    _target_: "nemo.collections.asr.modules.ConformerEncoder"
     feat_in: 80
     feat_out: -1
     n_layers: 16
@@ -129,8 +126,7 @@ model:
     dropout_att: 0.1
 
   decoder:
-    _target_: "nemo.collections.asr.\
-      modules.ConvASRDecoder"
+    _target_: "nemo.collections.asr.modules.ConvASRDecoder"
     feat_in: null
     num_classes: -1
     vocabulary:  [" ", "a", "b", "c", "d",
