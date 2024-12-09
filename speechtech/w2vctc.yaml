@@ -6,7 +6,7 @@
 
 # Seed needs to be set at top of yaml, before objects with parameters are made
 seed: 1234
-__set_seed: !!python/object/apply:torch.manual_seed [!ref <seed>]
+__set_seed: !apply:speechbrain.utils.seed_everything [!ref <seed>]
 output_folder: !ref results/wav2vec2_ctc_rw/<seed>
 test_wer_file: !ref <output_folder>/wer_test.txt
 save_folder: !ref <output_folder>/save
@@ -18,7 +18,7 @@ wav2vec2_folder: !ref <save_folder>/wav2vec2_checkpoint
 
 # Data files
 #data_folder: !PLACEHOLDER  # e.g, /localscratch/cv-corpus-5.1-2020-06-22/fr
-data_folder: /mhdata/cv-corpus-16.0-2023-12-06/cy
+data_folder: /mh/cv-corpus-16.1-2023-12-06/cy
 train_tsv_file: !ref <data_folder>/train.tsv  # Standard CommonVoice .tsv files
 dev_tsv_file: !ref <data_folder>/dev.tsv  # Standard CommonVoice .tsv files
 test_tsv_file: !ref <data_folder>/test.tsv  # Standard CommonVoice .tsv files
@@ -50,6 +50,7 @@ ckpt_interval_minutes: 30 # save checkpoint every N min
 # Must be 6 per GPU to fit 32GB of VRAM
 #batch_size: 12
 #test_batch_size: 4
+dynamic_batching: False
 batch_size: 1
 test_batch_size: 1
 
