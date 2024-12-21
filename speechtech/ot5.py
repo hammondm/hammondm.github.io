@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 
 #location of speech commands data
-commands = '/data/commands/'
+commands = '/Users/hammond/etexts/commands/'
 #size of window
 winsize = 3000
 #vad threshold
