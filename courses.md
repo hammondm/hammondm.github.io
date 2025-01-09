@@ -2,11 +2,13 @@
 
 ## Current courses
 
-- <a href="https://faculty.sbs.arizona.edu/hammond/ling438538-f24/">Linguistics 438/538</a> (Fall '24) (<a href="https://d2l.arizona.edu/d2l/home/1483062">also a second D2L site, for registered students only unfortunately</a>)
-- <a href="https://d2l.arizona.edu/d2l/home/1483070">Linguistics 578</a> (Fall '24, D2L site for registered students only unfortunately)
+- Linguistics 439/539 (Spring '25)
+- Linguistics 696g (Spring '25)
 
 ## Some recent and not so recent courses
 
+- <a href="https://faculty.sbs.arizona.edu/hammond/ling438538-f24/">Linguistics 438/538</a> (Fall '24) (<a href="https://d2l.arizona.edu/d2l/home/1483062">also a second D2L site, for registered students only unfortunately</a>)
+- <a href="https://d2l.arizona.edu/d2l/home/1483070">Linguistics 578</a> (Fall '24, D2L site for registered students only unfortunately)
 - <a href="https://faculty.sbs.arizona.edu/hammond/ling696b-sp24/">Linguistics 696b</a> (Spring '24)
 - <a href="https://d2l.arizona.edu/d2l/home/1394905">Linguistics 696g</a>
   (Spring '24, D2L site for registered students only unfortunately)
