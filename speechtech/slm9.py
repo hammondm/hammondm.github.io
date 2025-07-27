@@ -1,7 +1,3 @@
-#HMMs in python
-#
-#Mike Hammond, U. of Arizona, 6/2021
-
 import numpy as np
 
 class HMM:

@@ -29,3 +29,4 @@ lpc = librosa.lpc(
 )
 res = buzz(lpc,200,sr)
 wavfile.write('ares.wav',sr,res)
+

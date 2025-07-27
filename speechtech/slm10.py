@@ -16,7 +16,7 @@ print(t[:100])
 t = t.lower()
 
 #split into sentences
-t = re.split('[\.\?!]',t)
+t = re.split('[\\.\?!]',t)
 
 #remove other punctuation
 t = [re.sub('[^a-z]',' ',line) for line in t]
