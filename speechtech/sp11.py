@@ -14,7 +14,7 @@ plt.stem(
 	np.arange(0,4*np.pi,y),
 	x,
 	linefmt='b',
-	basefmt='b',
-	use_line_collection=True
+	basefmt='b'
 )
 plt.show()
+
