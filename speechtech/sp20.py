@@ -24,7 +24,7 @@ r.fit(d[:,:4],d[:,4])
 y = np.zeros([len(x),1])
 y[:4,0] = x[:4]
 for i in range(4,len(y)):
-	y[i,0] = r.predict(y[i-4:i,0].reshape(1,-1))
+	y[i,0] = r.predict(y[i-4:i,0].reshape(1,-1)).item()
 
 #display first 1000 values
 plt.plot(x[:1000])
