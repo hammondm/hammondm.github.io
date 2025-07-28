@@ -15,6 +15,8 @@ powerspec = np.abs(spec)**2
 #discrete cosine transform
 d = dct(w)
 
+plt.subplots_adjust(hspace=0.5)
+
 #plot
 plt.subplot(3,1,1)
 plt.plot(w)
@@ -26,3 +28,4 @@ plt.plot(
 plt.subplot(3,1,3)
 plt.plot(np.abs(d[:4000]))
 plt.show()
+
