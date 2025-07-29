@@ -24,7 +24,7 @@ plt.subplot(2,1,1)
 plt.plot(x,y,'b')
 plt.plot(x,y2,'b')
 plt.subplot(2,1,2)
-plot_tree(r,label=None)
+plot_tree(r,label='none')
 
 plt.show()
 

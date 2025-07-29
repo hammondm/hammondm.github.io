@@ -38,11 +38,11 @@ d = d.T
 #create GMM with 2 components
 gmm = GaussianMixture(n_components=2)
 #fit with GMM
-gmm.fit(d)
+gmm.fit(np.asarray(d))
 x = np.linspace(np.min(d),np.max(d),len(d))
 x = np.asmatrix(x)
 x = x.T
-fit = gmm.score_samples(x)
+fit = gmm.score_samples(np.asarray(x))
 
 #histogram of the data
 n,bins,patches = axs[2].hist(d,60,density=1)
