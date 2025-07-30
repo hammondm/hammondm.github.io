@@ -7,7 +7,7 @@ from pomegranate.hmm import DenseHMM
 from pomegranate.distributions \
 	import Categorical
 
-where = '/mhdata/commands/'
+where = '/Users/hammond/etexts/commands/'
 segnodes = 2
 maxiter = 10
 order = 10

@@ -28,7 +28,7 @@ digits = [
 	'five','six','seven','eight','nine'
 ]
 
-where = '/mhdata/commands/'
+where = '/Users/hammond/etexts/commands/'
 
 #create stored digits
 allscores = []
