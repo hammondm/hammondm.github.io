@@ -9,7 +9,7 @@ digits = [
 	'five','six','seven','eight','nine'
 ]
 
-where = '/data/commands/'
+where = '/Users/hammond/etexts/commands/'
 
 #create stored digits
 allscores = []

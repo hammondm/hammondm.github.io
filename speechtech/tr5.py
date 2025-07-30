@@ -6,14 +6,14 @@ from tr4 import sssd,dtwmin
 
 order = 9
 wlength = 120
-processes = 10
+processes = 8
 
 digits = [
 	'zero','one','two','three','four',
 	'five','six','seven','eight','nine'
 ]
 
-where = '/data/commands/'
+where = '/Users/hammond/etexts/commands/'
 
 #create stored digits
 allscores = []
@@ -68,12 +68,13 @@ def test(i):
 		if np.argmin(scores) == i: matches += 1
 	return matches
 
-#start multiprocessing
-mypool = mp.Pool(processes=processes)
-#map function to all digits
-allmatches = mypool.map(
-	test,
-	range(len(filelist))
-)
+if __name__ == '__main__':
+	#start multiprocessing
+	mypool = mp.Pool(processes=processes)
+	#map function to all digits
+	allmatches = mypool.map(
+		test,
+		range(len(filelist))
+	)
+	print(sum(allmatches))
 
-print(sum(allmatches))
