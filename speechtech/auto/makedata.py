@@ -16,7 +16,7 @@ def dolines(n,m,filename):
 	f = open(filename,'w')
 	for line in t[n:m]:
 		line = re.sub(
-			'([^ ])([\.,])',r'\1 \2',
+			'([^ ])([\\.,])',r'\1 \2',
 			line
 		)
 		line = re.sub("'s"," 's",line)

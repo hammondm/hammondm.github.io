@@ -5,7 +5,7 @@ import data,model
 #location of data corpus
 par_data = '.'
 #path to save final model
-par_save = '/home/hammond/Desktop/model.pt'
+par_save = '/Users/hammond/Desktop/model.pt'
 
 #epochs to train
 par_epochs = 7

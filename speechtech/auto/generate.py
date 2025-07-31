@@ -4,10 +4,10 @@ import torch,data
 par_data = '.'
 #model checkpoint to use
 par_checkpoint = \
-	'/home/hammond/Desktop/model.pt'
+	'/Users/hammond/Desktop/model.pt'
 #output file for generated text
 par_outf = \
-	'/home/hammond/Desktop/generated.txt'
+	'/Users/hammond/Desktop/generated.txt'
 #number of words to generate
 par_words = 1000
 #random seed

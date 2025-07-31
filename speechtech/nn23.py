@@ -1,17 +1,13 @@
-#adapted from
-#https://github.com/pytorch/examples/tree/main/word_language_model
-
 import sys
 sys.dont_write_bytecode = True
 
 import time,math,os,torch
-import data
 import torch.nn as nn
 import torch.nn.functional as F
 from io import open
 
 #location of corpus
-argdata = './data/wikitext-2'
+argdata = '/Users/hammond/Desktop/data/wikitext-2'
 #size of word embeddings
 argemsize = 200
 #hidden units per layer
@@ -275,7 +271,7 @@ with open(argsave, 'rb') as f:
         torch.nn.modules.transformer.TransformerEncoderLayer,
     ]
     with torch.serialization.safe_globals(safe_globals):
-        model = torch.load(f)
+        model = torch.load(f,weights_only=False)
 
 test_loss = evaluate(test_data)
 print('=' * 89)
