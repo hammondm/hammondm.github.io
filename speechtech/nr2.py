@@ -14,8 +14,7 @@ import numpy as np
 warnings.filterwarnings("ignore")
 
 processes = 15
-datadir = '/data/cv-corpus-16.' + \
-	'0-2023-12-06/cy/'
+datadir = '/Users/hammond/etextsSMALL/cv-corpus-19.0-2024-09-13/cy/'
 wavdir = datadir + 'mhwav/'
 validated = 'validated.tsv'
 files = 300
@@ -26,15 +25,8 @@ inputdim = 128
 hiddendim = 500
 layers = 5
 lr = 0.01
-epochs = 5
+epochs = 2
 bidir = True
-
-#use GPU if available
-if torch.cuda.is_available():
-	device = 'cuda'
-else:
-	device = 'cpu'
-print(f'using {device}')
 
 #map from letters to integers
 def addtol2i(s,d):
@@ -72,7 +64,8 @@ pairs = []
 for line in t:
 	bits = line.split('\t')
 	filename = bits[1]
-	gloss = bits[2]
+	#gloss = bits[2]
+	gloss = bits[3]
 	if gloss[0] == '"': gloss = gloss[1:]
 	if gloss[-1] == '"': gloss = gloss[:-1]
 	addtol2i(gloss,l2i)
@@ -85,138 +78,126 @@ i2l = \
 #number of output categories (wo/blank!)
 outsize = len(i2l)
 
-#make spectrograms in parallel
-with mp.Pool(processes) as mypool:
-	results = mypool.map(getspec,pairs[:files])
+if __name__ == '__main__':
+ 
+	#use GPU if available
+	if torch.cuda.is_available():
+		device = 'cuda'
+	else:
+		device = 'cpu'
+	print(f'using {device}')
 
-#separate training, validation, test
-validset = results[:valid]
-testset = results[valid:valid+test]
-trainset = results[valid+test:]
+	#make spectrograms in parallel
+	with mp.Pool(processes) as mypool:
+		results = mypool.map(getspec,pairs[:files])
 
-#custom dataset
-class SpecData(Dataset):
-	def __init__(self,d):
-		self.labels = [torch.Tensor(pair[0]) \
-			for pair in d]
-		self.specs = [torch.Tensor(pair[1]) \
-			for pair in d]
-	def __len__(self):
-		return len(self.labels)
-	def __getitem__(self,idx):
-		spec = self.specs[idx]
-		label = self.labels[idx]
-		return spec,label
+	#separate training, validation, test
+	validset = results[:valid]
+	testset = results[valid:valid+test]
+	trainset = results[valid+test:]
 
-#make datasets
-traindata = SpecData(trainset)
-testdata = SpecData(testset)
-validdata = SpecData(validset)
+	#custom dataset
+	class SpecData(Dataset):
+		def __init__(self,d):
+			self.labels = [torch.Tensor(pair[0]) \
+				for pair in d]
+			self.specs = [torch.Tensor(pair[1]) \
+				for pair in d]
+		def __len__(self):
+			return len(self.labels)
+		def __getitem__(self,idx):
+			spec = self.specs[idx]
+			label = self.labels[idx]
+			return spec,label
 
-#items in batch must have same length
-def pad(batch):
-	(xx,yy) = zip(*batch)
-	xlens = [len(x) for x in xx]
-	ylens = [len(y) for y in yy]
-	xxpad = pad_sequence(
-		xx,
-		batch_first=True,
-		padding_value=0
+	#make datasets
+	traindata = SpecData(trainset)
+	testdata = SpecData(testset)
+	validdata = SpecData(validset)
+
+	#items in batch must have same length
+	def pad(batch):
+		(xx,yy) = zip(*batch)
+		xlens = [len(x) for x in xx]
+		ylens = [len(y) for y in yy]
+		xxpad = pad_sequence(
+			xx,
+			batch_first=True,
+			padding_value=0
+		)
+		yypad = pad_sequence(
+			yy,
+			batch_first=True,
+			padding_value=0
+		)
+		return xxpad,yypad,xlens,ylens
+
+	#make dataloaders
+	trainloader = DataLoader(
+		traindata,
+		batch_size=batchsize,
+		collate_fn=pad,
+		shuffle=True
 	)
-	yypad = pad_sequence(
-		yy,
-		batch_first=True,
-		padding_value=0
+	validloader = DataLoader(
+		validdata,
+		batch_size=batchsize,
+		collate_fn=pad,
+		shuffle=True
 	)
-	return xxpad,yypad,xlens,ylens
+	#batch = 1 for test
+	testloader = DataLoader(
+		testdata,
+		batch_size=1,
+		shuffle=False
+	)
 
-#make dataloaders
-trainloader = DataLoader(
-	traindata,
-	batch_size=batchsize,
-	collate_fn=pad,
-	shuffle=True
-)
-validloader = DataLoader(
-	validdata,
-	batch_size=batchsize,
-	collate_fn=pad,
-	shuffle=True
-)
-#batch = 1 for test
-testloader = DataLoader(
-	testdata,
-	batch_size=1,
-	shuffle=False
-)
+	#NN with LSTMs and logsoftmax
+	class ASR(nn.Module):
+		def __init__(
+				self,idim,hdim,numlayers,osize
+			):
+			super(ASR,self).__init__()
+			self.hdim = hdim
+			self.lstm = nn.LSTM(
+				idim,
+				hdim,
+				numlayers,
+				bidirectional=bidir,
+				batch_first=True
+			)
+			if bidir:
+				self.hidden2out = \
+					nn.Linear(hdim*2,osize)
+			else:
+				self.hidden2out = nn.Linear(hdim,osize)
+		def forward(self,inp):
+			lstm_out,_ = self.lstm(inp)
+			outlin = self.hidden2out(lstm_out)
+			scores = F.log_softmax(outlin,dim=2)
+			return scores
 
-#NN with LSTMs and logsoftmax
-class ASR(nn.Module):
-	def __init__(
-			self,idim,hdim,numlayers,osize
-		):
-		super(ASR,self).__init__()
-		self.hdim = hdim
-		self.lstm = nn.LSTM(
-			idim,
-			hdim,
-			numlayers,
-			bidirectional=bidir,
-			batch_first=True
-		)
-		if bidir:
-			self.hidden2out = \
-				nn.Linear(hdim*2,osize)
-		else:
-			self.hidden2out = nn.Linear(hdim,osize)
-	def forward(self,inp):
-		lstm_out,_ = self.lstm(inp)
-		outlin = self.hidden2out(lstm_out)
-		scores = F.log_softmax(outlin,dim=2)
-		return scores
+	asr = ASR(
+		inputdim,
+		hiddendim,
+		layers,
+		outsize+1
+	).to(device)
+	lossfunc = nn.CTCLoss(
+		#zero_infinity=True,
+		reduction='mean'
+	)
+	opt = optim.SGD(
+		asr.parameters(),
+		lr=lr
+	)
 
-asr = ASR(
-	inputdim,
-	hiddendim,
-	layers,
-	outsize+1
-).to(device)
-lossfunc = nn.CTCLoss(
-	#zero_infinity=True,
-	reduction='mean'
-)
-opt = optim.SGD(
-	asr.parameters(),
-	lr=lr
-)
-
-#train
-for epoch in range(epochs):
-	i = 0
-	epochloss = []
-	for inp,outp,inlens,outlens in trainloader:
-		asr.zero_grad()
-		inp = inp.to(device)
-		pred = asr(inp)
-		loss = lossfunc(
-			pred.transpose(1,0),
-			outp,
-			inlens,
-			outlens
-		)
-		loss.backward()
-		opt.step()
-		epochloss.append(
-			loss.detach().cpu().numpy()
-		)
-		i += 1
-	elossmean = np.mean(epochloss)
-	print(f'epoch {epoch} loss: {elossmean}')
-	#validate
-	with torch.no_grad():
-		validloss = []
-		for inp,outp,inlens,outlens in \
-				validloader:
+	#train
+	for epoch in range(epochs):
+		i = 0
+		epochloss = []
+		for inp,outp,inlens,outlens in trainloader:
+			asr.zero_grad()
 			inp = inp.to(device)
 			pred = asr(inp)
 			loss = lossfunc(
@@ -225,33 +206,54 @@ for epoch in range(epochs):
 				inlens,
 				outlens
 			)
-			validloss.append(
+			loss.backward()
+			opt.step()
+			epochloss.append(
 				loss.detach().cpu().numpy()
 			)
-		print(
-			f'\tvalid loss: {np.mean(validloss)}'
-		)
+			i += 1
+		elossmean = np.mean(epochloss)
+		print(f'epoch {epoch} loss: {elossmean}')
+		#validate
+		with torch.no_grad():
+			validloss = []
+			for inp,outp,inlens,outlens in \
+					validloader:
+				inp = inp.to(device)
+				pred = asr(inp)
+				loss = lossfunc(
+					pred.transpose(1,0),
+					outp,
+					inlens,
+					outlens
+				)
+				validloss.append(
+					loss.detach().cpu().numpy()
+				)
+			print(
+				f'\tvalid loss: {np.mean(validloss)}'
+			)
 
-#test one at a time
-with torch.no_grad():
-	for inp,outp in testloader:
-		for i in outp[0]:
-			print(i2l[int(i)],end='')
-		print()
-		inp = inp.to(device)
-		outp = outp.to(device)
-		pred = asr(inp)
-		res = \
-			pred.squeeze().detach().cpu().numpy()
-		#greedy decoding does NOT work well!
-		res = res.argmax(axis=1)
-		#eliminate duplicates
-		newres = [res[0]]
-		for n in res[1:]:
-			if n != newres[-1]:
-				newres.append(n)
-		#eliminate blanks
-		newres = [i2l[n] for n in newres \
-			if n != 0]
-		print(f'"{"".join(newres)}"',end='\n\n')
+	#test one at a time
+	with torch.no_grad():
+		for inp,outp in testloader:
+			for i in outp[0]:
+				print(i2l[int(i)],end='')
+			print()
+			inp = inp.to(device)
+			outp = outp.to(device)
+			pred = asr(inp)
+			res = \
+				pred.squeeze().detach().cpu().numpy()
+			#greedy decoding does NOT work well!
+			res = res.argmax(axis=1)
+			#eliminate duplicates
+			newres = [res[0]]
+			for n in res[1:]:
+				if n != newres[-1]:
+					newres.append(n)
+			#eliminate blanks
+			newres = [i2l[n] for n in newres \
+				if n != 0]
+			print(f'"{"".join(newres)}"',end='\n\n')
 
