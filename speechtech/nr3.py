@@ -13,7 +13,7 @@ import numpy as np
 warnings.filterwarnings("ignore")
 
 processes = 30
-datadir = 'cv-corpus-16.1-2023-12-06/cy/'
+datadir = '/Users/hammond/etextsSMALL/cv-corpus-19.0-2024-09-13/cy/'
 wavdir = datadir + 'mhwav/'
 validated = 'validated.tsv'
 files = 1000
@@ -23,14 +23,8 @@ batchsize = 30
 inputdim = 128
 hiddendim = 500
 lr = 0.01
-epochs = 250
-
-#use GPU if available
-if torch.cuda.is_available():
-	device = 'cuda'
-else:
-	device = 'cpu'
-print(f'using {device}')
+epochs = 2
+#epochs = 250
 
 #fully connected node for deepspeech
 class FullyConnected(torch.nn.Module):
@@ -124,7 +118,8 @@ pairs = []
 for line in t:
 	bits = line.split('\t')
 	filename = bits[1]
-	gloss = bits[2]
+	#gloss = bits[2]
+	gloss = bits[3]
 	if gloss[0] == '"': gloss = gloss[1:]
 	if gloss[-1] == '"': gloss = gloss[:-1]
 	addtol2i(gloss,l2i)
@@ -135,15 +130,6 @@ i2l = {pair[1]:pair[0] for pair in l2i.items()}
 
 #number of output categories (wo/blank!)
 outsize = len(i2l)
-
-#make spectrograms in parallel
-with mp.Pool(processes) as mypool:
-	results = mypool.map(getspec,pairs[:files])
-
-#separate training, validation, test
-validset = results[:valid]
-testset = results[valid:valid+test]
-trainset = results[valid+test:]
 
 #custom dataset
 class SpecData(Dataset):
@@ -156,11 +142,6 @@ class SpecData(Dataset):
 		spec = self.specs[idx]
 		label = self.labels[idx]
 		return spec,label
-
-#make datasets
-traindata = SpecData(trainset)
-testdata = SpecData(testset)
-validdata = SpecData(validset)
 
 #items in batch must have same length
 def pad(batch):
@@ -179,66 +160,69 @@ def pad(batch):
 	)
 	return xxpad,yypad,xlens,ylens
 
-#make dataloaders
-trainloader = DataLoader(
-	traindata,
-	batch_size=batchsize,
-	collate_fn=pad,
-	shuffle=True
-)
-validloader = DataLoader(
-	validdata,
-	batch_size=batchsize,
-	collate_fn=pad,
-	shuffle=True
-)
-#batch = 1 for test
-testloader = DataLoader(
-	testdata,
-	batch_size=1,
-	shuffle=False
-)
+if __name__ == '__main__':
 
-asr = DeepSpeech(
-	n_feature=inputdim,
-	n_hidden=hiddendim,
-	n_class=outsize+1
-).to(device)
-lossfunc = nn.CTCLoss(
-	#zero_infinity=True,
-	reduction='mean'
-)
-opt = optim.SGD(
-	asr.parameters(),
-	lr=lr
-)
+	#use GPU if available
+	if torch.cuda.is_available():
+		device = 'cuda'
+	else:
+		device = 'cpu'
+	print(f'using {device}')
 
-#train
-for epoch in range(epochs):
-	i = 0
-	epochloss = []
-	for inp,outp,inlens,outlens in trainloader:
-		asr.zero_grad()
-		inp = inp.to(device)
-		pred = asr(inp)
-		loss = lossfunc(
-			pred.transpose(1,0),
-			outp,
-			inlens,
-			outlens
-		)
-		loss.backward()
-		opt.step()
-		epochloss.append(
-			loss.detach().cpu().numpy()
-		)
-		i += 1
-	elossmean = np.mean(epochloss)
-	print(f'epoch {epoch} loss: {elossmean}')
-	#validate
-	with torch.no_grad():
-		validloss = []
-		for inp,outp,inlens,outlens in validloader:
+	#make spectrograms in parallel
+	with mp.Pool(processes) as mypool:
+		results = mypool.map(getspec,pairs[:files])
+
+	#separate training, validation, test
+	validset = results[:valid]
+	testset = results[valid:valid+test]
+	trainset = results[valid+test:]
+
+	#make datasets
+	traindata = SpecData(trainset)
+	testdata = SpecData(testset)
+	validdata = SpecData(validset)
+
+	#make dataloaders
+	trainloader = DataLoader(
+		traindata,
+		batch_size=batchsize,
+		collate_fn=pad,
+		shuffle=True
+	)
+	validloader = DataLoader(
+		validdata,
+		batch_size=batchsize,
+		collate_fn=pad,
+		shuffle=True
+	)
+	#batch = 1 for test
+	testloader = DataLoader(
+		testdata,
+		batch_size=1,
+		shuffle=False
+	)
+
+	asr = DeepSpeech(
+		n_feature=inputdim,
+		n_hidden=hiddendim,
+		n_class=outsize+1
+	).to(device)
+	lossfunc = nn.CTCLoss(
+		#zero_infinity=True,
+		reduction='mean'
+	)
+	opt = optim.SGD(
+		asr.parameters(),
+		lr=lr
+	)
+
+	#train
+	for epoch in range(epochs):
+		i = 0
+		epochloss = []
+		for inp,outp,inlens,outlens in trainloader:
+			asr.zero_grad()
 			inp = inp.to(device)
 			pred = asr(inp)
 			loss = lossfunc(
@@ -247,31 +231,51 @@ for epoch in range(epochs):
 				inlens,
 				outlens
 			)
-			validloss.append(
+			loss.backward()
+			opt.step()
+			epochloss.append(
 				loss.detach().cpu().numpy()
 			)
-		print(
-			f'\tvalid loss: {np.mean(validloss)}'
-		)
+			i += 1
+		elossmean = np.mean(epochloss)
+		print(f'epoch {epoch} loss: {elossmean}')
+		#validate
+		with torch.no_grad():
+			validloss = []
+			for inp,outp,inlens,outlens in validloader:
+				inp = inp.to(device)
+				pred = asr(inp)
+				loss = lossfunc(
+					pred.transpose(1,0),
+					outp,
+					inlens,
+					outlens
+				)
+				validloss.append(
+					loss.detach().cpu().numpy()
+				)
+			print(
+				f'\tvalid loss: {np.mean(validloss)}'
+			)
 
-#test one at a time
-with torch.no_grad():
-	for inp,outp in testloader:
-		for i in outp[0]:
-			print(i2l[int(i)],end='')
-		print()
-		inp = inp.to(device)
-		outp = outp.to(device)
-		pred = asr(inp)
-		res = pred.squeeze().detach().cpu().numpy()
-		#greedy decoding does NOT work well!
-		res = res.argmax(axis=1)
-		#eliminate duplicates
-		newres = [res[0]]
-		for n in res[1:]:
-			if n != newres[-1]:
-				newres.append(n)
-		#eliminate blanks
-		newres = [i2l[n] for n in newres if n != 0]
-		print(f'"{"".join(newres)}"',end='\n\n')
+	#test one at a time
+	with torch.no_grad():
+		for inp,outp in testloader:
+			for i in outp[0]:
+				print(i2l[int(i)],end='')
+			print()
+			inp = inp.to(device)
+			outp = outp.to(device)
+			pred = asr(inp)
+			res = pred.squeeze().detach().cpu().numpy()
+			#greedy decoding does NOT work well!
+			res = res.argmax(axis=1)
+			#eliminate duplicates
+			newres = [res[0]]
+			for n in res[1:]:
+				if n != newres[-1]:
+					newres.append(n)
+			#eliminate blanks
+			newres = [i2l[n] for n in newres if n != 0]
+			print(f'"{"".join(newres)}"',end='\n\n')
 
