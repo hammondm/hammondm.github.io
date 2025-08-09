@@ -59,6 +59,6 @@ decoder = GreedyCTCDecoder(
 #decode
 transcript = decoder(emission[0])
 transcript = \
-	re.sub('\|',' ',transcript.lower())
+	re.sub('\\|',' ',transcript.lower())
 #print result
 print(transcript)

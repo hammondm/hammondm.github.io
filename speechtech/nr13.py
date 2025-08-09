@@ -117,27 +117,3 @@ first_asr_model = \
 #train
 trainer.fit(first_asr_model)
 
-#do some inference
-paths2audio_files = [
-		os.path.join(
-			data_dir,
-			'an4/wav/an4_clstk/mgah/cen2-mgah-b.wav'
-		),
-		os.path.join(
-			data_dir,
-			'an4/wav/an4_clstk/fmjd/cen7-fmjd-b.wav'
-		),
-		os.path.join(
-			data_dir,
-			'an4/wav/an4_clstk/fmjd/cen8-fmjd-b.wav'
-		),
-		os.path.join(
-			data_dir,
-			'an4/wav/an4_clstk/fkai/cen8-fkai-b.wav'
-		)
-	]
-print(first_asr_model.transcribe(
-	paths2audio_files=paths2audio_files,
-	batch_size=4
-))
-
