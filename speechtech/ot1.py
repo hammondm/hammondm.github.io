@@ -2,8 +2,7 @@ import os,re,librosa,sklearn.mixture
 import numpy as np
 
 #location of speech commands data
-#dirname = '/data/commands/'
-dirname = '/Users/hammond/etexts/commands/'
+dirname = '/Users/hammond/etextsSMALL/commands/'
 
 #number of speakers
 speaknum = 20

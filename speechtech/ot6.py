@@ -25,16 +25,14 @@ an4_rttm = os.path.join(
 #download data
 if not os.path.exists(an4_audio):
 	an4_audio_url = \
-		"https://nemo-public.s3.us-east-2.' + \
-			'amazonaws.com/an4_diarize_test.wav"
+		"https://nemo-public.s3.us-east-2.amazonaws.com/an4_diarize_test.wav"
 	an4_audio = wget.download(
 		an4_audio_url,
 		data_dir
 	)
 if not os.path.exists(an4_rttm):
 	an4_rttm_url = \
-		"https://nemo-public.s3.us-east-2' + \
-			'.amazonaws.com/an4_diarize_test.rttm"
+		"https://nemo-public.s3.us-east-2.amazonaws.com/an4_diarize_test.rttm"
 	an4_rttm = wget.download(
 		an4_rttm_url,
 		data_dir
@@ -77,10 +75,7 @@ MODEL_CONFIG = os.path.join(
 )
 if not os.path.exists(MODEL_CONFIG):
 	config_url = \
-		"https://raw.githubusercontent.com/' + \
-		'NVIDIA/NeMo/main/examples/' + \
-		'speaker_tasks/diarization/conf/' + \
-		'inference/diar_infer_telephonic.yaml"
+		"https://raw.githubusercontent.com/NVIDIA/NeMo/main/examples/speaker_tasks/diarization/conf/inference/diar_infer_telephonic.yaml"
 	MODEL_CONFIG = wget.download(
 		config_url,
 		data_dir
@@ -117,8 +112,7 @@ print(labels)
 print(reference)
 
 fname = data_dir + \
-	'/oracle_vad/pred_rttms/' + \
-	'an4_diarize_test.rttm'
+	'/oracle_vad/pred_rttms/an4_diarize_test.rttm'
 f = open(fname,'r')
 t = f.read()
 f.close()

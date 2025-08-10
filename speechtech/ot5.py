@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 
 #location of speech commands data
-commands = '/Users/hammond/etexts/commands/'
+commands = '/Users/hammond/etextsSMALL/commands/'
 #size of window
 winsize = 3000
 #vad threshold
@@ -41,7 +41,7 @@ for speaker in fulllist:
 print(f'{len(overlaplist)} speakers')
 
 #choose two random speakers
-one,two = random.sample(overlaplist,2)
+one,two = random.sample(list(overlaplist),2)
 print('two random speakers:',one,two)
 #a minimum of three items for each speakers
 items = [one,one,one,two,two,two]
