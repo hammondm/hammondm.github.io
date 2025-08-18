@@ -51,5 +51,7 @@ n,bins,patches = axs[2].hist(d,60,density=1)
 y = sss.norm.pdf(bins,mu,sigma)
 axs[2].plot(x,np.exp(fit),color='blue')
 
+plt.subplots_adjust(wspace=.6)
+
 plt.show()
 
