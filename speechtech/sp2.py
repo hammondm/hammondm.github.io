@@ -1,6 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+plt.rcParams['savefig.dpi'] = 300
+
 #sequence from 0 to 20
 x = np.arange(0,20,.1)
 plt.subplot(3,1,1)

@@ -1,6 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+plt.rcParams['savefig.dpi'] = 300
+
 #function for toy filter
 def transfunc(x):
 	if x < 1000: return x*.6 + 500

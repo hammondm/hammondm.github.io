@@ -2,6 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.fftpack import rfft,rfftfreq
 
+plt.rcParams['savefig.dpi'] = 300
+
 #one cycle of the pulse
 period = 6
 

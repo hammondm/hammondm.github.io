@@ -2,6 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.fftpack import rfft,rfftfreq
 
+plt.rcParams['savefig.dpi'] = 300
+
 vals = np.arange(0,200*np.pi,.4)
 
 hlen = len(vals)

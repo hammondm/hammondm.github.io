@@ -4,6 +4,8 @@ from numpy.fft import rfft,irfft,rfftfreq
 from scipy.io import wavfile
 from scipy.fftpack import dct
 
+plt.rcParams['savefig.dpi'] = 300
+
 fs,w = wavfile.read('mha.wav')
 
 #spectrum

@@ -1,6 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+plt.rcParams['savefig.dpi'] = 300
+
 #2 cycles increased amplitude, shifted
 x = 2 * np.sin(np.arange(0,4*np.pi,.1)+2)
 #4 cycles

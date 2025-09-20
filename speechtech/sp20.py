@@ -2,6 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn import linear_model
 
+plt.rcParams['savefig.dpi'] = 300
+
 #make a complex wave
 x = np.sin(np.arange(0,200*np.pi,.1))
 z = np.sin(3*np.arange(0,200*np.pi,.1))

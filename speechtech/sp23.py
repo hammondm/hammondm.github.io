@@ -4,6 +4,8 @@ import librosa
 from sp22 import lpc2formants
 import sp21
 
+plt.rcParams['savefig.dpi'] = 300
+
 def getformants(wave,rate):
 	i = 0
 	#samples per window

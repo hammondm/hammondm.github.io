@@ -1,5 +1,7 @@
 import matplotlib.pyplot as plt
 
+plt.rcParams['savefig.dpi'] = 300
+
 def spec(pairs):
 	#how tall is the plot
 	mx = max([pair[0] for pair in pairs])

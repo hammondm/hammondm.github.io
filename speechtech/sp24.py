@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 from scipy.io import wavfile
 from numpy.fft import rfft
 
+plt.rcParams['savefig.dpi'] = 300
+
 fs,w = wavfile.read('quick.wav')
 filters = 10
 span = 1102

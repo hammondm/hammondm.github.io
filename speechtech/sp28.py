@@ -2,6 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.io import wavfile
 
+plt.rcParams['savefig.dpi'] = 300
+
 #read in wave
 fs,w = wavfile.read('mha16000.wav')
 

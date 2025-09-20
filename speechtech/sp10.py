@@ -2,6 +2,8 @@ from matplotlib.patches import \
 	Rectangle as rect
 import matplotlib.pyplot as plt
 
+plt.rcParams['savefig.dpi'] = 300
+
 #set of frequency/amplitude spikes
 pairs = [(2,8),(4,4)]
 

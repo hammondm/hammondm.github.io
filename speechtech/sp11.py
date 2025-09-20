@@ -1,6 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+plt.rcParams['savefig.dpi'] = 300
+
 #how sparse is the sampling
 y = 1.3
 x = np.sin(np.arange(0,4*np.pi,y))

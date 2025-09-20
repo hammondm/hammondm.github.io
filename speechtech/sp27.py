@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 from numpy.fft import rfft,irfft,rfftfreq
 from scipy.io import wavfile
 
+plt.rcParams['savefig.dpi'] = 300
+
 fs,w = wavfile.read('mha.wav')
 
 #spectrum

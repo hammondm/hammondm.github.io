@@ -2,6 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal.windows import triang
 
+plt.rcParams['savefig.dpi'] = 300
+
 zeros = np.zeros(60)
 t1 = zeros.copy()
 t1[0:10] = triang(10)
