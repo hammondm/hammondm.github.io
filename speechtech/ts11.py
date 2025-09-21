@@ -3,6 +3,8 @@ import numpy as np
 import scipy.stats as sss
 from sklearn.mixture import GaussianMixture
 
+plt.rcParams['savefig.dpi'] = 300
+
 #some random data
 x = np.random.normal(10,5,1000)
 

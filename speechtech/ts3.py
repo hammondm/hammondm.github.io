@@ -4,6 +4,8 @@ import librosa
 import numpy as np
 import scipy
 
+plt.rcParams['savefig.dpi'] = 300
+
 sr,w = wavfile.read('mha.wav')
 w = w.astype(float)
 
@@ -94,6 +96,6 @@ for i in range(columns):
 
 #plot new wave
 plt.plot(newreswave[:1000])
-plt.title('chaning pitch')
+plt.title('changing pitch')
 plt.show()
 

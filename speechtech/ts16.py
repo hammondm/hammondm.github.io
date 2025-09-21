@@ -3,6 +3,8 @@ from sklearn.tree import \
 	DecisionTreeRegressor,plot_tree
 import matplotlib.pyplot as plt
 
+plt.rcParams['savefig.dpi'] = 300
+
 #input
 x = np.arange(0,100,.1)
 #output

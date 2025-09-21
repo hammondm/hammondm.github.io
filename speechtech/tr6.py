@@ -1,6 +1,10 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+plt.rcParams['savefig.dpi'] = 300
+
+plt.subplots_adjust(hspace=0.3)
+
 count = 30
 clusters = 2
 

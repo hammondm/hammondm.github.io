@@ -1,6 +1,8 @@
 from scipy.io import wavfile
 import matplotlib.pyplot as plt
 
+plt.rcParams['savefig.dpi'] = 300
+
 fs,w = wavfile.read('mha.wav')
 
 #plot highlighted cycle

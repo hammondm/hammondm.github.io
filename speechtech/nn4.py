@@ -1,6 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+plt.rcParams['savefig.dpi'] = 300
+
 #the function
 def func(x): return x**2 + 3
 #its derivative

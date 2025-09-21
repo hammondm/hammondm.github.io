@@ -1,6 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+plt.rcParams['savefig.dpi'] = 300
+
 x = np.arange(-3,3,.1)
 
 #math as in text
