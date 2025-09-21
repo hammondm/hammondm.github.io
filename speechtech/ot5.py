@@ -4,6 +4,8 @@ from scipy.io import wavfile
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 
+plt.rcParams['savefig.dpi'] = 300
+
 #location of speech commands data
 commands = '/Users/hammond/etextsSMALL/commands/'
 #size of window

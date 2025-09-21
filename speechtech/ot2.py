@@ -2,6 +2,8 @@ import numpy as np
 from sklearn import datasets
 import matplotlib.pyplot as plt
 
+plt.rcParams['savefig.dpi'] = 300
+
 class SVM:
 	#initialize
 	def __init__(self,lr=0.001,lam=0.01):

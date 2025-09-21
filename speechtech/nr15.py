@@ -1,6 +1,8 @@
 import math
 import matplotlib.pyplot as plt
 
+plt.rcParams['savefig.dpi'] = 300
+
 def gelu(x):
 	res = x * 1/2 * (1 + math.erf(x/(math.sqrt(2))))
 	return res
