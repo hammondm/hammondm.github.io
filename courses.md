@@ -1,4 +1,4 @@
-# Courses
+# Courses since 1999
 
 - <a href="https://d2l.arizona.edu/d2l/home/1630144">Linguistics 478/578</a> (Fall '25, D2L site for registered students only unfortunately)
 - <a href="https://faculty.sbs.arizona.edu/hammond/ling439539-sp25/">Linguistics 439/539</a> (Spring '25) (<a href="https://d2l.arizona.edu/d2l/home/1550015">also a second D2L site, for registered students only unfortunately</a>)
