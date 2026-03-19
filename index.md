@@ -16,19 +16,16 @@ I have an official web page [over here](https://sites.arizona.edu/hammond/), but
 
 **Materials associated with my books**
 
-1.  [Programs](bookcode.zip) for my book *Python for Linguists*
-1.  List of [errata](errata.html) from my book *The Phonology of English*.
-1.  Programs from my book *Programming in Java for Linguists*. Available as a [gzipped tar
-file](programs.tar.gz), as a [jar
-file](programs.jar), or as a [zipped
-archive](Programs.zip).
-1.  Programs from my book *Programming in Perl for Linguists*. Available as a [gzipped tar file](perlprog.tar.gz), as a [zipped archive](perlprogs.zip). (The [websearch.pl](websearch.txt) program and [sentences.pl](sentences.txt) program can be downloaded separately.) [Answers](perlex.zip) to
-selected exercises.
+1. [Programs](mathcode.zip) for my draft book on logic and formal language theory
+1. [Programs](bookcode.zip) for my book *Python for Linguists*
+1. List of [errata](errata.html) from my book *The Phonology of English*.
+1. Programs from my book *Programming in Java for Linguists*. Available as a [gzipped tar file](programs.tar.gz), as a [jar file](programs.jar), or as a [zipped archive](Programs.zip).
+1.  Programs from my book *Programming in Perl for Linguists*. Available as a [gzipped tar file](perlprog.tar.gz), as a [zipped archive](perlprogs.zip). (The [websearch.pl](websearch.txt) program and [sentences.pl](sentences.txt) program can be downloaded separately.) [Answers](perlex.zip) to selected exercises.
 1.  List of [errata](http://www.u.arizona.edu/~hammond/perlerrata.html) from my book *Programming in Perl for Linguists*.
 
 ------------------------------------------------------------------------
 
-**Presentations**
+**Selected recent presentations**
 
 1. [Slides and code](future.zip) for my presentation *Phonology looking forward* at the Iranian summer school (August 5, 2024).
 1. [Slides and code](https://faculty.sbs.arizona.edu/hammond/slat24/) for my presentation *Programming for SLAT* (Nov 8, 2024).
@@ -54,4 +51,3 @@ Some years ago, the Arizona Department of Education had plans to bar teachers wi
 ------------------------------------------------------------------------
 
 Mike Hammond: hammond at u dot arizona dot edu
-
