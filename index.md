@@ -6,7 +6,7 @@ title: Mike Hammond
 
 I'm professor emeritus in the [Linguistics Department](http://linguistics.arizona.edu/) at the [University of Arizona](http://www.arizona.edu/). I am also affiliated with the [Human Language Technology Program](https://linguistics.arizona.edu/ms-hlt), the [Cognitive Science Program](https://cogsci.arizona.edu), the joint [Linguistics-Anthropology Ph.D. Program](https://linguistics.arizona.edu/joint-phd-anli), the [Graduate Certificate in Computational Social Science](https://css.arizona.edu/) and the [SLAT](https://slat.arizona.edu) program. My research areas include: phonology, morphology, computational linguistics, English phonology and morphology, poetic meter, psycholinguistics, Welsh, and Scottish Gaelic.
 
-Click here to see [my current CV](cvanon.pdf).
+Click here to see [my current CV](cv.pdf).
 
 Click here to see [past courses](courses.html).
 
