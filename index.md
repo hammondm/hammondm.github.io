@@ -27,6 +27,8 @@ I have an official web page [over here](https://sites.arizona.edu/hammond/), but
 
 **Selected recent presentations**
 
+1. [Slides](missooula26.pdf) and [code](missoula.zip) for my presentation
+   *Neuro-symbolic phonology*, U. of Montana (April 20, 2026).
 1. [Slides and code](future.zip) for my presentation *Phonology looking forward* at the Iranian summer school (August 5, 2024).
 1. [Slides and code](https://faculty.sbs.arizona.edu/hammond/slat24/) for my presentation *Programming for SLAT* (Nov 8, 2024).
 
