@@ -18,6 +18,7 @@ I have an official web page [over here](https://sites.arizona.edu/hammond/), but
 
 1. [Programs](mathcode.zip) for my draft book on logic and formal language theory
 1. [Programs](bookcode.zip) for my book *Python for Linguists*
+1. List of [errata](pythontypos.html) for my book *Python for Linguists*
 1. List of [errata](errata.html) from my book *The Phonology of English*.
 1. Programs from my book *Programming in Java for Linguists*. Available as a [gzipped tar file](programs.tar.gz), as a [jar file](programs.jar), or as a [zipped archive](Programs.zip).
 1.  Programs from my book *Programming in Perl for Linguists*. Available as a [gzipped tar file](perlprog.tar.gz), as a [zipped archive](perlprogs.zip). (The [websearch.pl](websearch.txt) program and [sentences.pl](sentences.txt) program can be downloaded separately.) [Answers](perlex.zip) to selected exercises.
