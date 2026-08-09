@@ -10,4 +10,6 @@ t = t[:-1]
 ft = p.FeatureTable()
 
 for letter in t:
-    print(letter,ft.word_fts(letter)[0],'\n')
+	res = ft.word_fts(letter)
+	print(letter,ft.word_fts(letter)[0],'\n')
+
