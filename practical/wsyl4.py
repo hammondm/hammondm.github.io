@@ -14,7 +14,7 @@ drop = FST.re("$^rewrite((.*'\t'+):'',leftmost=True)")
 spaces = FST.re("$^rewrite(' ':'')")
 
 onset = FST.re(
-	"(s? $sm{0,2})|($sm w $sm)",
+	"(s? $sm{0,2})|([ɡŋ] w [lrn])",
 	{'sm':fw.sylminus}
 )
 
