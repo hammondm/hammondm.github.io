@@ -1,0 +1,1638 @@
+a:btni krdn	a:btni krdi	V;2;SG;PST;COL
+a:btni krdn	a:btni krd	V;3;SG;PST;COL
+a:btni krdn	a:btni krdim	V;1;PL;PST;COL
+a:btni krdn	a:btni krdm	V;1;SG;PST;COL
+a:btni krdn	a:btni krdin	V;2;PL;PST;COL
+a:btni krdn	a:btni krdn	V;3;PL;PST;COL
+atraq krdn	atraq krdi	V;2;SG;PST;COL
+atraq krdn	atraq krd	V;3;SG;PST;COL
+atraq krdn	atraq krdim	V;1;PL;PST;COL
+atraq krdn	atraq krdm	V;1;SG;PST;COL
+atraq krdn	atraq krdin	V;2;PL;PST;COL
+atraq krdn	atraq krdn	V;3;PL;PST;COL
+aJra krdn	aJra krdi	V;2;SG;PST;COL
+aJra krdn	aJra krd	V;3;SG;PST;COL
+aJra krdn	aJra krdim	V;1;PL;PST;COL
+aJra krdn	aJra krdm	V;1;SG;PST;COL
+aJra krdn	aJra krdin	V;2;PL;PST;COL
+aJra krdn	aJra krdn	V;3;PL;PST;COL
+aHsas krdn	aHsas krdi	V;2;SG;PST;COL
+aHsas krdn	aHsas krd	V;3;SG;PST;COL
+aHsas krdn	aHsas krdim	V;1;PL;PST;COL
+aHsas krdn	aHsas krdm	V;1;SG;PST;COL
+aHsas krdn	aHsas krdin	V;2;PL;PST;COL
+aHsas krdn	aHsas krdn	V;3;PL;PST;COL
+adarh krdn	adarh krdi	V;2;SG;PST;COL
+adarh krdn	adarh krd	V;3;SG;PST;COL
+adarh krdn	adarh krdim	V;1;PL;PST;COL
+adarh krdn	adarh krdm	V;1;SG;PST;COL
+adarh krdn	adarh krdin	V;2;PL;PST;COL
+adarh krdn	adarh krdn	V;3;PL;PST;COL
+iad grftn	iad grfti	V;2;SG;PST;COL
+iad grftn	iad grft	V;3;SG;PST;COL
+iad grftn	iad grftim	V;1;PL;PST;COL
+iad grftn	iad grftm	V;1;SG;PST;COL
+iad grftn	iad grftin	V;2;PL;PST;COL
+iad grftn	iad grftn	V;3;PL;PST;COL
+a:raiS krdn	a:raiS krdi	V;2;SG;PST;COL
+a:raiS krdn	a:raiS krd	V;3;SG;PST;COL
+a:raiS krdn	a:raiS krdim	V;1;PL;PST;COL
+a:raiS krdn	a:raiS krdm	V;1;SG;PST;COL
+a:raiS krdn	a:raiS krdin	V;2;PL;PST;COL
+a:raiS krdn	a:raiS krdn	V;3;PL;PST;COL
+a:ram grftn	a:rum grfti	V;2;SG;PST;COL
+a:ram grftn	a:rum grft	V;3;SG;PST;COL
+a:ram grftn	a:rum grftim	V;1;PL;PST;COL
+a:ram grftn	a:rum grftm	V;1;SG;PST;COL
+a:ram grftn	a:rum grftin	V;2;PL;PST;COL
+a:ram grftn	a:rum grftn	V;3;PL;PST;COL
+azduaJ krdn	azduaJ krdi	V;2;SG;PST;COL
+azduaJ krdn	azduaJ krd	V;3;SG;PST;COL
+azduaJ krdn	azduaJ krdim	V;1;PL;PST;COL
+azduaJ krdn	azduaJ krdm	V;1;SG;PST;COL
+azduaJ krdn	azduaJ krdin	V;2;PL;PST;COL
+azduaJ krdn	azduaJ krdn	V;3;PL;PST;COL
+aistadn	aistadi	V;2;SG;PST;COL
+aistadn	aistad	V;3;SG;PST;COL
+aistadn	aistadim	V;1;PL;PST;COL
+aistadn	aistadm	V;1;SG;PST;COL
+aistadn	aistadin	V;2;PL;PST;COL
+aistadn	aistadn	V;3;PL;PST;COL
+astraHt krdn	astraHt krdi	V;2;SG;PST;COL
+astraHt krdn	astraHt krd	V;3;SG;PST;COL
+astraHt krdn	astraHt krdim	V;1;PL;PST;COL
+astraHt krdn	astraHt krdm	V;1;SG;PST;COL
+astraHt krdn	astraHt krdin	V;2;PL;PST;COL
+astraHt krdn	astraHt krdn	V;3;PL;PST;COL
+astfadh krdn	astfadh krdi	V;2;SG;PST;COL
+astfadh krdn	astfadh krd	V;3;SG;PST;COL
+astfadh krdn	astfadh krdim	V;1;PL;PST;COL
+astfadh krdn	astfadh krdm	V;1;SG;PST;COL
+astfadh krdn	astfadh krdin	V;2;PL;PST;COL
+astfadh krdn	astfadh krdn	V;3;PL;PST;COL
+astmna krdn	astmna krdi	V;2;SG;PST;COL
+astmna krdn	astmna krd	V;3;SG;PST;COL
+astmna krdn	astmna krdim	V;1;PL;PST;COL
+astmna krdn	astmna krdm	V;1;SG;PST;COL
+astmna krdn	astmna krdin	V;2;PL;PST;COL
+astmna krdn	astmna krdn	V;3;PL;PST;COL
+aski krdn	aski krdi	V;2;SG;PST;COL
+aski krdn	aski krd	V;3;SG;PST;COL
+aski krdn	aski krdim	V;1;PL;PST;COL
+aski krdn	aski krdm	V;1;SG;PST;COL
+aski krdn	aski krdin	V;2;PL;PST;COL
+aski krdn	aski krdn	V;3;PL;PST;COL
+aStbah krdn	aStbah krdi	V;2;SG;PST;COL
+aStbah krdn	aStbah krd	V;3;SG;PST;COL
+aStbah krdn	aStbah krdim	V;1;PL;PST;COL
+aStbah krdn	aStbah krdm	V;1;SG;PST;COL
+aStbah krdn	aStbah krdin	V;2;PL;PST;COL
+aStbah krdn	aStbah krdn	V;3;PL;PST;COL
+a:Sna Sdn	a:Sna Sdi	V;2;SG;PST;COL
+a:Sna Sdn	a:Sna Sd	V;3;SG;PST;COL
+a:Sna Sdn	a:Sna Sdim	V;1;PL;PST;COL
+a:Sna Sdn	a:Sna Sdm	V;1;SG;PST;COL
+a:Sna Sdn	a:Sna Sdin	V;2;PL;PST;COL
+a:Sna Sdn	a:Sna Sdn	V;3;PL;PST;COL
+as*rar krdn	as*rar krdi	V;2;SG;PST;COL
+as*rar krdn	as*rar krd	V;3;SG;PST;COL
+as*rar krdn	as*rar krdim	V;1;PL;PST;COL
+as*rar krdn	as*rar krdm	V;1;SG;PST;COL
+as*rar krdn	as*rar krdin	V;2;PL;PST;COL
+as*rar krdn	as*rar krdn	V;3;PL;PST;COL
+az+afh krdn	az+afh krdi	V;2;SG;PST;COL
+az+afh krdn	az+afh krd	V;3;SG;PST;COL
+az+afh krdn	az+afh krdim	V;1;PL;PST;COL
+az+afh krdn	az+afh krdm	V;1;SG;PST;COL
+az+afh krdn	az+afh krdin	V;2;PL;PST;COL
+az+afh krdn	az+afh krdn	V;3;PL;PST;COL
+a?*traz+ krdn	a?*traz+ krdi	V;2;SG;PST;COL
+a?*traz+ krdn	a?*traz+ krd	V;3;SG;PST;COL
+a?*traz+ krdn	a?*traz+ krdim	V;1;PL;PST;COL
+a?*traz+ krdn	a?*traz+ krdm	V;1;SG;PST;COL
+a?*traz+ krdn	a?*traz+ krdin	V;2;PL;PST;COL
+a?*traz+ krdn	a?*traz+ krdn	V;3;PL;PST;COL
+a?*lam krdn	a?*lam krdi	V;2;SG;PST;COL
+a?*lam krdn	a?*lam krd	V;3;SG;PST;COL
+a?*lam krdn	a?*lam krdim	V;1;PL;PST;COL
+a?*lam krdn	a?*lam krdm	V;1;SG;PST;COL
+a?*lam krdn	a?*lam krdin	V;2;PL;PST;COL
+a?*lam krdn	a?*lam krdn	V;3;PL;PST;COL
+a:Gaz Sdn	a:Gaz Sdi	V;2;SG;PST;COL
+a:Gaz Sdn	a:Gaz Sd	V;3;SG;PST;COL
+a:Gaz Sdn	a:Gaz Sdim	V;1;PL;PST;COL
+a:Gaz Sdn	a:Gaz Sdm	V;1;SG;PST;COL
+a:Gaz Sdn	a:Gaz Sdin	V;2;PL;PST;COL
+a:Gaz Sdn	a:Gaz Sdn	V;3;PL;PST;COL
+a:Gaz krdn	a:Gaz krdi	V;2;SG;PST;COL
+a:Gaz krdn	a:Gaz krd	V;3;SG;PST;COL
+a:Gaz krdn	a:Gaz krdim	V;1;PL;PST;COL
+a:Gaz krdn	a:Gaz krdm	V;1;SG;PST;COL
+a:Gaz krdn	a:Gaz krdin	V;2;PL;PST;COL
+a:Gaz krdn	a:Gaz krdn	V;3;PL;PST;COL
+aGua krdn	aGua krdi	V;2;SG;PST;COL
+aGua krdn	aGua krd	V;3;SG;PST;COL
+aGua krdn	aGua krdim	V;1;PL;PST;COL
+aGua krdn	aGua krdm	V;1;SG;PST;COL
+aGua krdn	aGua krdin	V;2;PL;PST;COL
+aGua krdn	aGua krdn	V;3;PL;PST;COL
+iaftn	iafti	V;2;SG;PST;COL
+iaftn	iaft	V;3;SG;PST;COL
+iaftn	iaftim	V;1;PL;PST;COL
+iaftn	iaftm	V;1;SG;PST;COL
+iaftn	iaftin	V;2;PL;PST;COL
+iaftn	iaftn	V;3;PL;PST;COL
+afsus xurdn	afsus xurdi	V;2;SG;PST;COL
+afsus xurdn	afsus xurd	V;3;SG;PST;COL
+afsus xurdn	afsus xurdim	V;1;PL;PST;COL
+afsus xurdn	afsus xurdm	V;1;SG;PST;COL
+afsus xurdn	afsus xurdin	V;2;PL;PST;COL
+afsus xurdn	afsus xurdn	V;3;PL;PST;COL
+afSa Sdn	afSa Sdi	V;2;SG;PST;COL
+afSa Sdn	afSa Sd	V;3;SG;PST;COL
+afSa Sdn	afSa Sdim	V;1;PL;PST;COL
+afSa Sdn	afSa Sdm	V;1;SG;PST;COL
+afSa Sdn	afSa Sdin	V;2;PL;PST;COL
+afSa Sdn	afSa Sdn	V;3;PL;PST;COL
+afSrdn	afSrdi	V;2;SG;PST;COL
+afSrdn	afSrd	V;3;SG;PST;COL
+afSrdn	afSrdim	V;1;PL;PST;COL
+afSrdn	afSrdm	V;1;SG;PST;COL
+afSrdn	afSrdin	V;2;PL;PST;COL
+afSrdn	afSrdn	V;3;PL;PST;COL
+afkndn	afkndi	V;2;SG;PST;COL
+afkndn	afknd	V;3;SG;PST;COL
+afkndn	afkndim	V;1;PL;PST;COL
+afkndn	afkndm	V;1;SG;PST;COL
+afkndn	afkndin	V;2;PL;PST;COL
+afkndn	afkndn	V;3;PL;PST;COL
+amrar m?*aS krdn	amrar m?*aS krdi	V;2;SG;PST;COL
+amrar m?*aS krdn	amrar m?*aS krd	V;3;SG;PST;COL
+amrar m?*aS krdn	amrar m?*aS krdim	V;1;PL;PST;COL
+amrar m?*aS krdn	amrar m?*aS krdm	V;1;SG;PST;COL
+amrar m?*aS krdn	amrar m?*aS krdin	V;2;PL;PST;COL
+amrar m?*aS krdn	amrar m?*aS krdn	V;3;PL;PST;COL
+amz+a? krdn	amz+a krdi	V;2;SG;PST;COL
+amz+a? krdn	amz+a krd	V;3;SG;PST;COL
+amz+a? krdn	amz+a krdim	V;1;PL;PST;COL
+amz+a? krdn	amz+a krdm	V;1;SG;PST;COL
+amz+a? krdn	amz+a krdin	V;2;PL;PST;COL
+amz+a? krdn	amz+a krdn	V;3;PL;PST;COL
+antxab krdn	antxab krdi	V;2;SG;PST;COL
+antxab krdn	antxab krd	V;3;SG;PST;COL
+antxab krdn	antxab krdim	V;1;PL;PST;COL
+antxab krdn	antxab krdm	V;1;SG;PST;COL
+antxab krdn	antxab krdin	V;2;PL;PST;COL
+antxab krdn	antxab krdn	V;3;PL;PST;COL
+antqad krdn	antqad krdi	V;2;SG;PST;COL
+antqad krdn	antqad krd	V;3;SG;PST;COL
+antqad krdn	antqad krdim	V;1;PL;PST;COL
+antqad krdn	antqad krdm	V;1;SG;PST;COL
+antqad krdn	antqad krdin	V;2;PL;PST;COL
+antqad krdn	antqad krdn	V;3;PL;PST;COL
+anzal krdn	anzal krdi	V;2;SG;PST;COL
+anzal krdn	anzal krd	V;3;SG;PST;COL
+anzal krdn	anzal krdim	V;1;PL;PST;COL
+anzal krdn	anzal krdm	V;1;SG;PST;COL
+anzal krdn	anzal krdin	V;2;PL;PST;COL
+anzal krdn	anzal krdn	V;3;PL;PST;COL
+a:uaz xuandn	a:uaz xundi	V;2;SG;PST;COL
+a:uaz xuandn	a:uaz xund	V;3;SG;PST;COL
+a:uaz xuandn	a:uaz xundim	V;1;PL;PST;COL
+a:uaz xuandn	a:uaz xundm	V;1;SG;PST;COL
+a:uaz xuandn	a:uaz xundin	V;2;PL;PST;COL
+a:uaz xuandn	a:uaz xundn	V;3;PL;PST;COL
+baxtn	baxti	V;2;SG;PST;COL
+baxtn	baxt	V;3;SG;PST;COL
+baxtn	baxtim	V;1;PL;PST;COL
+baxtn	baxtm	V;1;SG;PST;COL
+baxtn	baxtin	V;2;PL;PST;COL
+baxtn	baxtn	V;3;PL;PST;COL
+bazi krdn	bazi krdi	V;2;SG;PST;COL
+bazi krdn	bazi krd	V;3;SG;PST;COL
+bazi krdn	bazi krdim	V;1;PL;PST;COL
+bazi krdn	bazi krdm	V;1;SG;PST;COL
+bazi krdn	bazi krdin	V;2;PL;PST;COL
+bazi krdn	bazi krdn	V;3;PL;PST;COL
+baz krdn	ua krdi	V;2;SG;PST;COL
+baz krdn	ua krd	V;3;SG;PST;COL
+baz krdn	ua krdim	V;1;PL;PST;COL
+baz krdn	ua krdm	V;1;SG;PST;COL
+baz krdn	ua krdin	V;2;PL;PST;COL
+baz krdn	ua krdn	V;3;PL;PST;COL
+baftn	bafti	V;2;SG;PST;COL
+baftn	baft	V;3;SG;PST;COL
+baftn	baftim	V;1;PL;PST;COL
+baftn	baftm	V;1;SG;PST;COL
+baftn	baftin	V;2;PL;PST;COL
+baftn	baftn	V;3;PL;PST;COL
+baur krdn	baur krdi	V;2;SG;PST;COL
+baur krdn	baur krd	V;3;SG;PST;COL
+baur krdn	baur krdim	V;1;PL;PST;COL
+baur krdn	baur krdm	V;1;SG;PST;COL
+baur krdn	baur krdin	V;2;PL;PST;COL
+baur krdn	baur krdn	V;3;PL;PST;COL
+bHs: krdn	bHs: krdi	V;2;SG;PST;COL
+bHs: krdn	bHs: krd	V;3;SG;PST;COL
+bHs: krdn	bHs: krdim	V;1;PL;PST;COL
+bHs: krdn	bHs: krdm	V;1;SG;PST;COL
+bHs: krdn	bHs: krdin	V;2;PL;PST;COL
+bHs: krdn	bHs: krdn	V;3;PL;PST;COL
+bxSidn	bxSidi	V;2;SG;PST;COL
+bxSidn	bxSid	V;3;SG;PST;COL
+bxSidn	bxSidim	V;1;PL;PST;COL
+bxSidn	bxSidm	V;1;SG;PST;COL
+bxSidn	bxSidin	V;2;PL;PST;COL
+bxSidn	bxSidn	V;3;PL;PST;COL
+bidar Sdn	bidar Sdi	V;2;SG;PST;COL
+bidar Sdn	bidar Sd	V;3;SG;PST;COL
+bidar Sdn	bidar Sdim	V;1;PL;PST;COL
+bidar Sdn	bidar Sdm	V;1;SG;PST;COL
+bidar Sdn	bidar Sdin	V;2;PL;PST;COL
+bidar Sdn	bidar Sdn	V;3;PL;PST;COL
+bidar krdn	bidar krdi	V;2;SG;PST;COL
+bidar krdn	bidar krd	V;3;SG;PST;COL
+bidar krdn	bidar krdim	V;1;PL;PST;COL
+bidar krdn	bidar krdm	V;1;SG;PST;COL
+bidar krdn	bidar krdin	V;2;PL;PST;COL
+bidar krdn	bidar krdn	V;3;PL;PST;COL
+brxastn	brxasti	V;2;SG;PST;COL
+brxastn	brxast	V;3;SG;PST;COL
+brxastn	brxastim	V;1;PL;PST;COL
+brxastn	brxastm	V;1;SG;PST;COL
+brxastn	brxastin	V;2;PL;PST;COL
+brxastn	brxastn	V;3;PL;PST;COL
+bridn	bridi	V;2;SG;PST;COL
+bridn	brid	V;3;SG;PST;COL
+bridn	bridim	V;1;PL;PST;COL
+bridn	bridm	V;1;SG;PST;COL
+bridn	bridin	V;2;PL;PST;COL
+bridn	bridn	V;3;PL;PST;COL
+brgSadn	brgSadi	V;2;SG;PST;COL
+brgSadn	brgSad	V;3;SG;PST;COL
+brgSadn	brgSadim	V;1;PL;PST;COL
+brgSadn	brgSadm	V;1;SG;PST;COL
+brgSadn	brgSadin	V;2;PL;PST;COL
+brgSadn	brgSadn	V;3;PL;PST;COL
+brgSudn	brgSudi	V;2;SG;PST;COL
+brgSudn	brgSud	V;3;SG;PST;COL
+brgSudn	brgSudim	V;1;PL;PST;COL
+brgSudn	brgSudm	V;1;SG;PST;COL
+brgSudn	brgSudin	V;2;PL;PST;COL
+brgSudn	brgSudn	V;3;PL;PST;COL
+bzrg Sdn	bzrg Sdi	V;2;SG;PST;COL
+bzrg Sdn	bzrg Sd	V;3;SG;PST;COL
+bzrg Sdn	bzrg Sdim	V;1;PL;PST;COL
+bzrg Sdn	bzrg Sdm	V;1;SG;PST;COL
+bzrg Sdn	bzrg Sdin	V;2;PL;PST;COL
+bzrg Sdn	bzrg Sdn	V;3;PL;PST;COL
+bstn	bsti	V;2;SG;PST;COL
+bstn	bst	V;3;SG;PST;COL
+bstn	bstim	V;1;PL;PST;COL
+bstn	bstm	V;1;SG;PST;COL
+bstn	bstin	V;2;PL;PST;COL
+bstn	bstn	V;3;PL;PST;COL
+blnd krdn	blnd krdi	V;2;SG;PST;COL
+blnd krdn	blnd krd	V;3;SG;PST;COL
+blnd krdn	blnd krdim	V;1;PL;PST;COL
+blnd krdn	blnd krdm	V;1;SG;PST;COL
+blnd krdn	blnd krdin	V;2;PL;PST;COL
+blnd krdn	blnd krdn	V;3;PL;PST;COL
+bimar Sdn	bimar Sdi	V;2;SG;PST;COL
+bimar Sdn	bimar Sd	V;3;SG;PST;COL
+bimar Sdn	bimar Sdim	V;1;PL;PST;COL
+bimar Sdn	bimar Sdm	V;1;SG;PST;COL
+bimar Sdn	bimar Sdin	V;2;PL;PST;COL
+bimar Sdn	bimar Sdn	V;3;PL;PST;COL
+bh iad a:urdn	bh iad a:urdi	V;2;SG;PST;COL
+bh iad a:urdn	bh iad a:urd	V;3;SG;PST;COL
+bh iad a:urdn	bh iad a:urdim	V;1;PL;PST;COL
+bh iad a:urdn	bh iad a:urdm	V;1;SG;PST;COL
+bh iad a:urdn	bh iad a:urdin	V;2;PL;PST;COL
+bh iad a:urdn	bh iad a:urdn	V;3;PL;PST;COL
+bh xat*r sprdn	bh xat*r sprdi	V;2;SG;PST;COL
+bh xat*r sprdn	bh xat*r sprd	V;3;SG;PST;COL
+bh xat*r sprdn	bh xat*r sprdim	V;1;PL;PST;COL
+bh xat*r sprdn	bh xat*r sprdm	V;1;SG;PST;COL
+bh xat*r sprdn	bh xat*r sprdin	V;2;PL;PST;COL
+bh xat*r sprdn	bh xat*r sprdn	V;3;PL;PST;COL
+bh dnia a:mdn	bh dnia aumdi	V;2;SG;PST;COL
+bh dnia a:mdn	bh dnia aumd	V;3;SG;PST;COL
+bh dnia a:mdn	bh dnia aumdim	V;1;PL;PST;COL
+bh dnia a:mdn	bh dnia aumdm	V;1;SG;PST;COL
+bh dnia a:mdn	bh dnia aumdin	V;2;PL;PST;COL
+bh dnia a:mdn	bh dnia aumdn	V;3;PL;PST;COL
+bh zban a:urdn	bh zbun a:urdi	V;2;SG;PST;COL
+bh zban a:urdn	bh zbun a:urd	V;3;SG;PST;COL
+bh zban a:urdn	bh zbun a:urdim	V;1;PL;PST;COL
+bh zban a:urdn	bh zbun a:urdm	V;1;SG;PST;COL
+bh zban a:urdn	bh zbun a:urdin	V;2;PL;PST;COL
+bh zban a:urdn	bh zbun a:urdn	V;3;PL;PST;COL
+bh framuSi sprdn	bh framuSi sprdi	V;2;SG;PST;COL
+bh framuSi sprdn	bh framuSi sprd	V;3;SG;PST;COL
+bh framuSi sprdn	bh framuSi sprdim	V;1;PL;PST;COL
+bh framuSi sprdn	bh framuSi sprdm	V;1;SG;PST;COL
+bh framuSi sprdn	bh framuSi sprdin	V;2;PL;PST;COL
+bh framuSi sprdn	bh framuSi sprdn	V;3;PL;PST;COL
+bh kar brdn	bh kar brdi	V;2;SG;PST;COL
+bh kar brdn	bh kar brd	V;3;SG;PST;COL
+bh kar brdn	bh kar brdim	V;1;PL;PST;COL
+bh kar brdn	bh kar brdm	V;1;SG;PST;COL
+bh kar brdn	bh kar brdin	V;2;PL;PST;COL
+bh kar brdn	bh kar brdn	V;3;PL;PST;COL
+bh uJud a:mdn	bh uJud aumdi	V;2;SG;PST;COL
+bh uJud a:mdn	bh uJud aumd	V;3;SG;PST;COL
+bh uJud a:mdn	bh uJud aumdim	V;1;PL;PST;COL
+bh uJud a:mdn	bh uJud aumdm	V;1;SG;PST;COL
+bh uJud a:mdn	bh uJud aumdin	V;2;PL;PST;COL
+bh uJud a:mdn	bh uJud aumdn	V;3;PL;PST;COL
+bh uJud a:urdn	bh uJud a:urdi	V;2;SG;PST;COL
+bh uJud a:urdn	bh uJud a:urd	V;3;SG;PST;COL
+bh uJud a:urdn	bh uJud a:urdim	V;1;PL;PST;COL
+bh uJud a:urdn	bh uJud a:urdm	V;1;SG;PST;COL
+bh uJud a:urdn	bh uJud a:urdin	V;2;PL;PST;COL
+bh uJud a:urdn	bh uJud a:urdn	V;3;PL;PST;COL
+buiidn	buiidi	V;2;SG;PST;COL
+buiidn	buiid	V;3;SG;PST;COL
+buiidn	buiidim	V;1;PL;PST;COL
+buiidn	buiidm	V;1;SG;PST;COL
+buiidn	buiidin	V;2;PL;PST;COL
+buiidn	buiidn	V;3;PL;PST;COL
+busidn	busidi	V;2;SG;PST;COL
+busidn	busid	V;3;SG;PST;COL
+busidn	busidim	V;1;PL;PST;COL
+busidn	busidm	V;1;SG;PST;COL
+busidn	busidin	V;2;PL;PST;COL
+busidn	busidn	V;3;PL;PST;COL
+bu krdn	bu krdi	V;2;SG;PST;COL
+bu krdn	bu krd	V;3;SG;PST;COL
+bu krdn	bu krdim	V;1;PL;PST;COL
+bu krdn	bu krdm	V;1;SG;PST;COL
+bu krdn	bu krdin	V;2;PL;PST;COL
+bu krdn	bu krdn	V;3;PL;PST;COL
+pa bh Jhan gz*aStn	pa bh Jhan gz*aSti	V;2;SG;PST;COL
+pa bh Jhan gz*aStn	pa bh Jhan gz*aSt	V;3;SG;PST;COL
+pa bh Jhan gz*aStn	pa bh Jhan gz*aStim	V;1;PL;PST;COL
+pa bh Jhan gz*aStn	pa bh Jhan gz*aStm	V;1;SG;PST;COL
+pa bh Jhan gz*aStn	pa bh Jhan gz*aStin	V;2;PL;PST;COL
+pa bh Jhan gz*aStn	pa bh Jhan gz*aStn	V;3;PL;PST;COL
+pa bh sn gz*aStn	pa bh sn gz*aSti	V;2;SG;PST;COL
+pa bh sn gz*aStn	pa bh sn gz*aSt	V;3;SG;PST;COL
+pa bh sn gz*aStn	pa bh sn gz*aStim	V;1;PL;PST;COL
+pa bh sn gz*aStn	pa bh sn gz*aStm	V;1;SG;PST;COL
+pa bh sn gz*aStn	pa bh sn gz*aStin	V;2;PL;PST;COL
+pa bh sn gz*aStn	pa bh sn gz*aStn	V;3;PL;PST;COL
+pa bh ?*rs*h uJud gz*aStn	pa bh ?*rs*h uJud gz*aSti	V;2;SG;PST;COL
+pa bh ?*rs*h uJud gz*aStn	pa bh ?*rs*h uJud gz*aSt	V;3;SG;PST;COL
+pa bh ?*rs*h uJud gz*aStn	pa bh ?*rs*h uJud gz*aStim	V;1;PL;PST;COL
+pa bh ?*rs*h uJud gz*aStn	pa bh ?*rs*h uJud gz*aStm	V;1;SG;PST;COL
+pa bh ?*rs*h uJud gz*aStn	pa bh ?*rs*h uJud gz*aStin	V;2;PL;PST;COL
+pa bh ?*rs*h uJud gz*aStn	pa bh ?*rs*h uJud gz*aStn	V;3;PL;PST;COL
+pa dr mian gz*aStn	pa dr miun gz*aSti	V;2;SG;PST;COL
+pa dr mian gz*aStn	pa dr miun gz*aSt	V;3;SG;PST;COL
+pa dr mian gz*aStn	pa dr miun gz*aStim	V;1;PL;PST;COL
+pa dr mian gz*aStn	pa dr miun gz*aStm	V;1;SG;PST;COL
+pa dr mian gz*aStn	pa dr miun gz*aStin	V;2;PL;PST;COL
+pa dr mian gz*aStn	pa dr miun gz*aStn	V;3;PL;PST;COL
+pak krdn	pak krdi	V;2;SG;PST;COL
+pak krdn	pak krd	V;3;SG;PST;COL
+pak krdn	pak krdim	V;1;PL;PST;COL
+pak krdn	pak krdm	V;1;SG;PST;COL
+pak krdn	pak krdin	V;2;PL;PST;COL
+pak krdn	pak krdn	V;3;PL;PST;COL
+piCidn	piCidi	V;2;SG;PST;COL
+piCidn	piCid	V;3;SG;PST;COL
+piCidn	piCidim	V;1;PL;PST;COL
+piCidn	piCidm	V;1;SG;PST;COL
+piCidn	piCidin	V;2;PL;PST;COL
+piCidn	piCidn	V;3;PL;PST;COL
+pxtn	pxti	V;2;SG;PST;COL
+pxtn	pxt	V;3;SG;PST;COL
+pxtn	pxtim	V;1;PL;PST;COL
+pxtn	pxtm	V;1;SG;PST;COL
+pxtn	pxtin	V;2;PL;PST;COL
+pxtn	pxtn	V;3;PL;PST;COL
+pida krdn	pida krdi	V;2;SG;PST;COL
+pida krdn	pida krd	V;3;SG;PST;COL
+pida krdn	pida krdim	V;1;PL;PST;COL
+pida krdn	pida krdm	V;1;SG;PST;COL
+pida krdn	pida krdin	V;2;PL;PST;COL
+pida krdn	pida krdn	V;3;PL;PST;COL
+pridn	pridi	V;2;SG;PST;COL
+pridn	prid	V;3;SG;PST;COL
+pridn	pridim	V;1;PL;PST;COL
+pridn	pridm	V;1;SG;PST;COL
+pridn	pridin	V;2;PL;PST;COL
+pridn	pridn	V;3;PL;PST;COL
+prstidn	prstidi	V;2;SG;PST;COL
+prstidn	prstid	V;3;SG;PST;COL
+prstidn	prstidim	V;1;PL;PST;COL
+prstidn	prstidm	V;1;SG;PST;COL
+prstidn	prstidin	V;2;PL;PST;COL
+prstidn	prstidn	V;3;PL;PST;COL
+prsidn	prsidi	V;2;SG;PST;COL
+prsidn	prsid	V;3;SG;PST;COL
+prsidn	prsidim	V;1;PL;PST;COL
+prsidn	prsidm	V;1;SG;PST;COL
+prsidn	prsidin	V;2;PL;PST;COL
+prsidn	prsidn	V;3;PL;PST;COL
+pZuhS krdn	pZuhS krdi	V;2;SG;PST;COL
+pZuhS krdn	pZuhS krd	V;3;SG;PST;COL
+pZuhS krdn	pZuhS krdim	V;1;PL;PST;COL
+pZuhS krdn	pZuhS krdm	V;1;SG;PST;COL
+pZuhS krdn	pZuhS krdin	V;2;PL;PST;COL
+pZuhS krdn	pZuhS krdn	V;3;PL;PST;COL
+pSt sr gz*aStn	pSt sr gz*aSti	V;2;SG;PST;COL
+pSt sr gz*aStn	pSt sr gz*aSt	V;3;SG;PST;COL
+pSt sr gz*aStn	pSt sr gz*aStim	V;1;PL;PST;COL
+pSt sr gz*aStn	pSt sr gz*aStm	V;1;SG;PST;COL
+pSt sr gz*aStn	pSt sr gz*aStin	V;2;PL;PST;COL
+pSt sr gz*aStn	pSt sr gz*aStn	V;3;PL;PST;COL
+pndaStn	pndaSti	V;2;SG;PST;COL
+pndaStn	pndaSt	V;3;SG;PST;COL
+pndaStn	pndaStim	V;1;PL;PST;COL
+pndaStn	pndaStm	V;1;SG;PST;COL
+pndaStn	pndaStin	V;2;PL;PST;COL
+pndaStn	pndaStn	V;3;PL;PST;COL
+pnhan Sdn	pnhun Sdi	V;2;SG;PST;COL
+pnhan Sdn	pnhun Sd	V;3;SG;PST;COL
+pnhan Sdn	pnhun Sdim	V;1;PL;PST;COL
+pnhan Sdn	pnhun Sdm	V;1;SG;PST;COL
+pnhan Sdn	pnhun Sdin	V;2;PL;PST;COL
+pnhan Sdn	pnhun Sdn	V;3;PL;PST;COL
+pnhan krdn	pnhun krdi	V;2;SG;PST;COL
+pnhan krdn	pnhun krd	V;3;SG;PST;COL
+pnhan krdn	pnhun krdim	V;1;PL;PST;COL
+pnhan krdn	pnhun krdm	V;1;SG;PST;COL
+pnhan krdn	pnhun krdin	V;2;PL;PST;COL
+pnhan krdn	pnhun krdn	V;3;PL;PST;COL
+piustn	piusti	V;2;SG;PST;COL
+piustn	piust	V;3;SG;PST;COL
+piustn	piustim	V;1;PL;PST;COL
+piustn	piustm	V;1;SG;PST;COL
+piustn	piustin	V;2;PL;PST;COL
+piustn	piustn	V;3;PL;PST;COL
+puSidn	puSidi	V;2;SG;PST;COL
+puSidn	puSid	V;3;SG;PST;COL
+puSidn	puSidim	V;1;PL;PST;COL
+puSidn	puSidm	V;1;SG;PST;COL
+puSidn	puSidin	V;2;PL;PST;COL
+puSidn	puSidn	V;3;PL;PST;COL
+tbrik gftn	tbrik gfti	V;2;SG;PST;COL
+tbrik gftn	tbrik gft	V;3;SG;PST;COL
+tbrik gftn	tbrik gftim	V;1;PL;PST;COL
+tbrik gftn	tbrik gftm	V;1;SG;PST;COL
+tbrik gftn	tbrik gftin	V;2;PL;PST;COL
+tbrik gftn	tbrik gftn	V;3;PL;PST;COL
+tJdid nz:r krdn	tJdid nz:r krdi	V;2;SG;PST;COL
+tJdid nz:r krdn	tJdid nz:r krd	V;3;SG;PST;COL
+tJdid nz:r krdn	tJdid nz:r krdim	V;1;PL;PST;COL
+tJdid nz:r krdn	tJdid nz:r krdm	V;1;SG;PST;COL
+tJdid nz:r krdn	tJdid nz:r krdin	V;2;PL;PST;COL
+tJdid nz:r krdn	tJdid nz:r krdn	V;3;PL;PST;COL
+tHs*il krdn	tHs*il krdi	V;2;SG;PST;COL
+tHs*il krdn	tHs*il krd	V;3;SG;PST;COL
+tHs*il krdn	tHs*il krdim	V;1;PL;PST;COL
+tHs*il krdn	tHs*il krdm	V;1;SG;PST;COL
+tHs*il krdn	tHs*il krdin	V;2;PL;PST;COL
+tHs*il krdn	tHs*il krdn	V;3;PL;PST;COL
+tHml krdn	tHml krdi	V;2;SG;PST;COL
+tHml krdn	tHml krd	V;3;SG;PST;COL
+tHml krdn	tHml krdim	V;1;PL;PST;COL
+tHml krdn	tHml krdm	V;1;SG;PST;COL
+tHml krdn	tHml krdin	V;2;PL;PST;COL
+tHml krdn	tHml krdn	V;3;PL;PST;COL
+traSidn	traSidi	V;2;SG;PST;COL
+traSidn	traSid	V;3;SG;PST;COL
+traSidn	traSidim	V;1;PL;PST;COL
+traSidn	traSidm	V;1;SG;PST;COL
+traSidn	traSidin	V;2;PL;PST;COL
+traSidn	traSidn	V;3;PL;PST;COL
+trJmh krdn	trJmh krdi	V;2;SG;PST;COL
+trJmh krdn	trJmh krd	V;3;SG;PST;COL
+trJmh krdn	trJmh krdim	V;1;PL;PST;COL
+trJmh krdn	trJmh krdm	V;1;SG;PST;COL
+trJmh krdn	trJmh krdin	V;2;PL;PST;COL
+trJmh krdn	trJmh krdn	V;3;PL;PST;COL
+trkidn	trkidi	V;2;SG;PST;COL
+trkidn	trkid	V;3;SG;PST;COL
+trkidn	trkidim	V;1;PL;PST;COL
+trkidn	trkidm	V;1;SG;PST;COL
+trkidn	trkidin	V;2;PL;PST;COL
+trkidn	trkidn	V;3;PL;PST;COL
+tslim Sdn	tslim Sdi	V;2;SG;PST;COL
+tslim Sdn	tslim Sd	V;3;SG;PST;COL
+tslim Sdn	tslim Sdim	V;1;PL;PST;COL
+tslim Sdn	tslim Sdm	V;1;SG;PST;COL
+tslim Sdn	tslim Sdin	V;2;PL;PST;COL
+tslim Sdn	tslim Sdn	V;3;PL;PST;COL
+tSrif a:urdn	tSrif a:urdi	V;2;SG;PST;COL
+tSrif a:urdn	tSrif a:urd	V;3;SG;PST;COL
+tSrif a:urdn	tSrif a:urdim	V;1;PL;PST;COL
+tSrif a:urdn	tSrif a:urdm	V;1;SG;PST;COL
+tSrif a:urdn	tSrif a:urdin	V;2;PL;PST;COL
+tSrif a:urdn	tSrif a:urdn	V;3;PL;PST;COL
+tSrif brdn	tSrif brdi	V;2;SG;PST;COL
+tSrif brdn	tSrif brd	V;3;SG;PST;COL
+tSrif brdn	tSrif brdim	V;1;PL;PST;COL
+tSrif brdn	tSrif brdm	V;1;SG;PST;COL
+tSrif brdn	tSrif brdin	V;2;PL;PST;COL
+tSrif brdn	tSrif brdn	V;3;PL;PST;COL
+tSkr krdn	tSkr krdi	V;2;SG;PST;COL
+tSkr krdn	tSkr krd	V;3;SG;PST;COL
+tSkr krdn	tSkr krdim	V;1;PL;PST;COL
+tSkr krdn	tSkr krdm	V;1;SG;PST;COL
+tSkr krdn	tSkr krdin	V;2;PL;PST;COL
+tSkr krdn	tSkr krdn	V;3;PL;PST;COL
+ts*mim grftn	ts*mim grfti	V;2;SG;PST;COL
+ts*mim grftn	ts*mim grft	V;3;SG;PST;COL
+ts*mim grftn	ts*mim grftim	V;1;PL;PST;COL
+ts*mim grftn	ts*mim grftm	V;1;SG;PST;COL
+ts*mim grftn	ts*mim grftin	V;2;PL;PST;COL
+ts*mim grftn	ts*mim grftn	V;3;PL;PST;COL
+ts*ur krdn	ts*ur krdi	V;2;SG;PST;COL
+ts*ur krdn	ts*ur krd	V;3;SG;PST;COL
+ts*ur krdn	ts*ur krdim	V;1;PL;PST;COL
+ts*ur krdn	ts*ur krdm	V;1;SG;PST;COL
+ts*ur krdn	ts*ur krdin	V;2;PL;PST;COL
+ts*ur krdn	ts*ur krdn	V;3;PL;PST;COL
+t?*arf krdn	t?*arf krdi	V;2;SG;PST;COL
+t?*arf krdn	t?*arf krd	V;3;SG;PST;COL
+t?*arf krdn	t?*arf krdim	V;1;PL;PST;COL
+t?*arf krdn	t?*arf krdm	V;1;SG;PST;COL
+t?*arf krdn	t?*arf krdin	V;2;PL;PST;COL
+t?*arf krdn	t?*arf krdn	V;3;PL;PST;COL
+t?*Jb krdn	t?*Jb krdi	V;2;SG;PST;COL
+t?*Jb krdn	t?*Jb krd	V;3;SG;PST;COL
+t?*Jb krdn	t?*Jb krdim	V;1;PL;PST;COL
+t?*Jb krdn	t?*Jb krdm	V;1;SG;PST;COL
+t?*Jb krdn	t?*Jb krdin	V;2;PL;PST;COL
+t?*Jb krdn	t?*Jb krdn	V;3;PL;PST;COL
+t?*iin krdn	t?*iin krdi	V;2;SG;PST;COL
+t?*iin krdn	t?*iin krd	V;3;SG;PST;COL
+t?*iin krdn	t?*iin krdim	V;1;PL;PST;COL
+t?*iin krdn	t?*iin krdm	V;1;SG;PST;COL
+t?*iin krdn	t?*iin krdin	V;2;PL;PST;COL
+t?*iin krdn	t?*iin krdn	V;3;PL;PST;COL
+tfriH krdn	tfriH krdi	V;2;SG;PST;COL
+tfriH krdn	tfriH krd	V;3;SG;PST;COL
+tfriH krdn	tfriH krdim	V;1;PL;PST;COL
+tfriH krdn	tfriH krdm	V;1;SG;PST;COL
+tfriH krdn	tfriH krdin	V;2;PL;PST;COL
+tfriH krdn	tfriH krdn	V;3;PL;PST;COL
+tfsir krdn	tfsir krdi	V;2;SG;PST;COL
+tfsir krdn	tfsir krd	V;3;SG;PST;COL
+tfsir krdn	tfsir krdim	V;1;PL;PST;COL
+tfsir krdn	tfsir krdm	V;1;SG;PST;COL
+tfsir krdn	tfsir krdin	V;2;PL;PST;COL
+tfsir krdn	tfsir krdn	V;3;PL;PST;COL
+tqih krdn	tqih krdi	V;2;SG;PST;COL
+tqih krdn	tqih krd	V;3;SG;PST;COL
+tqih krdn	tqih krdim	V;1;PL;PST;COL
+tqih krdn	tqih krdm	V;1;SG;PST;COL
+tqih krdn	tqih krdin	V;2;PL;PST;COL
+tqih krdn	tqih krdn	V;3;PL;PST;COL
+tquit krdn	tquit krdi	V;2;SG;PST;COL
+tquit krdn	tquit krd	V;3;SG;PST;COL
+tquit krdn	tquit krdim	V;1;PL;PST;COL
+tquit krdn	tquit krdm	V;1;SG;PST;COL
+tquit krdn	tquit krdin	V;2;PL;PST;COL
+tquit krdn	tquit krdn	V;3;PL;PST;COL
+tkan xurdn	tkun xurdi	V;2;SG;PST;COL
+tkan xurdn	tkun xurd	V;3;SG;PST;COL
+tkan xurdn	tkun xurdim	V;1;PL;PST;COL
+tkan xurdn	tkun xurdm	V;1;SG;PST;COL
+tkan xurdn	tkun xurdin	V;2;PL;PST;COL
+tkan xurdn	tkun xurdn	V;3;PL;PST;COL
+tkrar krdn	tkrar krdi	V;2;SG;PST;COL
+tkrar krdn	tkrar krd	V;3;SG;PST;COL
+tkrar krdn	tkrar krdim	V;1;PL;PST;COL
+tkrar krdn	tkrar krdm	V;1;SG;PST;COL
+tkrar krdn	tkrar krdin	V;2;PL;PST;COL
+tkrar krdn	tkrar krdn	V;3;PL;PST;COL
+tkzng zdn	tkzng zdi	V;2;SG;PST;COL
+tkzng zdn	tkzng zd	V;3;SG;PST;COL
+tkzng zdn	tkzng zdim	V;1;PL;PST;COL
+tkzng zdn	tkzng zdm	V;1;SG;PST;COL
+tkzng zdn	tkzng zdin	V;2;PL;PST;COL
+tkzng zdn	tkzng zdn	V;3;PL;PST;COL
+tlfz: krdn	tlfz: krdi	V;2;SG;PST;COL
+tlfz: krdn	tlfz: krd	V;3;SG;PST;COL
+tlfz: krdn	tlfz: krdim	V;1;PL;PST;COL
+tlfz: krdn	tlfz: krdm	V;1;SG;PST;COL
+tlfz: krdn	tlfz: krdin	V;2;PL;PST;COL
+tlfz: krdn	tlfz: krdn	V;3;PL;PST;COL
+tmaSa krdn	tmaSa krdi	V;2;SG;PST;COL
+tmaSa krdn	tmaSa krd	V;3;SG;PST;COL
+tmaSa krdn	tmaSa krdim	V;1;PL;PST;COL
+tmaSa krdn	tmaSa krdm	V;1;SG;PST;COL
+tmaSa krdn	tmaSa krdin	V;2;PL;PST;COL
+tmaSa krdn	tmaSa krdn	V;3;PL;PST;COL
+tmam Sdn	tmum Sdi	V;2;SG;PST;COL
+tmam Sdn	tmum Sd	V;3;SG;PST;COL
+tmam Sdn	tmum Sdim	V;1;PL;PST;COL
+tmam Sdn	tmum Sdm	V;1;SG;PST;COL
+tmam Sdn	tmum Sdin	V;2;PL;PST;COL
+tmam Sdn	tmum Sdn	V;3;PL;PST;COL
+tmam krdn	tmum krdi	V;2;SG;PST;COL
+tmam krdn	tmum krd	V;3;SG;PST;COL
+tmam krdn	tmum krdim	V;1;PL;PST;COL
+tmam krdn	tmum krdm	V;1;SG;PST;COL
+tmam krdn	tmum krdin	V;2;PL;PST;COL
+tmam krdn	tmum krdn	V;3;PL;PST;COL
+tmrin krdn	tmrin krdi	V;2;SG;PST;COL
+tmrin krdn	tmrin krd	V;3;SG;PST;COL
+tmrin krdn	tmrin krdim	V;1;PL;PST;COL
+tmrin krdn	tmrin krdm	V;1;SG;PST;COL
+tmrin krdn	tmrin krdin	V;2;PL;PST;COL
+tmrin krdn	tmrin krdn	V;3;PL;PST;COL
+tmiz krdn	tmiz krdi	V;2;SG;PST;COL
+tmiz krdn	tmiz krd	V;3;SG;PST;COL
+tmiz krdn	tmiz krdim	V;1;PL;PST;COL
+tmiz krdn	tmiz krdm	V;1;SG;PST;COL
+tmiz krdn	tmiz krdin	V;2;PL;PST;COL
+tmiz krdn	tmiz krdn	V;3;PL;PST;COL
+tnidn	tnidi	V;2;SG;PST;COL
+tnidn	tnid	V;3;SG;PST;COL
+tnidn	tnidim	V;1;PL;PST;COL
+tnidn	tnidm	V;1;SG;PST;COL
+tnidn	tnidin	V;2;PL;PST;COL
+tnidn	tnidn	V;3;PL;PST;COL
+tnz:im krdn	tnz:im krdi	V;2;SG;PST;COL
+tnz:im krdn	tnz:im krd	V;3;SG;PST;COL
+tnz:im krdn	tnz:im krdim	V;1;PL;PST;COL
+tnz:im krdn	tnz:im krdm	V;1;SG;PST;COL
+tnz:im krdn	tnz:im krdin	V;2;PL;PST;COL
+tnz:im krdn	tnz:im krdn	V;3;PL;PST;COL
+tuJh krdn	tuJh krdi	V;2;SG;PST;COL
+tuJh krdn	tuJh krd	V;3;SG;PST;COL
+tuJh krdn	tuJh krdim	V;1;PL;PST;COL
+tuJh krdn	tuJh krdm	V;1;SG;PST;COL
+tuJh krdn	tuJh krdin	V;2;PL;PST;COL
+tuJh krdn	tuJh krdn	V;3;PL;PST;COL
+tus*if krdn	tus*if krdi	V;2;SG;PST;COL
+tus*if krdn	tus*if krd	V;3;SG;PST;COL
+tus*if krdn	tus*if krdim	V;1;PL;PST;COL
+tus*if krdn	tus*if krdm	V;1;SG;PST;COL
+tus*if krdn	tus*if krdin	V;2;PL;PST;COL
+tus*if krdn	tus*if krdn	V;3;PL;PST;COL
+s:abt krdn	s:abt krdi	V;2;SG;PST;COL
+s:abt krdn	s:abt krd	V;3;SG;PST;COL
+s:abt krdn	s:abt krdim	V;1;PL;PST;COL
+s:abt krdn	s:abt krdm	V;1;SG;PST;COL
+s:abt krdn	s:abt krdin	V;2;PL;PST;COL
+s:abt krdn	s:abt krdn	V;3;PL;PST;COL
+Ja gz*aStn	Ja gz*aSti	V;2;SG;PST;COL
+Ja gz*aStn	Ja gz*aSt	V;3;SG;PST;COL
+Ja gz*aStn	Ja gz*aStim	V;1;PL;PST;COL
+Ja gz*aStn	Ja gz*aStm	V;1;SG;PST;COL
+Ja gz*aStn	Ja gz*aStin	V;2;PL;PST;COL
+Ja gz*aStn	Ja gz*aStn	V;3;PL;PST;COL
+Jda Sdn	Jda Sdi	V;2;SG;PST;COL
+Jda Sdn	Jda Sd	V;3;SG;PST;COL
+Jda Sdn	Jda Sdim	V;1;PL;PST;COL
+Jda Sdn	Jda Sdm	V;1;SG;PST;COL
+Jda Sdn	Jda Sdin	V;2;PL;PST;COL
+Jda Sdn	Jda Sdn	V;3;PL;PST;COL
+Jda krdn	Jda krdi	V;2;SG;PST;COL
+Jda krdn	Jda krd	V;3;SG;PST;COL
+Jda krdn	Jda krdim	V;1;PL;PST;COL
+Jda krdn	Jda krdm	V;1;SG;PST;COL
+Jda krdn	Jda krdin	V;2;PL;PST;COL
+Jda krdn	Jda krdn	V;3;PL;PST;COL
+JstJu krdn	JstJu krdi	V;2;SG;PST;COL
+JstJu krdn	JstJu krd	V;3;SG;PST;COL
+JstJu krdn	JstJu krdim	V;1;PL;PST;COL
+JstJu krdn	JstJu krdm	V;1;SG;PST;COL
+JstJu krdn	JstJu krdin	V;2;PL;PST;COL
+JstJu krdn	JstJu krdn	V;3;PL;PST;COL
+Jlq zdn	Jlq zdi	V;2;SG;PST;COL
+Jlq zdn	Jlq zd	V;3;SG;PST;COL
+Jlq zdn	Jlq zdim	V;1;PL;PST;COL
+Jlq zdn	Jlq zdm	V;1;SG;PST;COL
+Jlq zdn	Jlq zdin	V;2;PL;PST;COL
+Jlq zdn	Jlq zdn	V;3;PL;PST;COL
+Jm?*a:uri krdn	Jm?*a:uri krdi	V;2;SG;PST;COL
+Jm?*a:uri krdn	Jm?*a:uri krd	V;3;SG;PST;COL
+Jm?*a:uri krdn	Jm?*a:uri krdim	V;1;PL;PST;COL
+Jm?*a:uri krdn	Jm?*a:uri krdm	V;1;SG;PST;COL
+Jm?*a:uri krdn	Jm?*a:uri krdin	V;2;PL;PST;COL
+Jm?*a:uri krdn	Jm?*a:uri krdn	V;3;PL;PST;COL
+Jm?* Sdn	Jm?* Sdi	V;2;SG;PST;COL
+Jm?* Sdn	Jm?* Sd	V;3;SG;PST;COL
+Jm?* Sdn	Jm?* Sdim	V;1;PL;PST;COL
+Jm?* Sdn	Jm?* Sdm	V;1;SG;PST;COL
+Jm?* Sdn	Jm?* Sdin	V;2;PL;PST;COL
+Jm?* Sdn	Jm?* Sdn	V;3;PL;PST;COL
+Jugir Sdn	Jugir Sdi	V;2;SG;PST;COL
+Jugir Sdn	Jugir Sd	V;3;SG;PST;COL
+Jugir Sdn	Jugir Sdim	V;1;PL;PST;COL
+Jugir Sdn	Jugir Sdm	V;1;SG;PST;COL
+Jugir Sdn	Jugir Sdin	V;2;PL;PST;COL
+Jugir Sdn	Jugir Sdn	V;3;PL;PST;COL
+Cidn	Cidi	V;2;SG;PST;COL
+Cidn	Cid	V;3;SG;PST;COL
+Cidn	Cidim	V;1;PL;PST;COL
+Cidn	Cidm	V;1;SG;PST;COL
+Cidn	Cidin	V;2;PL;PST;COL
+Cidn	Cidn	V;3;PL;PST;COL
+Cruk Sdn	Cruk Sdi	V;2;SG;PST;COL
+Cruk Sdn	Cruk Sd	V;3;SG;PST;COL
+Cruk Sdn	Cruk Sdim	V;1;PL;PST;COL
+Cruk Sdn	Cruk Sdm	V;1;SG;PST;COL
+Cruk Sdn	Cruk Sdin	V;2;PL;PST;COL
+Cruk Sdn	Cruk Sdn	V;3;PL;PST;COL
+Csbidn	Csbidi	V;2;SG;PST;COL
+Csbidn	Csbid	V;3;SG;PST;COL
+Csbidn	Csbidim	V;1;PL;PST;COL
+Csbidn	Csbidm	V;1;SG;PST;COL
+Csbidn	Csbidin	V;2;PL;PST;COL
+Csbidn	Csbidn	V;3;PL;PST;COL
+CSidn	CSidi	V;2;SG;PST;COL
+CSidn	CSid	V;3;SG;PST;COL
+CSidn	CSidim	V;1;PL;PST;COL
+CSidn	CSidm	V;1;SG;PST;COL
+CSidn	CSidin	V;2;PL;PST;COL
+CSidn	CSidn	V;3;PL;PST;COL
+Cindn	Cindi	V;2;SG;PST;COL
+Cindn	Cind	V;3;SG;PST;COL
+Cindn	Cindim	V;1;PL;PST;COL
+Cindn	Cindm	V;1;SG;PST;COL
+Cindn	Cindin	V;2;PL;PST;COL
+Cindn	Cindn	V;3;PL;PST;COL
+Haz+r krdn	Haz+r krdi	V;2;SG;PST;COL
+Haz+r krdn	Haz+r krd	V;3;SG;PST;COL
+Haz+r krdn	Haz+r krdim	V;1;PL;PST;COL
+Haz+r krdn	Haz+r krdm	V;1;SG;PST;COL
+Haz+r krdn	Haz+r krdin	V;2;PL;PST;COL
+Haz+r krdn	Haz+r krdn	V;3;PL;PST;COL
+Hrf zdn	Hrf zdi	V;2;SG;PST;COL
+Hrf zdn	Hrf zd	V;3;SG;PST;COL
+Hrf zdn	Hrf zdim	V;1;PL;PST;COL
+Hrf zdn	Hrf zdm	V;1;SG;PST;COL
+Hrf zdn	Hrf zdin	V;2;PL;PST;COL
+Hrf zdn	Hrf zdn	V;3;PL;PST;COL
+Hrkt krdn	Hrkt krdi	V;2;SG;PST;COL
+Hrkt krdn	Hrkt krd	V;3;SG;PST;COL
+Hrkt krdn	Hrkt krdim	V;1;PL;PST;COL
+Hrkt krdn	Hrkt krdm	V;1;SG;PST;COL
+Hrkt krdn	Hrkt krdin	V;2;PL;PST;COL
+Hrkt krdn	Hrkt krdn	V;3;PL;PST;COL
+Hsab krdn	Hsab krdi	V;2;SG;PST;COL
+Hsab krdn	Hsab krd	V;3;SG;PST;COL
+Hsab krdn	Hsab krdim	V;1;PL;PST;COL
+Hsab krdn	Hsab krdm	V;1;SG;PST;COL
+Hsab krdn	Hsab krdin	V;2;PL;PST;COL
+Hsab krdn	Hsab krdn	V;3;PL;PST;COL
+Hs krdn	Hs krdi	V;2;SG;PST;COL
+Hs krdn	Hs krd	V;3;SG;PST;COL
+Hs krdn	Hs krdim	V;1;PL;PST;COL
+Hs krdn	Hs krdm	V;1;SG;PST;COL
+Hs krdn	Hs krdin	V;2;PL;PST;COL
+Hs krdn	Hs krdn	V;3;PL;PST;COL
+HSri Sdn	HSri Sdi	V;2;SG;PST;COL
+HSri Sdn	HSri Sd	V;3;SG;PST;COL
+HSri Sdn	HSri Sdim	V;1;PL;PST;COL
+HSri Sdn	HSri Sdm	V;1;SG;PST;COL
+HSri Sdn	HSri Sdin	V;2;PL;PST;COL
+HSri Sdn	HSri Sdn	V;3;PL;PST;COL
+Hfz: krdn	Hfz: krdi	V;2;SG;PST;COL
+Hfz: krdn	Hfz: krd	V;3;SG;PST;COL
+Hfz: krdn	Hfz: krdim	V;1;PL;PST;COL
+Hfz: krdn	Hfz: krdm	V;1;SG;PST;COL
+Hfz: krdn	Hfz: krdin	V;2;PL;PST;COL
+Hfz: krdn	Hfz: krdn	V;3;PL;PST;COL
+Hmam krdn	Hmum krdi	V;2;SG;PST;COL
+Hmam krdn	Hmum krd	V;3;SG;PST;COL
+Hmam krdn	Hmum krdim	V;1;PL;PST;COL
+Hmam krdn	Hmum krdm	V;1;SG;PST;COL
+Hmam krdn	Hmum krdin	V;2;PL;PST;COL
+Hmam krdn	Hmum krdn	V;3;PL;PST;COL
+xastn	xasti	V;2;SG;PST;COL
+xastn	xast	V;3;SG;PST;COL
+xastn	xastim	V;1;PL;PST;COL
+xastn	xastm	V;1;SG;PST;COL
+xastn	xastin	V;2;PL;PST;COL
+xastn	xastn	V;3;PL;PST;COL
+xal kubidn	xal kubidi	V;2;SG;PST;COL
+xal kubidn	xal kubid	V;3;SG;PST;COL
+xal kubidn	xal kubidim	V;1;PL;PST;COL
+xal kubidn	xal kubidm	V;1;SG;PST;COL
+xal kubidn	xal kubidin	V;2;PL;PST;COL
+xal kubidn	xal kubidn	V;3;PL;PST;COL
+ix bstn	ix bsti	V;2;SG;PST;COL
+ix bstn	ix bst	V;3;SG;PST;COL
+ix bstn	ix bstim	V;1;PL;PST;COL
+ix bstn	ix bstm	V;1;SG;PST;COL
+ix bstn	ix bstin	V;2;PL;PST;COL
+ix bstn	ix bstn	V;3;PL;PST;COL
+xtnh krdn	xtnh krdi	V;2;SG;PST;COL
+xtnh krdn	xtnh krd	V;3;SG;PST;COL
+xtnh krdn	xtnh krdim	V;1;PL;PST;COL
+xtnh krdn	xtnh krdm	V;1;SG;PST;COL
+xtnh krdn	xtnh krdin	V;2;PL;PST;COL
+xtnh krdn	xtnh krdn	V;3;PL;PST;COL
+xrid krdn	xrid krdi	V;2;SG;PST;COL
+xrid krdn	xrid krd	V;3;SG;PST;COL
+xrid krdn	xrid krdim	V;1;PL;PST;COL
+xrid krdn	xrid krdm	V;1;SG;PST;COL
+xrid krdn	xrid krdin	V;2;PL;PST;COL
+xrid krdn	xrid krdn	V;3;PL;PST;COL
+xridn	xridi	V;2;SG;PST;COL
+xridn	xrid	V;3;SG;PST;COL
+xridn	xridim	V;1;PL;PST;COL
+xridn	xridm	V;1;SG;PST;COL
+xridn	xridin	V;2;PL;PST;COL
+xridn	xridn	V;3;PL;PST;COL
+xzidn	xzidi	V;2;SG;PST;COL
+xzidn	xzid	V;3;SG;PST;COL
+xzidn	xzidim	V;1;PL;PST;COL
+xzidn	xzidm	V;1;SG;PST;COL
+xzidn	xzidin	V;2;PL;PST;COL
+xzidn	xzidn	V;3;PL;PST;COL
+xt* zdn	xt* zdi	V;2;SG;PST;COL
+xt* zdn	xt* zd	V;3;SG;PST;COL
+xt* zdn	xt* zdim	V;1;PL;PST;COL
+xt* zdn	xt* zdm	V;1;SG;PST;COL
+xt* zdn	xt* zdin	V;2;PL;PST;COL
+xt* zdn	xt* zdn	V;3;PL;PST;COL
+xns:i krdn	xns:i krdi	V;2;SG;PST;COL
+xns:i krdn	xns:i krd	V;3;SG;PST;COL
+xns:i krdn	xns:i krdim	V;1;PL;PST;COL
+xns:i krdn	xns:i krdm	V;1;SG;PST;COL
+xns:i krdn	xns:i krdin	V;2;PL;PST;COL
+xns:i krdn	xns:i krdn	V;3;PL;PST;COL
+xndidn	xndidi	V;2;SG;PST;COL
+xndidn	xndid	V;3;SG;PST;COL
+xndidn	xndidim	V;1;PL;PST;COL
+xndidn	xndidm	V;1;SG;PST;COL
+xndidn	xndidin	V;2;PL;PST;COL
+xndidn	xndidn	V;3;PL;PST;COL
+xndsn	xndsi	V;2;SG;PST;COL
+xndsn	xnds	V;3;SG;PST;COL
+xndsn	xndsim	V;1;PL;PST;COL
+xndsn	xndsm	V;1;SG;PST;COL
+xndsn	xndsin	V;2;PL;PST;COL
+xndsn	xndsn	V;3;PL;PST;COL
+xuab didn	xuab didi	V;2;SG;PST;COL
+xuab didn	xuab did	V;3;SG;PST;COL
+xuab didn	xuab didim	V;1;PL;PST;COL
+xuab didn	xuab didm	V;1;SG;PST;COL
+xuab didn	xuab didin	V;2;PL;PST;COL
+xuab didn	xuab didn	V;3;PL;PST;COL
+xuastn	xuasti	V;2;SG;PST;COL
+xuastn	xuast	V;3;SG;PST;COL
+xuastn	xuastim	V;1;PL;PST;COL
+xuastn	xuastm	V;1;SG;PST;COL
+xuastn	xuastin	V;2;PL;PST;COL
+xuastn	xuastn	V;3;PL;PST;COL
+xuandn	xundi	V;2;SG;PST;COL
+xuandn	xund	V;3;SG;PST;COL
+xuandn	xundim	V;1;PL;PST;COL
+xuandn	xundm	V;1;SG;PST;COL
+xuandn	xundin	V;2;PL;PST;COL
+xuandn	xundn	V;3;PL;PST;COL
+xudkSi krdn	xudkSi krdi	V;2;SG;PST;COL
+xudkSi krdn	xudkSi krd	V;3;SG;PST;COL
+xudkSi krdn	xudkSi krdim	V;1;PL;PST;COL
+xudkSi krdn	xudkSi krdm	V;1;SG;PST;COL
+xudkSi krdn	xudkSi krdin	V;2;PL;PST;COL
+xudkSi krdn	xudkSi krdn	V;3;PL;PST;COL
+xurdn	xurdi	V;2;SG;PST;COL
+xurdn	xurd	V;3;SG;PST;COL
+xurdn	xurdim	V;1;PL;PST;COL
+xurdn	xurdm	V;1;SG;PST;COL
+xurdn	xurdin	V;2;PL;PST;COL
+xurdn	xurdn	V;3;PL;PST;COL
+didn	didi	V;2;SG;PST;COL
+didn	did	V;3;SG;PST;COL
+didn	didim	V;1;PL;PST;COL
+didn	didm	V;1;SG;PST;COL
+didn	didin	V;2;PL;PST;COL
+didn	didn	V;3;PL;PST;COL
+draz kSidn	draz kSidi	V;2;SG;PST;COL
+draz kSidn	draz kSid	V;3;SG;PST;COL
+draz kSidn	draz kSidim	V;1;PL;PST;COL
+draz kSidn	draz kSidm	V;1;SG;PST;COL
+draz kSidn	draz kSidin	V;2;PL;PST;COL
+draz kSidn	draz kSidn	V;3;PL;PST;COL
+drd krdn	drd krdi	V;2;SG;PST;COL
+drd krdn	drd krd	V;3;SG;PST;COL
+drd krdn	drd krdim	V;1;PL;PST;COL
+drd krdn	drd krdm	V;1;SG;PST;COL
+drd krdn	drd krdin	V;2;PL;PST;COL
+drd krdn	drd krdn	V;3;PL;PST;COL
+drd grftn	drd grfti	V;2;SG;PST;COL
+drd grftn	drd grft	V;3;SG;PST;COL
+drd grftn	drd grftim	V;1;PL;PST;COL
+drd grftn	drd grftm	V;1;SG;PST;COL
+drd grftn	drd grftin	V;2;PL;PST;COL
+drd grftn	drd grftn	V;3;PL;PST;COL
+drst krdn	drst krdi	V;2;SG;PST;COL
+drst krdn	drst krd	V;3;SG;PST;COL
+drst krdn	drst krdim	V;1;PL;PST;COL
+drst krdn	drst krdm	V;1;SG;PST;COL
+drst krdn	drst krdin	V;2;PL;PST;COL
+drst krdn	drst krdn	V;3;PL;PST;COL
+drs xuandn	drs xundi	V;2;SG;PST;COL
+drs xuandn	drs xund	V;3;SG;PST;COL
+drs xuandn	drs xundim	V;1;PL;PST;COL
+drs xuandn	drs xundm	V;1;SG;PST;COL
+drs xuandn	drs xundin	V;2;PL;PST;COL
+drs xuandn	drs xundn	V;3;PL;PST;COL
+dzdidn	dzdidi	V;2;SG;PST;COL
+dzdidn	dzdid	V;3;SG;PST;COL
+dzdidn	dzdidim	V;1;PL;PST;COL
+dzdidn	dzdidm	V;1;SG;PST;COL
+dzdidn	dzdidin	V;2;PL;PST;COL
+dzdidn	dzdidn	V;3;PL;PST;COL
+dzdi krdn	dzdi krdi	V;2;SG;PST;COL
+dzdi krdn	dzdi krd	V;3;SG;PST;COL
+dzdi krdn	dzdi krdim	V;1;PL;PST;COL
+dzdi krdn	dzdi krdm	V;1;SG;PST;COL
+dzdi krdn	dzdi krdin	V;2;PL;PST;COL
+dzdi krdn	dzdi krdn	V;3;PL;PST;COL
+dstbrd zdn	dstbrd zdi	V;2;SG;PST;COL
+dstbrd zdn	dstbrd zd	V;3;SG;PST;COL
+dstbrd zdn	dstbrd zdim	V;1;PL;PST;COL
+dstbrd zdn	dstbrd zdm	V;1;SG;PST;COL
+dstbrd zdn	dstbrd zdin	V;2;PL;PST;COL
+dstbrd zdn	dstbrd zdn	V;3;PL;PST;COL
+dfn krdn	dfn krdi	V;2;SG;PST;COL
+dfn krdn	dfn krd	V;3;SG;PST;COL
+dfn krdn	dfn krdim	V;1;PL;PST;COL
+dfn krdn	dfn krdm	V;1;SG;PST;COL
+dfn krdn	dfn krdin	V;2;PL;PST;COL
+dfn krdn	dfn krdn	V;3;PL;PST;COL
+dl bh dria zdn	dl bh dria zdi	V;2;SG;PST;COL
+dl bh dria zdn	dl bh dria zd	V;3;SG;PST;COL
+dl bh dria zdn	dl bh dria zdim	V;1;PL;PST;COL
+dl bh dria zdn	dl bh dria zdm	V;1;SG;PST;COL
+dl bh dria zdn	dl bh dria zdin	V;2;PL;PST;COL
+dl bh dria zdn	dl bh dria zdn	V;3;PL;PST;COL
+dmidn	dmidi	V;2;SG;PST;COL
+dmidn	dmid	V;3;SG;PST;COL
+dmidn	dmidim	V;1;PL;PST;COL
+dmidn	dmidm	V;1;SG;PST;COL
+dmidn	dmidin	V;2;PL;PST;COL
+dmidn	dmidn	V;3;PL;PST;COL
+dnbal krdn	dnbal krdi	V;2;SG;PST;COL
+dnbal krdn	dnbal krd	V;3;SG;PST;COL
+dnbal krdn	dnbal krdim	V;1;PL;PST;COL
+dnbal krdn	dnbal krdm	V;1;SG;PST;COL
+dnbal krdn	dnbal krdin	V;2;PL;PST;COL
+dnbal krdn	dnbal krdn	V;3;PL;PST;COL
+duS grftn	duS grfti	V;2;SG;PST;COL
+duS grftn	duS grft	V;3;SG;PST;COL
+duS grftn	duS grftim	V;1;PL;PST;COL
+duS grftn	duS grftm	V;1;SG;PST;COL
+duS grftn	duS grftin	V;2;PL;PST;COL
+duS grftn	duS grftn	V;3;PL;PST;COL
+z*xirh krdn	z*xirh krdi	V;2;SG;PST;COL
+z*xirh krdn	z*xirh krd	V;3;SG;PST;COL
+z*xirh krdn	z*xirh krdim	V;1;PL;PST;COL
+z*xirh krdn	z*xirh krdm	V;1;SG;PST;COL
+z*xirh krdn	z*xirh krdin	V;2;PL;PST;COL
+z*xirh krdn	z*xirh krdn	V;3;PL;PST;COL
+rast krdn	rast krdi	V;2;SG;PST;COL
+rast krdn	rast krd	V;3;SG;PST;COL
+rast krdn	rast krdim	V;1;PL;PST;COL
+rast krdn	rast krdm	V;1;SG;PST;COL
+rast krdn	rast krdin	V;2;PL;PST;COL
+rast krdn	rast krdn	V;3;PL;PST;COL
+rast gftn	rast gfti	V;2;SG;PST;COL
+rast gftn	rast gft	V;3;SG;PST;COL
+rast gftn	rast gftim	V;1;PL;PST;COL
+rast gftn	rast gftm	V;1;SG;PST;COL
+rast gftn	rast gftin	V;2;PL;PST;COL
+rast gftn	rast gftn	V;3;PL;PST;COL
+rxtn	rxti	V;2;SG;PST;COL
+rxtn	rxt	V;3;SG;PST;COL
+rxtn	rxtim	V;1;PL;PST;COL
+rxtn	rxtm	V;1;SG;PST;COL
+rxtn	rxtin	V;2;PL;PST;COL
+rxtn	rxtn	V;3;PL;PST;COL
+rZim grftn	rZim grfti	V;2;SG;PST;COL
+rZim grftn	rZim grft	V;3;SG;PST;COL
+rZim grftn	rZim grftim	V;1;PL;PST;COL
+rZim grftn	rZim grftm	V;1;SG;PST;COL
+rZim grftn	rZim grftin	V;2;PL;PST;COL
+rZim grftn	rZim grftn	V;3;PL;PST;COL
+rsidn	rsidi	V;2;SG;PST;COL
+rsidn	rsid	V;3;SG;PST;COL
+rsidn	rsidim	V;1;PL;PST;COL
+rsidn	rsidm	V;1;SG;PST;COL
+rsidn	rsidin	V;2;PL;PST;COL
+rsidn	rsidn	V;3;PL;PST;COL
+rqs*idn	rqs*idi	V;2;SG;PST;COL
+rqs*idn	rqs*id	V;3;SG;PST;COL
+rqs*idn	rqs*idim	V;1;PL;PST;COL
+rqs*idn	rqs*idm	V;1;SG;PST;COL
+rqs*idn	rqs*idin	V;2;PL;PST;COL
+rqs*idn	rqs*idn	V;3;PL;PST;COL
+zHmt kSidn	zHmt kSidi	V;2;SG;PST;COL
+zHmt kSidn	zHmt kSid	V;3;SG;PST;COL
+zHmt kSidn	zHmt kSidim	V;1;PL;PST;COL
+zHmt kSidn	zHmt kSidm	V;1;SG;PST;COL
+zHmt kSidn	zHmt kSidin	V;2;PL;PST;COL
+zHmt kSidn	zHmt kSidn	V;3;PL;PST;COL
+zdn	zdi	V;2;SG;PST;COL
+zdn	zd	V;3;SG;PST;COL
+zdn	zdim	V;1;PL;PST;COL
+zdn	zdm	V;1;SG;PST;COL
+zdn	zdin	V;2;PL;PST;COL
+zdn	zdn	V;3;PL;PST;COL
+zndgi krdn	zndgi krdi	V;2;SG;PST;COL
+zndgi krdn	zndgi krd	V;3;SG;PST;COL
+zndgi krdn	zndgi krdim	V;1;PL;PST;COL
+zndgi krdn	zndgi krdm	V;1;SG;PST;COL
+zndgi krdn	zndgi krdin	V;2;PL;PST;COL
+zndgi krdn	zndgi krdn	V;3;PL;PST;COL
+zum krdn	zum krdi	V;2;SG;PST;COL
+zum krdn	zum krd	V;3;SG;PST;COL
+zum krdn	zum krdim	V;1;PL;PST;COL
+zum krdn	zum krdm	V;1;SG;PST;COL
+zum krdn	zum krdin	V;2;PL;PST;COL
+zum krdn	zum krdn	V;3;PL;PST;COL
+Zulidn	Zulidi	V;2;SG;PST;COL
+Zulidn	Zulid	V;3;SG;PST;COL
+Zulidn	Zulidim	V;1;PL;PST;COL
+Zulidn	Zulidm	V;1;SG;PST;COL
+Zulidn	Zulidin	V;2;PL;PST;COL
+Zulidn	Zulidn	V;3;PL;PST;COL
+sak zdn	sak zdi	V;2;SG;PST;COL
+sak zdn	sak zd	V;3;SG;PST;COL
+sak zdn	sak zdim	V;1;PL;PST;COL
+sak zdn	sak zdm	V;1;SG;PST;COL
+sak zdn	sak zdin	V;2;PL;PST;COL
+sak zdn	sak zdn	V;3;PL;PST;COL
+stdn	stdi	V;2;SG;PST;COL
+stdn	std	V;3;SG;PST;COL
+stdn	stdim	V;1;PL;PST;COL
+stdn	stdm	V;1;SG;PST;COL
+stdn	stdin	V;2;PL;PST;COL
+stdn	stdn	V;3;PL;PST;COL
+six xurdn	six xurdi	V;2;SG;PST;COL
+six xurdn	six xurd	V;3;SG;PST;COL
+six xurdn	six xurdim	V;1;PL;PST;COL
+six xurdn	six xurdm	V;1;SG;PST;COL
+six xurdn	six xurdin	V;2;PL;PST;COL
+six xurdn	six xurdn	V;3;PL;PST;COL
+sxn gftn	sxn gfti	V;2;SG;PST;COL
+sxn gftn	sxn gft	V;3;SG;PST;COL
+sxn gftn	sxn gftim	V;1;PL;PST;COL
+sxn gftn	sxn gftm	V;1;SG;PST;COL
+sxn gftn	sxn gftin	V;2;PL;PST;COL
+sxn gftn	sxn gftn	V;3;PL;PST;COL
+sridn	sridi	V;2;SG;PST;COL
+sridn	srid	V;3;SG;PST;COL
+sridn	sridim	V;1;PL;PST;COL
+sridn	sridm	V;1;SG;PST;COL
+sridn	sridin	V;2;PL;PST;COL
+sridn	sridn	V;3;PL;PST;COL
+srfh krdn	srfh krdi	V;2;SG;PST;COL
+srfh krdn	srfh krd	V;3;SG;PST;COL
+srfh krdn	srfh krdim	V;1;PL;PST;COL
+srfh krdn	srfh krdm	V;1;SG;PST;COL
+srfh krdn	srfh krdin	V;2;PL;PST;COL
+srfh krdn	srfh krdn	V;3;PL;PST;COL
+sr krdn	sr krdi	V;2;SG;PST;COL
+sr krdn	sr krd	V;3;SG;PST;COL
+sr krdn	sr krdim	V;1;PL;PST;COL
+sr krdn	sr krdm	V;1;SG;PST;COL
+sr krdn	sr krdin	V;2;PL;PST;COL
+sr krdn	sr krdn	V;3;PL;PST;COL
+srma xurdn	srma xurdi	V;2;SG;PST;COL
+srma xurdn	srma xurd	V;3;SG;PST;COL
+srma xurdn	srma xurdim	V;1;PL;PST;COL
+srma xurdn	srma xurdm	V;1;SG;PST;COL
+srma xurdn	srma xurdin	V;2;PL;PST;COL
+srma xurdn	srma xurdn	V;3;PL;PST;COL
+s?*i krdn	s?*i krdi	V;2;SG;PST;COL
+s?*i krdn	s?*i krd	V;3;SG;PST;COL
+s?*i krdn	s?*i krdim	V;1;PL;PST;COL
+s?*i krdn	s?*i krdm	V;1;SG;PST;COL
+s?*i krdn	s?*i krdin	V;2;PL;PST;COL
+s?*i krdn	s?*i krdn	V;3;PL;PST;COL
+sigar kSidn	sigar kSidi	V;2;SG;PST;COL
+sigar kSidn	sigar kSid	V;3;SG;PST;COL
+sigar kSidn	sigar kSidim	V;1;PL;PST;COL
+sigar kSidn	sigar kSidm	V;1;SG;PST;COL
+sigar kSidn	sigar kSidin	V;2;PL;PST;COL
+sigar kSidn	sigar kSidn	V;3;PL;PST;COL
+Sru?* krdn	Sru?* krdi	V;2;SG;PST;COL
+Sru?* krdn	Sru?* krd	V;3;SG;PST;COL
+Sru?* krdn	Sru?* krdim	V;1;PL;PST;COL
+Sru?* krdn	Sru?* krdm	V;1;SG;PST;COL
+Sru?* krdn	Sru?* krdin	V;2;PL;PST;COL
+Sru?* krdn	Sru?* krdn	V;3;PL;PST;COL
+Skait krdn	Skait krdi	V;2;SG;PST;COL
+Skait krdn	Skait krd	V;3;SG;PST;COL
+Skait krdn	Skait krdim	V;1;PL;PST;COL
+Skait krdn	Skait krdm	V;1;SG;PST;COL
+Skait krdn	Skait krdin	V;2;PL;PST;COL
+Skait krdn	Skait krdn	V;3;PL;PST;COL
+Skl grftn	Skl grfti	V;2;SG;PST;COL
+Skl grftn	Skl grft	V;3;SG;PST;COL
+Skl grftn	Skl grftim	V;1;PL;PST;COL
+Skl grftn	Skl grftm	V;1;SG;PST;COL
+Skl grftn	Skl grftin	V;2;PL;PST;COL
+Skl grftn	Skl grftn	V;3;PL;PST;COL
+Snasaii krdn	Snasaii krdi	V;2;SG;PST;COL
+Snasaii krdn	Snasaii krd	V;3;SG;PST;COL
+Snasaii krdn	Snasaii krdim	V;1;PL;PST;COL
+Snasaii krdn	Snasaii krdm	V;1;SG;PST;COL
+Snasaii krdn	Snasaii krdin	V;2;PL;PST;COL
+Snasaii krdn	Snasaii krdn	V;3;PL;PST;COL
+s*br krdn	s*bri	V;2;SG;PST;COL
+s*br krdn	s*br	V;3;SG;PST;COL
+s*br krdn	s*brim	V;1;PL;PST;COL
+s*br krdn	s*brm	V;1;SG;PST;COL
+s*br krdn	s*brin	V;2;PL;PST;COL
+s*br krdn	s*brn	V;3;PL;PST;COL
+s*Hbt krdn	s*Hbt krdi	V;2;SG;PST;COL
+s*Hbt krdn	s*Hbt krd	V;3;SG;PST;COL
+s*Hbt krdn	s*Hbt krdim	V;1;PL;PST;COL
+s*Hbt krdn	s*Hbt krdm	V;1;SG;PST;COL
+s*Hbt krdn	s*Hbt krdin	V;2;PL;PST;COL
+s*Hbt krdn	s*Hbt krdn	V;3;PL;PST;COL
+t*aqt a:urdn	t*aqt a:urdi	V;2;SG;PST;COL
+t*aqt a:urdn	t*aqt a:urd	V;3;SG;PST;COL
+t*aqt a:urdn	t*aqt a:urdim	V;1;PL;PST;COL
+t*aqt a:urdn	t*aqt a:urdm	V;1;SG;PST;COL
+t*aqt a:urdn	t*aqt a:urdin	V;2;PL;PST;COL
+t*aqt a:urdn	t*aqt a:urdn	V;3;PL;PST;COL
+t*rfdari krdn	t*rfdari krdi	V;2;SG;PST;COL
+t*rfdari krdn	t*rfdari krd	V;3;SG;PST;COL
+t*rfdari krdn	t*rfdari krdim	V;1;PL;PST;COL
+t*rfdari krdn	t*rfdari krdm	V;1;SG;PST;COL
+t*rfdari krdn	t*rfdari krdin	V;2;PL;PST;COL
+t*rfdari krdn	t*rfdari krdn	V;3;PL;PST;COL
+?*rq krdn	?*rq krdi	V;2;SG;PST;COL
+?*rq krdn	?*rq krd	V;3;SG;PST;COL
+?*rq krdn	?*rq krdim	V;1;PL;PST;COL
+?*rq krdn	?*rq krdm	V;1;SG;PST;COL
+?*rq krdn	?*rq krdin	V;2;PL;PST;COL
+?*rq krdn	?*rq krdn	V;3;PL;PST;COL
+?*t*sh krdn	?*t*sh krdi	V;2;SG;PST;COL
+?*t*sh krdn	?*t*sh krd	V;3;SG;PST;COL
+?*t*sh krdn	?*t*sh krdim	V;1;PL;PST;COL
+?*t*sh krdn	?*t*sh krdm	V;1;SG;PST;COL
+?*t*sh krdn	?*t*sh krdin	V;2;PL;PST;COL
+?*t*sh krdn	?*t*sh krdn	V;3;PL;PST;COL
+?*ks grftn	?*ks grfti	V;2;SG;PST;COL
+?*ks grftn	?*ks grft	V;3;SG;PST;COL
+?*ks grftn	?*ks grftim	V;1;PL;PST;COL
+?*ks grftn	?*ks grftm	V;1;SG;PST;COL
+?*ks grftn	?*ks grftin	V;2;PL;PST;COL
+?*ks grftn	?*ks grftn	V;3;PL;PST;COL
+Gs*h xurdn	Gs*h xurdi	V;2;SG;PST;COL
+Gs*h xurdn	Gs*h xurd	V;3;SG;PST;COL
+Gs*h xurdn	Gs*h xurdim	V;1;PL;PST;COL
+Gs*h xurdn	Gs*h xurdm	V;1;SG;PST;COL
+Gs*h xurdn	Gs*h xurdin	V;2;PL;PST;COL
+Gs*h xurdn	Gs*h xurdn	V;3;PL;PST;COL
+farGaltHs*il Sdn	farGaltHs*il Sdi	V;2;SG;PST;COL
+farGaltHs*il Sdn	farGaltHs*il Sd	V;3;SG;PST;COL
+farGaltHs*il Sdn	farGaltHs*il Sdim	V;1;PL;PST;COL
+farGaltHs*il Sdn	farGaltHs*il Sdm	V;1;SG;PST;COL
+farGaltHs*il Sdn	farGaltHs*il Sdin	V;2;PL;PST;COL
+farGaltHs*il Sdn	farGaltHs*il Sdn	V;3;PL;PST;COL
+fal grftn	fal grfti	V;2;SG;PST;COL
+fal grftn	fal grft	V;3;SG;PST;COL
+fal grftn	fal grftim	V;1;PL;PST;COL
+fal grftn	fal grftm	V;1;SG;PST;COL
+fal grftn	fal grftin	V;2;PL;PST;COL
+fal grftn	fal grftn	V;3;PL;PST;COL
+friad zdn	friad zdi	V;2;SG;PST;COL
+friad zdn	friad zd	V;3;SG;PST;COL
+friad zdn	friad zdim	V;1;PL;PST;COL
+friad zdn	friad zdm	V;1;SG;PST;COL
+friad zdn	friad zdin	V;2;PL;PST;COL
+friad zdn	friad zdn	V;3;PL;PST;COL
+framuS krdn	framuS krdi	V;2;SG;PST;COL
+framuS krdn	framuS krd	V;3;SG;PST;COL
+framuS krdn	framuS krdim	V;1;PL;PST;COL
+framuS krdn	framuS krdm	V;1;SG;PST;COL
+framuS krdn	framuS krdin	V;2;PL;PST;COL
+framuS krdn	framuS krdn	V;3;PL;PST;COL
+frz+ krdn	frz+ krdi	V;2;SG;PST;COL
+frz+ krdn	frz+ krd	V;3;SG;PST;COL
+frz+ krdn	frz+ krdim	V;1;PL;PST;COL
+frz+ krdn	frz+ krdm	V;1;SG;PST;COL
+frz+ krdn	frz+ krdin	V;2;PL;PST;COL
+frz+ krdn	frz+ krdn	V;3;PL;PST;COL
+fSrdn	fSrdi	V;2;SG;PST;COL
+fSrdn	fSrd	V;3;SG;PST;COL
+fSrdn	fSrdim	V;1;PL;PST;COL
+fSrdn	fSrdm	V;1;SG;PST;COL
+fSrdn	fSrdin	V;2;PL;PST;COL
+fSrdn	fSrdn	V;3;PL;PST;COL
+fz+uli krdn	fz+uli krdi	V;2;SG;PST;COL
+fz+uli krdn	fz+uli krd	V;3;SG;PST;COL
+fz+uli krdn	fz+uli krdim	V;1;PL;PST;COL
+fz+uli krdn	fz+uli krdm	V;1;SG;PST;COL
+fz+uli krdn	fz+uli krdin	V;2;PL;PST;COL
+fz+uli krdn	fz+uli krdn	V;3;PL;PST;COL
+fkr krdn	fkr krdi	V;2;SG;PST;COL
+fkr krdn	fkr krd	V;3;SG;PST;COL
+fkr krdn	fkr krdim	V;1;PL;PST;COL
+fkr krdn	fkr krdm	V;1;SG;PST;COL
+fkr krdn	fkr krdin	V;2;PL;PST;COL
+fkr krdn	fkr krdn	V;3;PL;PST;COL
+fhmidn	fhmidi	V;2;SG;PST;COL
+fhmidn	fhmid	V;3;SG;PST;COL
+fhmidn	fhmidim	V;1;PL;PST;COL
+fhmidn	fhmidm	V;1;SG;PST;COL
+fhmidn	fhmidin	V;2;PL;PST;COL
+fhmidn	fhmidn	V;3;PL;PST;COL
+fut krdn	fut krdi	V;2;SG;PST;COL
+fut krdn	fut krd	V;3;SG;PST;COL
+fut krdn	fut krdim	V;1;PL;PST;COL
+fut krdn	fut krdm	V;1;SG;PST;COL
+fut krdn	fut krdin	V;2;PL;PST;COL
+fut krdn	fut krdn	V;3;PL;PST;COL
+qt*?* krdn	qt*?* krdi	V;2;SG;PST;COL
+qt*?* krdn	qt*?* krd	V;3;SG;PST;COL
+qt*?* krdn	qt*?* krdim	V;1;PL;PST;COL
+qt*?* krdn	qt*?* krdm	V;1;SG;PST;COL
+qt*?* krdn	qt*?* krdin	V;2;PL;PST;COL
+qt*?* krdn	qt*?* krdn	V;3;PL;PST;COL
+qmpz drkrdn	qmpz dr krdi	V;2;SG;PST;COL
+qmpz drkrdn	qmpz dr krd	V;3;SG;PST;COL
+qmpz drkrdn	qmpz dr krdim	V;1;PL;PST;COL
+qmpz drkrdn	qmpz dr krdm	V;1;SG;PST;COL
+qmpz drkrdn	qmpz dr krdin	V;2;PL;PST;COL
+qmpz drkrdn	qmpz dr krdn	V;3;PL;PST;COL
+kar krdn	kar krdi	V;2;SG;PST;COL
+kar krdn	kar krd	V;3;SG;PST;COL
+kar krdn	kar krdim	V;1;PL;PST;COL
+kar krdn	kar krdm	V;1;SG;PST;COL
+kar krdn	kar krdin	V;2;PL;PST;COL
+kar krdn	kar krdn	V;3;PL;PST;COL
+kaStn	kaSti	V;2;SG;PST;COL
+kaStn	kaSt	V;3;SG;PST;COL
+kaStn	kaStim	V;1;PL;PST;COL
+kaStn	kaStm	V;1;SG;PST;COL
+kaStn	kaStin	V;2;PL;PST;COL
+kaStn	kaStn	V;3;PL;PST;COL
+kauS krdn	kauS krdi	V;2;SG;PST;COL
+kauS krdn	kauS krd	V;3;SG;PST;COL
+kauS krdn	kauS krdim	V;1;PL;PST;COL
+kauS krdn	kauS krdm	V;1;SG;PST;COL
+kauS krdn	kauS krdin	V;2;PL;PST;COL
+kauS krdn	kauS krdn	V;3;PL;PST;COL
+kpk zdn	kpk zdi	V;2;SG;PST;COL
+kpk zdn	kpk zd	V;3;SG;PST;COL
+kpk zdn	kpk zdim	V;1;PL;PST;COL
+kpk zdn	kpk zdm	V;1;SG;PST;COL
+kpk zdn	kpk zdin	V;2;PL;PST;COL
+kpk zdn	kpk zdn	V;3;PL;PST;COL
+kr krdn	kr krdi	V;2;SG;PST;COL
+kr krdn	kr krd	V;3;SG;PST;COL
+kr krdn	kr krdim	V;1;PL;PST;COL
+kr krdn	kr krdm	V;1;SG;PST;COL
+kr krdn	kr krdin	V;2;PL;PST;COL
+kr krdn	kr krdn	V;3;PL;PST;COL
+kSti grftn	kSti grfti	V;2;SG;PST;COL
+kSti grftn	kSti grft	V;3;SG;PST;COL
+kSti grftn	kSti grftim	V;1;PL;PST;COL
+kSti grftn	kSti grftm	V;1;SG;PST;COL
+kSti grftn	kSti grftin	V;2;PL;PST;COL
+kSti grftn	kSti grftn	V;3;PL;PST;COL
+kSidn	kSidi	V;2;SG;PST;COL
+kSidn	kSid	V;3;SG;PST;COL
+kSidn	kSidim	V;1;PL;PST;COL
+kSidn	kSidm	V;1;SG;PST;COL
+kSidn	kSidin	V;2;PL;PST;COL
+kSidn	kSidn	V;3;PL;PST;COL
+klik krdn	klik krdi	V;2;SG;PST;COL
+klik krdn	klik krd	V;3;SG;PST;COL
+klik krdn	klik krdim	V;1;PL;PST;COL
+klik krdn	klik krdm	V;1;SG;PST;COL
+klik krdn	klik krdin	V;2;PL;PST;COL
+klik krdn	klik krdn	V;3;PL;PST;COL
+km krdn	km krdi	V;2;SG;PST;COL
+km krdn	km krd	V;3;SG;PST;COL
+km krdn	km krdim	V;1;PL;PST;COL
+km krdn	km krdm	V;1;SG;PST;COL
+km krdn	km krdin	V;2;PL;PST;COL
+km krdn	km krdn	V;3;PL;PST;COL
+kmk krdn	kmk krdi	V;2;SG;PST;COL
+kmk krdn	kmk krd	V;3;SG;PST;COL
+kmk krdn	kmk krdim	V;1;PL;PST;COL
+kmk krdn	kmk krdm	V;1;SG;PST;COL
+kmk krdn	kmk krdin	V;2;PL;PST;COL
+kmk krdn	kmk krdn	V;3;PL;PST;COL
+knar zdn	knar zdi	V;2;SG;PST;COL
+knar zdn	knar zd	V;3;SG;PST;COL
+knar zdn	knar zdim	V;1;PL;PST;COL
+knar zdn	knar zdm	V;1;SG;PST;COL
+knar zdn	knar zdin	V;2;PL;PST;COL
+knar zdn	knar zdn	V;3;PL;PST;COL
+knar gz*aStn	knar gz*aSti	V;2;SG;PST;COL
+knar gz*aStn	knar gz*aSt	V;3;SG;PST;COL
+knar gz*aStn	knar gz*aStim	V;1;PL;PST;COL
+knar gz*aStn	knar gz*aStm	V;1;SG;PST;COL
+knar gz*aStn	knar gz*aStin	V;2;PL;PST;COL
+knar gz*aStn	knar gz*aStn	V;3;PL;PST;COL
+kinh urzidn	kinh urzidi	V;2;SG;PST;COL
+kinh urzidn	kinh urzid	V;3;SG;PST;COL
+kinh urzidn	kinh urzidim	V;1;PL;PST;COL
+kinh urzidn	kinh urzidm	V;1;SG;PST;COL
+kinh urzidn	kinh urzidin	V;2;PL;PST;COL
+kinh urzidn	kinh urzidn	V;3;PL;PST;COL
+kubidn	kubidi	V;2;SG;PST;COL
+kubidn	kubid	V;3;SG;PST;COL
+kubidn	kubidim	V;1;PL;PST;COL
+kubidn	kubidm	V;1;SG;PST;COL
+kubidn	kubidin	V;2;PL;PST;COL
+kubidn	kubidn	V;3;PL;PST;COL
+kuCk Sdn	kuCik Sdi	V;2;SG;PST;COL
+kuCk Sdn	kuCik Sd	V;3;SG;PST;COL
+kuCk Sdn	kuCik Sdim	V;1;PL;PST;COL
+kuCk Sdn	kuCik Sdm	V;1;SG;PST;COL
+kuCk Sdn	kuCik Sdin	V;2;PL;PST;COL
+kuCk Sdn	kuCik Sdn	V;3;PL;PST;COL
+kuSS krdn	kuSS krdi	V;2;SG;PST;COL
+kuSS krdn	kuSS krd	V;3;SG;PST;COL
+kuSS krdn	kuSS krdim	V;1;PL;PST;COL
+kuSS krdn	kuSS krdm	V;1;SG;PST;COL
+kuSS krdn	kuSS krdin	V;2;PL;PST;COL
+kuSS krdn	kuSS krdn	V;3;PL;PST;COL
+kuk krdn	kuk krdi	V;2;SG;PST;COL
+kuk krdn	kuk krd	V;3;SG;PST;COL
+kuk krdn	kuk krdim	V;1;PL;PST;COL
+kuk krdn	kuk krdm	V;1;SG;PST;COL
+kuk krdn	kuk krdin	V;2;PL;PST;COL
+kuk krdn	kuk krdn	V;3;PL;PST;COL
+kun krdn	kun krdi	V;2;SG;PST;COL
+kun krdn	kun krd	V;3;SG;PST;COL
+kun krdn	kun krdim	V;1;PL;PST;COL
+kun krdn	kun krdm	V;1;SG;PST;COL
+kun krdn	kun krdin	V;2;PL;PST;COL
+kun krdn	kun krdn	V;3;PL;PST;COL
+gam zdn	gam zdi	V;2;SG;PST;COL
+gam zdn	gam zd	V;3;SG;PST;COL
+gam zdn	gam zdim	V;1;PL;PST;COL
+gam zdn	gam zdm	V;1;SG;PST;COL
+gam zdn	gam zdin	V;2;PL;PST;COL
+gam zdn	gam zdn	V;3;PL;PST;COL
+gdaxtn	gdaxti	V;2;SG;PST;COL
+gdaxtn	gdaxt	V;3;SG;PST;COL
+gdaxtn	gdaxtim	V;1;PL;PST;COL
+gdaxtn	gdaxtm	V;1;SG;PST;COL
+gdaxtn	gdaxtin	V;2;PL;PST;COL
+gdaxtn	gdaxtn	V;3;PL;PST;COL
+gz*aStn	gz*aSti	V;2;SG;PST;COL
+gz*aStn	gz*aSt	V;3;SG;PST;COL
+gz*aStn	gz*aStim	V;1;PL;PST;COL
+gz*aStn	gz*aStm	V;1;SG;PST;COL
+gz*aStn	gz*aStin	V;2;PL;PST;COL
+gz*aStn	gz*aStn	V;3;PL;PST;COL
+gzaf gftn	gzaf gfti	V;2;SG;PST;COL
+gzaf gftn	gzaf gft	V;3;SG;PST;COL
+gzaf gftn	gzaf gftim	V;1;PL;PST;COL
+gzaf gftn	gzaf gftm	V;1;SG;PST;COL
+gzaf gftn	gzaf gftin	V;2;PL;PST;COL
+gzaf gftn	gzaf gftn	V;3;PL;PST;COL
+gSadn	gSadi	V;2;SG;PST;COL
+gSadn	gSad	V;3;SG;PST;COL
+gSadn	gSadim	V;1;PL;PST;COL
+gSadn	gSadm	V;1;SG;PST;COL
+gSadn	gSadin	V;2;PL;PST;COL
+gSadn	gSadn	V;3;PL;PST;COL
+gSudn	gSudi	V;2;SG;PST;COL
+gSudn	gSud	V;3;SG;PST;COL
+gSudn	gSudim	V;1;PL;PST;COL
+gSudn	gSudm	V;1;SG;PST;COL
+gSudn	gSudin	V;2;PL;PST;COL
+gSudn	gSudn	V;3;PL;PST;COL
+gfth Sdn	gfth Sdi	V;2;SG;PST;COL
+gfth Sdn	gfth Sd	V;3;SG;PST;COL
+gfth Sdn	gfth Sdim	V;1;PL;PST;COL
+gfth Sdn	gfth Sdm	V;1;SG;PST;COL
+gfth Sdn	gfth Sdin	V;2;PL;PST;COL
+gfth Sdn	gfth Sdn	V;3;PL;PST;COL
+gm Sdn	gm Sdi	V;2;SG;PST;COL
+gm Sdn	gm Sd	V;3;SG;PST;COL
+gm Sdn	gm Sdim	V;1;PL;PST;COL
+gm Sdn	gm Sdm	V;1;SG;PST;COL
+gm Sdn	gm Sdin	V;2;PL;PST;COL
+gm Sdn	gm Sdn	V;3;PL;PST;COL
+gm krdn	gm krdi	V;2;SG;PST;COL
+gm krdn	gm krd	V;3;SG;PST;COL
+gm krdn	gm krdim	V;1;PL;PST;COL
+gm krdn	gm krdm	V;1;SG;PST;COL
+gm krdn	gm krdin	V;2;PL;PST;COL
+gm krdn	gm krdn	V;3;PL;PST;COL
+guzidn	guzidi	V;2;SG;PST;COL
+guzidn	guzid	V;3;SG;PST;COL
+guzidn	guzidim	V;1;PL;PST;COL
+guzidn	guzidm	V;1;SG;PST;COL
+guzidn	guzidin	V;2;PL;PST;COL
+guzidn	guzidn	V;3;PL;PST;COL
+guS krdn	guS krdi	V;2;SG;PST;COL
+guS krdn	guS krd	V;3;SG;PST;COL
+guS krdn	guS krdim	V;1;PL;PST;COL
+guS krdn	guS krdm	V;1;SG;PST;COL
+guS krdn	guS krdin	V;2;PL;PST;COL
+guS krdn	guS krdn	V;3;PL;PST;COL
+gul xurdn	gul xurdi	V;2;SG;PST;COL
+gul xurdn	gul xurd	V;3;SG;PST;COL
+gul xurdn	gul xurdim	V;1;PL;PST;COL
+gul xurdn	gul xurdm	V;1;SG;PST;COL
+gul xurdn	gul xurdin	V;2;PL;PST;COL
+gul xurdn	gul xurdn	V;3;PL;PST;COL
+lbxnd zdn	lbxnd zdi	V;2;SG;PST;COL
+lbxnd zdn	lbxnd zd	V;3;SG;PST;COL
+lbxnd zdn	lbxnd zdim	V;1;PL;PST;COL
+lbxnd zdn	lbxnd zdm	V;1;SG;PST;COL
+lbxnd zdn	lbxnd zdin	V;2;PL;PST;COL
+lbxnd zdn	lbxnd zdn	V;3;PL;PST;COL
+lb grftn	lb grfti	V;2;SG;PST;COL
+lb grftn	lb grft	V;3;SG;PST;COL
+lb grftn	lb grftim	V;1;PL;PST;COL
+lb grftn	lb grftm	V;1;SG;PST;COL
+lb grftn	lb grftin	V;2;PL;PST;COL
+lb grftn	lb grftn	V;3;PL;PST;COL
+lisidn	lisidi	V;2;SG;PST;COL
+lisidn	lisid	V;3;SG;PST;COL
+lisidn	lisidim	V;1;PL;PST;COL
+lisidn	lisidm	V;1;SG;PST;COL
+lisidn	lisidin	V;2;PL;PST;COL
+lisidn	lisidn	V;3;PL;PST;COL
+maC krdn	maC krdi	V;2;SG;PST;COL
+maC krdn	maC krd	V;3;SG;PST;COL
+maC krdn	maC krdim	V;1;PL;PST;COL
+maC krdn	maC krdm	V;1;SG;PST;COL
+maC krdn	maC krdin	V;2;PL;PST;COL
+maC krdn	maC krdn	V;3;PL;PST;COL
+malidn	malidi	V;2;SG;PST;COL
+malidn	malid	V;3;SG;PST;COL
+malidn	malidim	V;1;PL;PST;COL
+malidn	malidm	V;1;SG;PST;COL
+malidn	malidin	V;2;PL;PST;COL
+malidn	malidn	V;3;PL;PST;COL
+mandn	mundi	V;2;SG;PST;COL
+mandn	mund	V;3;SG;PST;COL
+mandn	mundim	V;1;PL;PST;COL
+mandn	mundm	V;1;SG;PST;COL
+mandn	mundin	V;2;PL;PST;COL
+mandn	mundn	V;3;PL;PST;COL
+manstn	munsti	V;2;SG;PST;COL
+manstn	munst	V;3;SG;PST;COL
+manstn	munstim	V;1;PL;PST;COL
+manstn	munstm	V;1;SG;PST;COL
+manstn	munstin	V;2;PL;PST;COL
+manstn	munstn	V;3;PL;PST;COL
+mtHir krdn	mtHir krdi	V;2;SG;PST;COL
+mtHir krdn	mtHir krd	V;3;SG;PST;COL
+mtHir krdn	mtHir krdim	V;1;PL;PST;COL
+mtHir krdn	mtHir krdm	V;1;SG;PST;COL
+mtHir krdn	mtHir krdin	V;2;PL;PST;COL
+mtHir krdn	mtHir krdn	V;3;PL;PST;COL
+mJazat krdn	mJazat krdi	V;2;SG;PST;COL
+mJazat krdn	mJazat krd	V;3;SG;PST;COL
+mJazat krdn	mJazat krdim	V;1;PL;PST;COL
+mJazat krdn	mJazat krdm	V;1;SG;PST;COL
+mJazat krdn	mJazat krdin	V;2;PL;PST;COL
+mJazat krdn	mJazat krdn	V;3;PL;PST;COL
+mdaxlh krdn	mdaxlh krdi	V;2;SG;PST;COL
+mdaxlh krdn	mdaxlh krd	V;3;SG;PST;COL
+mdaxlh krdn	mdaxlh krdim	V;1;PL;PST;COL
+mdaxlh krdn	mdaxlh krdm	V;1;SG;PST;COL
+mdaxlh krdn	mdaxlh krdin	V;2;PL;PST;COL
+mdaxlh krdn	mdaxlh krdn	V;3;PL;PST;COL
+mrHmt krdn	mrHmt krdi	V;2;SG;PST;COL
+mrHmt krdn	mrHmt krd	V;3;SG;PST;COL
+mrHmt krdn	mrHmt krdim	V;1;PL;PST;COL
+mrHmt krdn	mrHmt krdm	V;1;SG;PST;COL
+mrHmt krdn	mrHmt krdin	V;2;PL;PST;COL
+mrHmt krdn	mrHmt krdn	V;3;PL;PST;COL
+mrdn	mrdi	V;2;SG;PST;COL
+mrdn	mrd	V;3;SG;PST;COL
+mrdn	mrdim	V;1;PL;PST;COL
+mrdn	mrdm	V;1;SG;PST;COL
+mrdn	mrdin	V;2;PL;PST;COL
+mrdn	mrdn	V;3;PL;PST;COL
+mrt*ub krdn	mrt*ub krdi	V;2;SG;PST;COL
+mrt*ub krdn	mrt*ub krd	V;3;SG;PST;COL
+mrt*ub krdn	mrt*ub krdim	V;1;PL;PST;COL
+mrt*ub krdn	mrt*ub krdm	V;1;SG;PST;COL
+mrt*ub krdn	mrt*ub krdin	V;2;PL;PST;COL
+mrt*ub krdn	mrt*ub krdn	V;3;PL;PST;COL
+mkidn	mkidi	V;2;SG;PST;COL
+mkidn	mkid	V;3;SG;PST;COL
+mkidn	mkidim	V;1;PL;PST;COL
+mkidn	mkidm	V;1;SG;PST;COL
+mkidn	mkidin	V;2;PL;PST;COL
+mkidn	mkidn	V;3;PL;PST;COL
+mil krdn	mil krdi	V;2;SG;PST;COL
+mil krdn	mil krd	V;3;SG;PST;COL
+mil krdn	mil krdim	V;1;PL;PST;COL
+mil krdn	mil krdm	V;1;SG;PST;COL
+mil krdn	mil krdin	V;2;PL;PST;COL
+mil krdn	mil krdn	V;3;PL;PST;COL
+mntSr krdn	mntSr krdi	V;2;SG;PST;COL
+mntSr krdn	mntSr krd	V;3;SG;PST;COL
+mntSr krdn	mntSr krdim	V;1;PL;PST;COL
+mntSr krdn	mntSr krdm	V;1;SG;PST;COL
+mntSr krdn	mntSr krdin	V;2;PL;PST;COL
+mntSr krdn	mntSr krdn	V;3;PL;PST;COL
+mhaJrt krdn	mhaJrt krdi	V;2;SG;PST;COL
+mhaJrt krdn	mhaJrt krd	V;3;SG;PST;COL
+mhaJrt krdn	mhaJrt krdim	V;1;PL;PST;COL
+mhaJrt krdn	mhaJrt krdm	V;1;SG;PST;COL
+mhaJrt krdn	mhaJrt krdin	V;2;PL;PST;COL
+mhaJrt krdn	mhaJrt krdn	V;3;PL;PST;COL
+muntaZ krdn	muntaZ krdi	V;2;SG;PST;COL
+muntaZ krdn	muntaZ krd	V;3;SG;PST;COL
+muntaZ krdn	muntaZ krdim	V;1;PL;PST;COL
+muntaZ krdn	muntaZ krdm	V;1;SG;PST;COL
+muntaZ krdn	muntaZ krdin	V;2;PL;PST;COL
+muntaZ krdn	muntaZ krdn	V;3;PL;PST;COL
+nabud krdn	nabud krdi	V;2;SG;PST;COL
+nabud krdn	nabud krd	V;3;SG;PST;COL
+nabud krdn	nabud krdim	V;1;PL;PST;COL
+nabud krdn	nabud krdm	V;1;SG;PST;COL
+nabud krdn	nabud krdin	V;2;PL;PST;COL
+nabud krdn	nabud krdn	V;3;PL;PST;COL
+namidn	namidi	V;2;SG;PST;COL
+namidn	namid	V;3;SG;PST;COL
+namidn	namidim	V;1;PL;PST;COL
+namidn	namidm	V;1;SG;PST;COL
+namidn	namidin	V;2;PL;PST;COL
+namidn	namidn	V;3;PL;PST;COL
+nSstn	nSsti	V;2;SG;PST;COL
+nSstn	nSst	V;3;SG;PST;COL
+nSstn	nSstim	V;1;PL;PST;COL
+nSstn	nSstm	V;1;SG;PST;COL
+nSstn	nSstin	V;2;PL;PST;COL
+nSstn	nSstn	V;3;PL;PST;COL
+nfs kSidn	nfs kSidi	V;2;SG;PST;COL
+nfs kSidn	nfs kSid	V;3;SG;PST;COL
+nfs kSidn	nfs kSidim	V;1;PL;PST;COL
+nfs kSidn	nfs kSidm	V;1;SG;PST;COL
+nfs kSidn	nfs kSidin	V;2;PL;PST;COL
+nfs kSidn	nfs kSidn	V;3;PL;PST;COL
+ngah krdn	niga krdi	V;2;SG;PST;COL
+ngah krdn	niga krd	V;3;SG;PST;COL
+ngah krdn	niga krdim	V;1;PL;PST;COL
+ngah krdn	niga krdm	V;1;SG;PST;COL
+ngah krdn	niga krdin	V;2;PL;PST;COL
+ngah krdn	niga krdn	V;3;PL;PST;COL
+ngristn	ngristi	V;2;SG;PST;COL
+ngristn	ngrist	V;3;SG;PST;COL
+ngristn	ngristim	V;1;PL;PST;COL
+ngristn	ngristm	V;1;SG;PST;COL
+ngristn	ngristin	V;2;PL;PST;COL
+ngristn	ngristn	V;3;PL;PST;COL
+nmaz xuandn	nmaz xundi	V;2;SG;PST;COL
+nmaz xuandn	nmaz xund	V;3;SG;PST;COL
+nmaz xuandn	nmaz xundim	V;1;PL;PST;COL
+nmaz xuandn	nmaz xundm	V;1;SG;PST;COL
+nmaz xuandn	nmaz xundin	V;2;PL;PST;COL
+nmaz xuandn	nmaz xundn	V;3;PL;PST;COL
+nhib zdn	nhib zdi	V;2;SG;PST;COL
+nhib zdn	nhib zd	V;3;SG;PST;COL
+nhib zdn	nhib zdim	V;1;PL;PST;COL
+nhib zdn	nhib zdm	V;1;SG;PST;COL
+nhib zdn	nhib zdin	V;2;PL;PST;COL
+nhib zdn	nhib zdn	V;3;PL;PST;COL
+nuaxtn	nuaxti	V;2;SG;PST;COL
+nuaxtn	nuaxt	V;3;SG;PST;COL
+nuaxtn	nuaxtim	V;1;PL;PST;COL
+nuaxtn	nuaxtm	V;1;SG;PST;COL
+nuaxtn	nuaxtin	V;2;PL;PST;COL
+nuaxtn	nuaxtn	V;3;PL;PST;COL
+nuStn	nuSti	V;2;SG;PST;COL
+nuStn	nuSt	V;3;SG;PST;COL
+nuStn	nuStim	V;1;PL;PST;COL
+nuStn	nuStm	V;1;SG;PST;COL
+nuStn	nuStin	V;2;PL;PST;COL
+nuStn	nuStn	V;3;PL;PST;COL
+hmkari krdn	hmkari krdi	V;2;SG;PST;COL
+hmkari krdn	hmkari krd	V;3;SG;PST;COL
+hmkari krdn	hmkari krdim	V;1;PL;PST;COL
+hmkari krdn	hmkari krdm	V;1;SG;PST;COL
+hmkari krdn	hmkari krdin	V;2;PL;PST;COL
+hmkari krdn	hmkari krdn	V;3;PL;PST;COL
+ua krdn	ua krdi	V;2;SG;PST;COL
+ua krdn	ua krd	V;3;SG;PST;COL
+ua krdn	ua krdim	V;1;PL;PST;COL
+ua krdn	ua krdm	V;1;SG;PST;COL
+ua krdn	ua krdin	V;2;PL;PST;COL
+ua krdn	ua krdn	V;3;PL;PST;COL
+urzidn	urzidi	V;2;SG;PST;COL
+urzidn	urzid	V;3;SG;PST;COL
+urzidn	urzidim	V;1;PL;PST;COL
+urzidn	urzidm	V;1;SG;PST;COL
+urzidn	urzidin	V;2;PL;PST;COL
+urzidn	urzidn	V;3;PL;PST;COL
+urzS krdn	urzS krdi	V;2;SG;PST;COL
+urzS krdn	urzS krd	V;3;SG;PST;COL
+urzS krdn	urzS krdim	V;1;PL;PST;COL
+urzS krdn	urzS krdm	V;1;SG;PST;COL
+urzS krdn	urzS krdin	V;2;PL;PST;COL
+urzS krdn	urzS krdn	V;3;PL;PST;COL
