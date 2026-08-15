@@ -22,7 +22,7 @@ def dotrans(x):
 	return trans
 
 if __name__ == '__main__':
-	filename = '../uni/fas'
+	filename = 'uni/fas'
 	f = open(filename,'r')
 	t = f.read()
 	f.close()
@@ -31,5 +31,8 @@ if __name__ == '__main__':
 		bits = line.split('\t')
 		b0 = dotrans(bits[0])
 		b1 = dotrans(bits[1])
+		#print just the transliteration and tags
 		print(f'{b0}\t{b1}\t{bits[2]}')
+		#print the original lemma too
+		#print(f'{b0}\t{b1}\t{bits[2]}\t{bits[0]}')
 
