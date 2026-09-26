@@ -1,12 +1,10 @@
 from pyfoma import FST
 import pfeatures as pf
 
-#persian stress
-
+#read in data
 f = open('wikifasSTRESS.txt','r')
 t = f.read()
 f.close()
-
 lines = t.split('\n')[:-1]
 
 #drop everything up to tab
@@ -42,14 +40,17 @@ word = FST.re(
 	{'s':syllable}
 )
 
+#mark stress
 stress = FST.re(
 	"$^rewrite((ˈw):s)"
 )
 
+#pattern to search for
 pat = FST.re(
-	".*s.*ww"
+	".*s.*w"
 )
 
+#put it all together
 everything = FST.re(
 	"$d @ $s @ $g @ $dot @ $ch @ $w @ $str @ $pat",
 	{'d':drop,'s':spaces,'g':grule,'dot':dotrule,
