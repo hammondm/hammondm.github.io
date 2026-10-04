@@ -1,7 +1,8 @@
 #collect minimal pairs of sounds from wikipron output
 
 #filename = 'wikiproncym.txt'
-filename = 'wikipronfas.txt'
+#filename = 'wikipronfas.txt'
+filename = 'kir_cyrl_broad.tsv'
 
 #read in data
 f = open(filename,'r')
