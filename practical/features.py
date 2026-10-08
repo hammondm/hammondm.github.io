@@ -1,6 +1,6 @@
 import panphon as p
 
-f = open('kyrgyzletters.txt','r')
+f = open('estonianletters.txt','r')
 t = f.read()
 f.close()
 

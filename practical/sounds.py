@@ -1,8 +1,8 @@
 #filename = 'wikiproncym.txt'
 #filename = 'wikipronfas.txt'
 #filename = 'fas_arab_broad.tsv'
-#filename = "../../practical/estonian/est_latn_broad.tsv"
-filename = "../../practical/kyrgyz/kir_cyrl_broad.tsv"
+filename = "est_latn_broad.tsv"
+#filename = "kir_cyrl_broad.tsv"
 #filename = 'fas4.txt'
 
 f = open(filename,'r')
