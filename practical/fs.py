@@ -41,5 +41,5 @@ for grid in grids:
 		)
 		print(f'{wav}\t{i.label}\t',end='')
 		print(f'{p:.3f}\t{f1:.3f}\t{f2:.3f}\t',end='')
-		print('{f3:.3f}\t{dur:.3f}')
+		print(f'{f3:.3f}\t{dur:.3f}')
 
