@@ -31,8 +31,8 @@ def getngrams(filename):
 
 if __name__ == "__main__":
 
-	#wiki = 'wikiproncym.txt'
-	wiki = 'wikipronfas.txt'
+	wiki = 'wikiproncym.txt'
+	#wiki = 'wikipronfas.txt'
 
 	lets,ngs = getngrams(wiki)
 	#print results

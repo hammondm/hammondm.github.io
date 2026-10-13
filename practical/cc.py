@@ -1,11 +1,10 @@
 from pyfoma import FST
 
-pfx = '...'
 wiki = 'wikiproncym.txt'
 lets = 'letters.txt'
 
 #read wiki file
-f = open(pfx+wiki,'r')
+f = open(wiki,'r')
 t = f.read()
 f.close()
 
