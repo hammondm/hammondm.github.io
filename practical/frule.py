@@ -2,9 +2,9 @@ from pyfoma import FST
 
 nas = FST.re("(m|n)")
 
-arule = FST.re("$^rewrite(a:(a'~') / _ $n)",{'n':nas})
-irule = FST.re("$^rewrite(i:(i'~') / _ $n)",{'n':nas})
-urule = FST.re("$^rewrite(u:(u'~') / _ $n)",{'n':nas})
+arule = FST.re("$^rewrite(a:(ã) / _ $n)",{'n':nas})
+irule = FST.re("$^rewrite(i:(ĩ) / _ $n)",{'n':nas})
+urule = FST.re("$^rewrite(u:(ũ) / _ $n)",{'n':nas})
 
 rule = FST.re(
 	"$arule @ $irule @ $urule",

@@ -4,7 +4,7 @@ vowel = FST.re("(a|i|u)")
 
 nas = FST.re("(m|n)")
 
-vnas = FST.re("(a'~'|i'~'|u'~')")
+vnas = FST.re("(ã|ũ|ĩ)")
 
 rule = FST.re(
 	"$^rewrite(($v:$vn) / _ $n)",
