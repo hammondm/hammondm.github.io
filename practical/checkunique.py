@@ -1,7 +1,7 @@
 import panphon as p
 
-#f = open('fasletters.txt','r')
-f = open('faslet2.txt','r')
+#f = open('faslet2.txt','r')
+f = open('kletters.txt','r')
 t = f.read()
 f.close()
 
