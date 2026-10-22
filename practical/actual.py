@@ -1,5 +1,6 @@
 #wiki = 'wikiproncym.txt'
-wiki = 'kir_cyrl_broad.tsv'
+#wiki = 'kir_cyrl_broad.tsv'
+wiki = 'est_latn_broad.tsv'
 
 f = open(wiki,'r')
 t = f.read()

@@ -31,7 +31,8 @@ def getngrams(filename):
 
 if __name__ == "__main__":
 
-	wiki = 'kir_cyrl_broad.tsv'
+	wiki = 'est_latn_broad.tsv'
+	#wiki = 'kir_cyrl_broad.tsv'
 	#wiki = 'wikiproncym.txt'
 	#wiki = 'wikipronfas.txt'
 
