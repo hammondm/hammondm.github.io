@@ -1,10 +1,8 @@
 from ngrams import getngrams
 import panphon as p
-import random
+import random,re
 
-wiki = 'est_latn_broad.tsv'
-
-exit()
+wiki = 'estfixed.tsv'
 
 #get letters and bigrams
 lets,ngs = getngrams(wiki)
@@ -15,22 +13,23 @@ fs = {}
 for letter in lets:
 	res = ft.word_fts(letter)
 	if len(res) == 1:
-		fs[letter] = res[0]
+		itms = res[0].items().copy()
+		feats = [n for (n,_) in itms]
+		vals = {n:v for (n,v) in itms}
+		feats.append('halflong')
+		if re.search('ˑ',letter):
+			vals['halflong'] = 1
+		elif re.search('ːː',letter):
+			vals['halflong'] = 1
+		else:
+			vals['halflong'] = -1
+		if re.search('ː',letter):
+			vals['long'] = 1
+		if re.search('d̥ʲ',letter):
+			vals['hi'] = 1
+		fs[letter] = p.segment.Segment(feats,vals)
 	else:
 		fs[letter] = None
-
-#fix [ŋ̊]
-fs['ŋ̊'] = p.segment.Segment(['syl','son','cons','cont',
-			'delrel','lat','nas','strid','voi','sg','cg',
-			'ant','cor','distr','lab','hi','lo','back',
-			'round','velaric','tense','long','hitone',
-			'hireg'],
-			{'syl': -1,'son': 1,'cons': 1,'cont': -1,
-			'delrel': -1,'lat': -1,'nas': 1,'strid': -1,
-			'voi': -1,'sg': -1,'cg': -1,'ant': -1,'cor': -1,
-			'distr': 0,'lab': -1,'hi': 1,'lo': -1,'back': 1,
-			'round': -1,'velaric': -1,'tense': 0,'long': -1,
-			'hitone': 0,'hireg': 0})
 
 #get features for all bigrams with count of 0
 nulls = []
