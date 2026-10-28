@@ -1,0 +1,62 @@
+from pyfoma import FST
+import kfeatures as kf
+
+f = open('kir_cyrl_broad.tsv','r')
+t = f.read()
+f.close()
+
+lines = t.split('\n')[:-1]
+
+#drop everything up to tab
+drop = FST.re("$^rewrite((.*'\t'+):'',leftmost=True)")
+
+#push letters together
+spaces = FST.re("$^rewrite(' ':'')")
+
+onset = FST.re(
+	"$sm? | ($obs [rl]) | (st)",
+	{'sm':kf.sylminus,'obs':kf.sonminus}
+)
+
+coda = FST.re(
+	"[vɫŋrln]? $sm?",
+	{'sm':kf.sylminus}
+)
+
+#simple syllables
+syllable = FST.re(
+	#"$o $sp $sm{0,1}",
+	"$o $sp $c",
+	{'o':onset,'sp':kf.sylplus,'c':coda}
+)
+
+#words are one or more syllables
+word = FST.re(
+	"$s+",
+	{'s':syllable}
+)
+
+#fix transcription
+orule = FST.re("$^rewrite((ʲo):(j o))")
+arule = FST.re("$^rewrite((ǎ):ɑ)")
+zhrule = FST.re("$^rewrite((d ' ' ʒ):(d͡ʒ))")
+chrule = FST.re("$^rewrite((t ' ' ʃ):(t͡ʃ))")
+
+#exceptions without vowels
+exceptions = FST.re("k|q|ŋ|b|w|v|ɡ|ɢ|ʁ|d|d͡ʒ|ʒ")
+
+everything = FST.re(
+	"$d @ $o @ $a @ $z @ $c @ $s @ ($w|$e)",
+	{'d':drop,'o':orule,'a':arule,
+	'z':zhrule,'c':chrule,'s':spaces,
+	'w':word,'e':exceptions}
+)
+
+for line in lines:
+	res = list(everything.generate(line))
+	if len(res) != 1:
+		print(line)
+
+print(f'arcs: {everything.arccount()}')
+print(f'states: {len(everything.states)}')
+
