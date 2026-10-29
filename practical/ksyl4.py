@@ -25,7 +25,6 @@ coda = FST.re(
 
 #simple syllables
 syllable = FST.re(
-	#"$o $sp $sm{0,1}",
 	"$o $sp $c",
 	{'o':onset,'sp':kf.sylplus,'c':coda}
 )

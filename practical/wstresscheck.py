@@ -1,4 +1,3 @@
-#import re
 from pyfoma import FST
 import wfeatures as fw
 
