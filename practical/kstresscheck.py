@@ -1,5 +1,6 @@
 from pyfoma import FST
 import kfeatures as kf
+import sys
 
 f = open('kstress.txt','r')
 t = f.read()
@@ -11,7 +12,7 @@ lines = t.split('\n')[:-1]
 drop = FST.re("$^rewrite((.*'\t'+):'',leftmost=True)")
 
 #push letters together
-spaces = FST.re("$^rewrite(' ':'')")
+spaces = FST.re("$^rewrite(('.'|' '):'')")
 
 onset = FST.re(
 	"$sm? | ($obs [rl]) | (st)",
@@ -55,13 +56,15 @@ secondary = FST.re(
    "$^rewrite((ˌw):2)"
 )
 
+pat = FST.re(sys.argv[1])
+
 everything = FST.re(
 	#"$d @ $o @ $a @ $z @ $c @ $s @ ($w|$e) @ $st @ $sec",
-	"$d @ $o @ $a @ $z @ $c @ $s @ $w @ $st @ $sec",
+	"$d @ $o @ $a @ $z @ $c @ $s @ $w @ $st @ $sec @ $pat",
 	{'d':drop,'o':orule,'a':arule,
 	'z':zhrule,'c':chrule,'s':spaces,
 	'w':word,'e':exceptions,'st':stress,
-	'sec':secondary}
+	'sec':secondary,'pat':pat}
 )
 
 for line in lines:
