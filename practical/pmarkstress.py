@@ -75,16 +75,13 @@ stress = FST.re(
 )
 
 success = 0
-#for line in lines[:100]:
 for line in lines:
 	res = set(everything.generate(line))
 	target = list(targ.generate(line))[0]
-	#print(f'{line} -> {target}')
 	routs = []
 	for r in res:
 		rout = list(stress.generate(r))[0]
 		routs.append(rout)
-		#print(f'\t{r} -> {rout}')
 	if target in routs:
 		success += 1
 
