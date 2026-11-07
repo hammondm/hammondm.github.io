@@ -57,15 +57,9 @@ word = FST.re(
 	{'s':syllable}
 )
 
-#exceptions
-exceptions = FST.re(
-	"ˈiɡrek|v|tː|t|ˈb̥|ˈb̥|ˈts|ˈk|ˈs|yhisˌkˈond̥|ˈsɤnʲˑik"
-)
-
 pat = FST.re(sys.argv[1])
 
 everything = FST.re(
-	#"$d @ $f0 @ $f1 @ $f2 @ $f3 @ $f4 @ $f5 @ $s @ (($w @ $pat)|$e)",
 	"$d @ $f0 @ $f1 @ $f2 @ $f3 @ $f4 @ $f5 @ $s @ $w @ $pat",
 	{'d':drop,'s':spaces,'w':word,'e':exceptions,
 	'f0':fix0,'f1':fix1,'f2':fix2,'f3':fix3,'f4':fix4,
