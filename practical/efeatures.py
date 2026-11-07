@@ -1,100 +1,100 @@
 from pyfoma import FST
 
-sylplus = FST.re("(øˑ|eˑ|ɤ|uˑ|ɑ|iˑ|y|oː|uːː|e|o|eːː|ø|æː|uː|ɤˑ|ɤː|yː|yːː|ɑˑ|æ|iː|yˑ|øː|oˑ|i|eː|iːː|u|æˑ|ɑː)")
+sylplus = FST.re("(ɑː|ɑ|yː|oː|øː|eː|ø|ɤː|øˑ|æː|ɑˑ|eˑ|æ|ɤˑ|yːː|iˑ|eːː|yˑ|i|uˑ|e|iː|u|æˑ|y|uː|o|ɤ|uːː|iːː|oˑ)")
 
-sylminus = FST.re("(ʃː|nʲ|t|sː|b̥|k|z̥|nː|lʲˑ|lː|lˑ|ɑ̯|tʲː|tːː|h|d̥|mː|ʃ|lʲː|kː|nʲː|i̯|d̥ʲ|rː|ʒ̊|tʲ|m|u̯|o̯|lʲ|e̯|n|tˑ|u̯ː|v|rˑ|sˑ|pːː|hˑ|s|l|i̯ː|nˑ|tː|ɡ̊|fː|ŋ|sʲ|j|hː|pː|lʲːː|o̯ː|mˑ|sʲˑ|p|f|sʲː|r)")
+sylminus = FST.re("(mˑ|pː|ŋ|tʲ|d̥ʲ|t|lː|i̯ː|sʲˑ|l|kː|tʲː|tːː|pːː|j|rː|ʃ|z̥|tˑ|u̯ː|lʲˑ|s|u̯|o̯|sˑ|ʒ̊|tː|n|k|sʲ|nʲː|hˑ|lʲː|sː|ɑ̯|m|nː|rˑ|p|v|sʲː|r|i̯|d̥|h|e̯|f|mː|lʲ|fː|o̯ː|nˑ|lˑ|b̥|ɡ̊|lʲːː|hː|ʃː|nʲ)")
 
-sonplus = FST.re("(øˑ|nʲ|eˑ|ɤ|uˑ|ɑ|nː|iˑ|lʲˑ|lː|lˑ|ɑ̯|y|h|mː|lʲː|oː|nʲː|i̯|rː|uːː|e|m|u̯|o|eːː|o̯|lʲ|ø|e̯|n|æː|uː|u̯ː|rˑ|ɤˑ|hˑ|ɤː|l|i̯ː|nˑ|yː|yːː|ɑˑ|æ|ŋ|j|iː|hː|lʲːː|o̯ː|yˑ|øː|oˑ|i|mˑ|eː|iːː|u|æˑ|ɑː|r)")
+sonplus = FST.re("(ɑː|mˑ|ɑ|ŋ|yː|lː|oː|øː|eː|ø|ɤː|i̯ː|øˑ|l|æː|ɑˑ|eˑ|j|rː|u̯ː|lʲˑ|æ|u̯|o̯|ɤˑ|n|yːː|nʲː|hˑ|lʲː|ɑ̯|m|iˑ|nː|eːː|rˑ|yˑ|r|i̯|h|e̯|i|uˑ|e|iː|mː|lʲ|u|æˑ|y|uː|o|ɤ|o̯ː|nˑ|lˑ|uːː|iːː|oˑ|lʲːː|hː|nʲ)")
 
-sonminus = FST.re("(ʃː|t|sː|b̥|k|z̥|tʲː|tːː|d̥|ʃ|kː|d̥ʲ|ʒ̊|tʲ|tˑ|v|sˑ|pːː|s|tː|ɡ̊|fː|sʲ|pː|sʲˑ|p|f|sʲː)")
+sonminus = FST.re("(pː|tʲ|d̥ʲ|t|sʲˑ|kː|tʲː|tːː|pːː|ʃ|z̥|tˑ|s|sˑ|ʒ̊|tː|k|sʲ|sː|p|v|sʲː|d̥|f|fː|b̥|ɡ̊|ʃː)")
 
-consplus = FST.re("(ʃː|nʲ|t|sː|b̥|k|z̥|nː|lʲˑ|lː|lˑ|tʲː|tːː|h|d̥|mː|ʃ|lʲː|kː|nʲː|d̥ʲ|rː|ʒ̊|tʲ|m|lʲ|n|tˑ|v|rˑ|sˑ|pːː|hˑ|s|l|nˑ|tː|ɡ̊|fː|ŋ|sʲ|hː|pː|lʲːː|mˑ|sʲˑ|p|f|sʲː|r)")
+consplus = FST.re("(mˑ|pː|ŋ|tʲ|d̥ʲ|t|lː|sʲˑ|l|kː|tʲː|tːː|pːː|rː|ʃ|z̥|tˑ|lʲˑ|s|sˑ|ʒ̊|tː|n|k|sʲ|nʲː|hˑ|lʲː|sː|m|nː|rˑ|p|v|sʲː|r|d̥|h|f|mː|lʲ|fː|nˑ|lˑ|b̥|ɡ̊|lʲːː|hː|ʃː|nʲ)")
 
-consminus = FST.re("(øˑ|eˑ|ɤ|uˑ|ɑ|iˑ|ɑ̯|y|oː|i̯|uːː|e|u̯|o|eːː|o̯|ø|e̯|æː|uː|u̯ː|ɤˑ|ɤː|i̯ː|yː|yːː|ɑˑ|æ|j|iː|o̯ː|yˑ|øː|oˑ|i|eː|iːː|u|æˑ|ɑː)")
+consminus = FST.re("(ɑː|ɑ|yː|oː|øː|eː|ø|ɤː|i̯ː|øˑ|æː|ɑˑ|eˑ|j|u̯ː|æ|u̯|o̯|ɤˑ|yːː|ɑ̯|iˑ|eːː|yˑ|i̯|e̯|i|uˑ|e|iː|u|æˑ|y|uː|o|ɤ|o̯ː|uːː|iːː|oˑ)")
 
-contplus = FST.re("(øˑ|ʃː|eˑ|sː|ɤ|uˑ|ɑ|z̥|iˑ|lʲˑ|lː|lˑ|ɑ̯|y|h|ʃ|lʲː|oː|i̯|rː|uːː|ʒ̊|e|u̯|o|eːː|o̯|lʲ|ø|e̯|æː|uː|u̯ː|v|rˑ|sˑ|ɤˑ|hˑ|ɤː|s|l|i̯ː|yː|fː|yːː|ɑˑ|æ|sʲ|j|iː|hː|lʲːː|o̯ː|yˑ|øː|oˑ|i|eː|sʲˑ|iːː|u|æˑ|f|ɑː|sʲː|r)")
+contplus = FST.re("(ɑː|ɑ|yː|lː|oː|øː|eː|ø|ɤː|i̯ː|sʲˑ|øˑ|l|æː|ɑˑ|eˑ|j|rː|ʃ|z̥|u̯ː|lʲˑ|æ|s|u̯|o̯|ɤˑ|sˑ|ʒ̊|yːː|sʲ|hˑ|lʲː|sː|ɑ̯|iˑ|eːː|rˑ|yˑ|v|sʲː|r|i̯|h|e̯|i|f|uˑ|e|iː|lʲ|u|æˑ|y|uː|o|ɤ|fː|o̯ː|lˑ|uːː|iːː|oˑ|lʲːː|hː|ʃː)")
 
-contminus = FST.re("(nʲ|t|b̥|k|nː|tʲː|tːː|d̥|mː|kː|nʲː|d̥ʲ|tʲ|m|n|tˑ|pːː|nˑ|tː|ɡ̊|ŋ|pː|mˑ|p)")
+contminus = FST.re("(mˑ|pː|ŋ|tʲ|d̥ʲ|t|kː|tʲː|tːː|pːː|tˑ|tː|n|k|nʲː|m|nː|p|d̥|mː|nˑ|b̥|ɡ̊|nʲ)")
 
-delrelunmarked = FST.re("(ɤ|ɑ|ɑ̯|rː|rˑ|ɤˑ|ɤː|ɑˑ|ɑː|r)")
+delrelunmarked = FST.re("(ɑː|ɑ|ɤː|ɑˑ|rː|ɤˑ|ɑ̯|rˑ|r|ɤ)")
 
-delrelminus = FST.re("(øˑ|ʃː|nʲ|t|eˑ|sː|b̥|uˑ|k|z̥|nː|iˑ|lʲˑ|lː|lˑ|y|tʲː|tːː|h|d̥|mː|ʃ|lʲː|oː|kː|nʲː|i̯|d̥ʲ|uːː|ʒ̊|tʲ|e|m|u̯|o|eːː|o̯|lʲ|ø|e̯|n|æː|uː|tˑ|u̯ː|v|sˑ|pːː|hˑ|s|l|i̯ː|nˑ|tː|yː|ɡ̊|fː|yːː|æ|ŋ|sʲ|j|iː|hː|pː|lʲːː|o̯ː|yˑ|øː|oˑ|i|mˑ|eː|sʲˑ|iːː|u|æˑ|p|f|sʲː)")
+delrelminus = FST.re("(mˑ|pː|ŋ|tʲ|yː|d̥ʲ|t|lː|oː|øː|eː|ø|i̯ː|sʲˑ|øˑ|l|kː|tʲː|tːː|æː|pːː|eˑ|j|ʃ|z̥|tˑ|u̯ː|lʲˑ|æ|s|u̯|o̯|sˑ|ʒ̊|tː|n|k|yːː|sʲ|nʲː|hˑ|lʲː|sː|m|iˑ|nː|eːː|yˑ|p|v|sʲː|i̯|d̥|h|e̯|i|f|uˑ|e|iː|mː|lʲ|u|æˑ|y|uː|o|fː|o̯ː|nˑ|lˑ|b̥|uːː|iːː|ɡ̊|oˑ|lʲːː|hː|ʃː|nʲ)")
 
-latplus = FST.re("(lʲˑ|lː|lˑ|lʲː|lʲ|l|lʲːː)")
+latplus = FST.re("(lː|l|lʲˑ|lʲː|lʲ|lˑ|lʲːː)")
 
-latminus = FST.re("(øˑ|ʃː|nʲ|t|eˑ|sː|b̥|ɤ|uˑ|ɑ|k|z̥|nː|iˑ|ɑ̯|y|tʲː|tːː|h|d̥|mː|ʃ|oː|kː|nʲː|i̯|d̥ʲ|rː|uːː|ʒ̊|tʲ|e|m|u̯|o|eːː|o̯|ø|e̯|n|æː|uː|tˑ|u̯ː|v|rˑ|sˑ|ɤˑ|pːː|hˑ|ɤː|s|i̯ː|nˑ|tː|yː|ɡ̊|fː|yːː|ɑˑ|æ|ŋ|sʲ|j|iː|hː|pː|o̯ː|yˑ|øː|oˑ|i|mˑ|eː|sʲˑ|iːː|u|æˑ|p|f|ɑː|sʲː|r)")
+latminus = FST.re("(ɑː|mˑ|ɑ|pː|ŋ|tʲ|yː|d̥ʲ|t|oː|øː|eː|ø|ɤː|i̯ː|sʲˑ|øˑ|kː|tʲː|tːː|æː|pːː|ɑˑ|eˑ|j|rː|ʃ|z̥|tˑ|u̯ː|æ|s|u̯|o̯|ɤˑ|sˑ|ʒ̊|tː|n|k|yːː|sʲ|nʲː|hˑ|sː|ɑ̯|m|iˑ|nː|eːː|rˑ|yˑ|p|v|sʲː|r|i̯|d̥|h|e̯|i|f|uˑ|e|iː|mː|u|æˑ|y|uː|o|ɤ|fː|o̯ː|nˑ|b̥|uːː|iːː|ɡ̊|oˑ|hː|ʃː|nʲ)")
 
-nasplus = FST.re("(nʲ|nː|mː|nʲː|m|n|nˑ|ŋ|mˑ)")
+nasplus = FST.re("(mˑ|ŋ|n|nʲː|m|nː|mː|nˑ|nʲ)")
 
-nasminus = FST.re("(øˑ|ʃː|t|eˑ|sː|b̥|ɤ|uˑ|ɑ|k|z̥|iˑ|lʲˑ|lː|lˑ|ɑ̯|y|tʲː|tːː|h|d̥|ʃ|lʲː|oː|kː|i̯|d̥ʲ|rː|uːː|ʒ̊|tʲ|e|u̯|o|eːː|o̯|lʲ|ø|e̯|æː|uː|tˑ|u̯ː|v|rˑ|sˑ|ɤˑ|pːː|hˑ|ɤː|s|l|i̯ː|tː|yː|ɡ̊|fː|yːː|ɑˑ|æ|sʲ|j|iː|hː|pː|lʲːː|o̯ː|yˑ|øː|oˑ|i|eː|sʲˑ|iːː|u|æˑ|p|f|ɑː|sʲː|r)")
+nasminus = FST.re("(ɑː|ɑ|pː|tʲ|yː|d̥ʲ|t|lː|oː|øː|eː|ø|ɤː|i̯ː|sʲˑ|øˑ|l|kː|tʲː|tːː|æː|pːː|ɑˑ|eˑ|j|rː|ʃ|z̥|tˑ|u̯ː|lʲˑ|æ|s|u̯|o̯|ɤˑ|sˑ|ʒ̊|tː|k|yːː|sʲ|hˑ|lʲː|sː|ɑ̯|iˑ|eːː|rˑ|yˑ|p|v|sʲː|r|i̯|d̥|h|e̯|i|f|uˑ|e|iː|lʲ|u|æˑ|y|uː|o|ɤ|fː|o̯ː|lˑ|b̥|uːː|iːː|ɡ̊|oˑ|lʲːː|hː|ʃː)")
 
-stridplus = FST.re("(ʃː|sː|z̥|ʃ|ʒ̊|v|sˑ|s|fː|sʲ|sʲˑ|f|sʲː)")
+stridplus = FST.re("(sʲˑ|ʃ|z̥|s|sˑ|ʒ̊|sʲ|sː|v|sʲː|f|fː|ʃː)")
 
-stridminus = FST.re("(øˑ|nʲ|t|eˑ|b̥|ɤ|uˑ|ɑ|k|nː|iˑ|lʲˑ|lː|lˑ|ɑ̯|y|tʲː|tːː|h|d̥|mː|lʲː|oː|kː|nʲː|i̯|d̥ʲ|rː|uːː|tʲ|e|m|u̯|o|eːː|o̯|lʲ|ø|e̯|n|æː|uː|tˑ|u̯ː|rˑ|ɤˑ|pːː|hˑ|ɤː|l|i̯ː|nˑ|tː|yː|ɡ̊|yːː|ɑˑ|æ|ŋ|j|iː|hː|pː|lʲːː|o̯ː|yˑ|øː|oˑ|i|mˑ|eː|iːː|u|æˑ|p|ɑː|r)")
+stridminus = FST.re("(ɑː|mˑ|ɑ|pː|ŋ|tʲ|yː|d̥ʲ|t|lː|oː|øː|eː|ø|ɤː|i̯ː|øˑ|l|kː|tʲː|tːː|æː|pːː|ɑˑ|eˑ|j|rː|tˑ|u̯ː|lʲˑ|æ|u̯|o̯|ɤˑ|tː|n|k|yːː|nʲː|hˑ|lʲː|ɑ̯|m|iˑ|nː|eːː|rˑ|yˑ|p|r|i̯|d̥|h|e̯|i|uˑ|e|iː|mː|lʲ|u|æˑ|y|uː|o|ɤ|o̯ː|nˑ|lˑ|b̥|uːː|iːː|ɡ̊|oˑ|lʲːː|hː|nʲ)")
 
-voiplus = FST.re("(øˑ|nʲ|eˑ|b̥|ɤ|uˑ|ɑ|z̥|nː|iˑ|lʲˑ|lː|lˑ|ɑ̯|y|d̥|mː|lʲː|oː|nʲː|i̯|d̥ʲ|rː|uːː|ʒ̊|e|m|u̯|o|eːː|o̯|lʲ|ø|e̯|n|æː|uː|u̯ː|v|rˑ|ɤˑ|ɤː|l|i̯ː|nˑ|yː|ɡ̊|yːː|ɑˑ|æ|ŋ|j|iː|lʲːː|o̯ː|yˑ|øː|oˑ|i|mˑ|eː|iːː|u|æˑ|ɑː|r)")
+voiplus = FST.re("(ɑː|mˑ|ɑ|ŋ|yː|d̥ʲ|lː|oː|øː|eː|ø|ɤː|i̯ː|øˑ|l|æː|ɑˑ|eˑ|j|rː|z̥|u̯ː|lʲˑ|æ|u̯|o̯|ɤˑ|ʒ̊|n|yːː|nʲː|lʲː|ɑ̯|m|iˑ|nː|eːː|rˑ|yˑ|v|r|i̯|d̥|e̯|i|uˑ|e|iː|mː|lʲ|u|æˑ|y|uː|o|ɤ|o̯ː|nˑ|lˑ|b̥|uːː|iːː|ɡ̊|oˑ|lʲːː|nʲ)")
 
-voiminus = FST.re("(ʃː|t|sː|k|tʲː|tːː|h|ʃ|kː|tʲ|tˑ|sˑ|pːː|hˑ|s|tː|fː|sʲ|hː|pː|sʲˑ|p|f|sʲː)")
+voiminus = FST.re("(pː|tʲ|t|sʲˑ|kː|tʲː|tːː|pːː|ʃ|tˑ|s|sˑ|tː|k|sʲ|hˑ|sː|p|sʲː|h|f|fː|hː|ʃː)")
 
-sgminus = FST.re("(øˑ|ʃː|nʲ|t|eˑ|sː|b̥|ɤ|uˑ|ɑ|k|z̥|nː|iˑ|lʲˑ|lː|lˑ|ɑ̯|y|tʲː|tːː|h|d̥|mː|ʃ|lʲː|oː|kː|nʲː|i̯|d̥ʲ|rː|uːː|ʒ̊|tʲ|e|m|u̯|o|eːː|o̯|lʲ|ø|e̯|n|æː|uː|tˑ|u̯ː|v|rˑ|sˑ|ɤˑ|pːː|hˑ|ɤː|s|l|i̯ː|nˑ|tː|yː|ɡ̊|fː|yːː|ɑˑ|æ|ŋ|sʲ|j|iː|hː|pː|lʲːː|o̯ː|yˑ|øː|oˑ|i|mˑ|eː|sʲˑ|iːː|u|æˑ|p|f|ɑː|sʲː|r)")
+sgminus = FST.re("(ɑː|mˑ|ɑ|pː|ŋ|tʲ|yː|d̥ʲ|t|lː|oː|øː|eː|ø|ɤː|i̯ː|sʲˑ|øˑ|l|kː|tʲː|tːː|æː|pːː|ɑˑ|eˑ|j|rː|ʃ|z̥|tˑ|u̯ː|lʲˑ|æ|s|u̯|o̯|ɤˑ|sˑ|ʒ̊|tː|n|k|yːː|sʲ|nʲː|hˑ|lʲː|sː|ɑ̯|m|iˑ|nː|eːː|rˑ|yˑ|p|v|sʲː|r|i̯|d̥|h|e̯|i|f|uˑ|e|iː|mː|lʲ|u|æˑ|y|uː|o|ɤ|fː|o̯ː|nˑ|lˑ|b̥|uːː|iːː|ɡ̊|oˑ|lʲːː|hː|ʃː|nʲ)")
 
-cgminus = FST.re("(øˑ|ʃː|nʲ|t|eˑ|sː|b̥|ɤ|uˑ|ɑ|k|z̥|nː|iˑ|lʲˑ|lː|lˑ|ɑ̯|y|tʲː|tːː|h|d̥|mː|ʃ|lʲː|oː|kː|nʲː|i̯|d̥ʲ|rː|uːː|ʒ̊|tʲ|e|m|u̯|o|eːː|o̯|lʲ|ø|e̯|n|æː|uː|tˑ|u̯ː|v|rˑ|sˑ|ɤˑ|pːː|hˑ|ɤː|s|l|i̯ː|nˑ|tː|yː|ɡ̊|fː|yːː|ɑˑ|æ|ŋ|sʲ|j|iː|hː|pː|lʲːː|o̯ː|yˑ|øː|oˑ|i|mˑ|eː|sʲˑ|iːː|u|æˑ|p|f|ɑː|sʲː|r)")
+cgminus = FST.re("(ɑː|mˑ|ɑ|pː|ŋ|tʲ|yː|d̥ʲ|t|lː|oː|øː|eː|ø|ɤː|i̯ː|sʲˑ|øˑ|l|kː|tʲː|tːː|æː|pːː|ɑˑ|eˑ|j|rː|ʃ|z̥|tˑ|u̯ː|lʲˑ|æ|s|u̯|o̯|ɤˑ|sˑ|ʒ̊|tː|n|k|yːː|sʲ|nʲː|hˑ|lʲː|sː|ɑ̯|m|iˑ|nː|eːː|rˑ|yˑ|p|v|sʲː|r|i̯|d̥|h|e̯|i|f|uˑ|e|iː|mː|lʲ|u|æˑ|y|uː|o|ɤ|fː|o̯ː|nˑ|lˑ|b̥|uːː|iːː|ɡ̊|oˑ|lʲːː|hː|ʃː|nʲ)")
 
-antplus = FST.re("(nʲ|t|sː|b̥|z̥|nː|lʲˑ|lː|lˑ|tʲː|tːː|d̥|mː|lʲː|nʲː|d̥ʲ|rː|tʲ|m|lʲ|n|tˑ|v|rˑ|sˑ|pːː|s|l|nˑ|tː|fː|sʲ|pː|lʲːː|mˑ|sʲˑ|p|f|sʲː|r)")
+antplus = FST.re("(mˑ|pː|tʲ|d̥ʲ|t|lː|sʲˑ|l|tʲː|tːː|pːː|rː|z̥|tˑ|lʲˑ|s|sˑ|tː|n|sʲ|nʲː|lʲː|sː|m|nː|rˑ|p|v|sʲː|r|d̥|f|mː|lʲ|fː|nˑ|lˑ|b̥|lʲːː|nʲ)")
 
-antunmarked = FST.re("(øˑ|eˑ|ɤ|uˑ|ɑ|iˑ|ɑ̯|y|oː|i̯|uːː|e|u̯|o|eːː|o̯|ø|e̯|æː|uː|u̯ː|ɤˑ|ɤː|i̯ː|yː|yːː|ɑˑ|æ|iː|o̯ː|yˑ|øː|oˑ|i|eː|iːː|u|æˑ|ɑː)")
+antunmarked = FST.re("(ɑː|ɑ|yː|oː|øː|eː|ø|ɤː|i̯ː|øˑ|æː|ɑˑ|eˑ|u̯ː|æ|u̯|o̯|ɤˑ|yːː|ɑ̯|iˑ|eːː|yˑ|i̯|e̯|i|uˑ|e|iː|u|æˑ|y|uː|o|ɤ|o̯ː|uːː|iːː|oˑ)")
 
-antminus = FST.re("(ʃː|k|h|ʃ|kː|ʒ̊|hˑ|ɡ̊|ŋ|j|hː)")
+antminus = FST.re("(ŋ|kː|j|ʃ|ʒ̊|k|hˑ|h|ɡ̊|hː|ʃː)")
 
-corplus = FST.re("(ʃː|nʲ|t|sː|z̥|nː|lʲˑ|lː|lˑ|tʲː|tːː|d̥|ʃ|lʲː|nʲː|d̥ʲ|rː|ʒ̊|tʲ|lʲ|n|tˑ|rˑ|sˑ|s|l|nˑ|tː|sʲ|lʲːː|sʲˑ|sʲː|r)")
+corplus = FST.re("(tʲ|d̥ʲ|t|lː|sʲˑ|l|tʲː|tːː|rː|ʃ|z̥|tˑ|lʲˑ|s|sˑ|ʒ̊|tː|n|sʲ|nʲː|lʲː|sː|nː|rˑ|sʲː|r|d̥|lʲ|nˑ|lˑ|lʲːː|ʃː|nʲ)")
 
-corminus = FST.re("(øˑ|eˑ|b̥|ɤ|uˑ|ɑ|k|iˑ|ɑ̯|y|h|mː|oː|kː|i̯|uːː|e|m|u̯|o|eːː|o̯|ø|e̯|æː|uː|u̯ː|v|ɤˑ|pːː|hˑ|ɤː|i̯ː|yː|ɡ̊|fː|yːː|ɑˑ|æ|ŋ|j|iː|hː|pː|o̯ː|yˑ|øː|oˑ|i|mˑ|eː|iːː|u|æˑ|p|f|ɑː)")
+corminus = FST.re("(ɑː|mˑ|ɑ|pː|ŋ|yː|oː|øː|eː|ø|ɤː|i̯ː|øˑ|kː|æː|pːː|ɑˑ|eˑ|j|u̯ː|æ|u̯|o̯|ɤˑ|k|yːː|hˑ|ɑ̯|m|iˑ|eːː|yˑ|p|v|i̯|h|e̯|i|f|uˑ|e|iː|mː|u|æˑ|y|uː|o|ɤ|fː|o̯ː|b̥|uːː|iːː|ɡ̊|oˑ|hː)")
 
-distrplus = FST.re("(ʃː|ʃ|ʒ̊)")
+distrplus = FST.re("(ʃ|ʒ̊|ʃː)")
 
-distrunmarked = FST.re("(øˑ|eˑ|b̥|ɤ|uˑ|ɑ|k|iˑ|ɑ̯|y|h|mː|oː|kː|i̯|uːː|e|m|u̯|o|eːː|o̯|ø|e̯|æː|uː|u̯ː|v|ɤˑ|pːː|hˑ|ɤː|i̯ː|yː|ɡ̊|fː|yːː|ɑˑ|æ|ŋ|j|iː|hː|pː|o̯ː|yˑ|øː|oˑ|i|mˑ|eː|iːː|u|æˑ|p|f|ɑː)")
+distrunmarked = FST.re("(ɑː|mˑ|ɑ|pː|ŋ|yː|oː|øː|eː|ø|ɤː|i̯ː|øˑ|kː|æː|pːː|ɑˑ|eˑ|j|u̯ː|æ|u̯|o̯|ɤˑ|k|yːː|hˑ|ɑ̯|m|iˑ|eːː|yˑ|p|v|i̯|h|e̯|i|f|uˑ|e|iː|mː|u|æˑ|y|uː|o|ɤ|fː|o̯ː|b̥|uːː|iːː|ɡ̊|oˑ|hː)")
 
-distrminus = FST.re("(nʲ|t|sː|z̥|nː|lʲˑ|lː|lˑ|tʲː|tːː|d̥|lʲː|nʲː|d̥ʲ|rː|tʲ|lʲ|n|tˑ|rˑ|sˑ|s|l|nˑ|tː|sʲ|lʲːː|sʲˑ|sʲː|r)")
+distrminus = FST.re("(tʲ|d̥ʲ|t|lː|sʲˑ|l|tʲː|tːː|rː|z̥|tˑ|lʲˑ|s|sˑ|tː|n|sʲ|nʲː|lʲː|sː|nː|rˑ|sʲː|r|d̥|lʲ|nˑ|lˑ|lʲːː|nʲ)")
 
-labplus = FST.re("(b̥|uˑ|y|mː|uːː|m|u̯|uː|u̯ː|v|pːː|yː|fː|yːː|pː|yˑ|mˑ|u|p|f)")
+labplus = FST.re("(mˑ|pː|yː|pːː|u̯ː|u̯|yːː|m|yˑ|p|v|f|uˑ|mː|u|y|uː|fː|b̥|uːː)")
 
-labminus = FST.re("(øˑ|ʃː|nʲ|t|eˑ|sː|ɤ|ɑ|k|z̥|nː|iˑ|lʲˑ|lː|lˑ|ɑ̯|tʲː|tːː|h|d̥|ʃ|lʲː|oː|kː|nʲː|i̯|d̥ʲ|rː|ʒ̊|tʲ|e|o|eːː|o̯|lʲ|ø|e̯|n|æː|tˑ|rˑ|sˑ|ɤˑ|hˑ|ɤː|s|l|i̯ː|nˑ|tː|ɡ̊|ɑˑ|æ|ŋ|sʲ|j|iː|hː|lʲːː|o̯ː|øː|oˑ|i|eː|sʲˑ|iːː|æˑ|ɑː|sʲː|r)")
+labminus = FST.re("(ɑː|ɑ|ŋ|tʲ|d̥ʲ|t|lː|oː|øː|eː|ø|ɤː|i̯ː|sʲˑ|øˑ|l|kː|tʲː|tːː|æː|ɑˑ|eˑ|j|rː|ʃ|z̥|tˑ|lʲˑ|æ|s|o̯|ɤˑ|sˑ|ʒ̊|tː|n|k|sʲ|nʲː|hˑ|lʲː|sː|ɑ̯|iˑ|nː|eːː|rˑ|sʲː|r|i̯|d̥|h|e̯|i|e|iː|lʲ|æˑ|o|ɤ|o̯ː|nˑ|lˑ|iːː|ɡ̊|oˑ|lʲːː|hː|ʃː|nʲ)")
 
-hiplus = FST.re("(nʲ|uˑ|k|iˑ|lʲˑ|y|tʲː|lʲː|kː|nʲː|i̯|d̥ʲ|uːː|tʲ|u̯|lʲ|uː|u̯ː|i̯ː|yː|ɡ̊|yːː|ŋ|sʲ|j|iː|lʲːː|yˑ|i|sʲˑ|iːː|u|sʲː)")
+hiplus = FST.re("(ŋ|tʲ|yː|d̥ʲ|i̯ː|sʲˑ|kː|tʲː|j|u̯ː|lʲˑ|u̯|k|yːː|sʲ|nʲː|lʲː|iˑ|yˑ|sʲː|i̯|i|uˑ|iː|lʲ|u|y|uː|uːː|iːː|ɡ̊|lʲːː|nʲ)")
 
 hiunmarked = FST.re("(rː|rˑ|r)")
 
-himinus = FST.re("(øˑ|ʃː|t|eˑ|sː|b̥|ɤ|ɑ|z̥|nː|lː|lˑ|ɑ̯|tːː|h|d̥|mː|ʃ|oː|ʒ̊|e|m|o|eːː|o̯|ø|e̯|n|æː|tˑ|v|sˑ|ɤˑ|pːː|hˑ|ɤː|s|l|nˑ|tː|fː|ɑˑ|æ|hː|pː|o̯ː|øː|oˑ|mˑ|eː|æˑ|p|f|ɑː)")
+himinus = FST.re("(ɑː|mˑ|ɑ|pː|t|lː|oː|øː|eː|ø|ɤː|øˑ|l|tːː|æː|pːː|ɑˑ|eˑ|ʃ|z̥|tˑ|æ|s|o̯|ɤˑ|sˑ|ʒ̊|tː|n|hˑ|sː|ɑ̯|m|nː|eːː|p|v|d̥|h|e̯|f|e|mː|æˑ|o|ɤ|fː|o̯ː|nˑ|lˑ|b̥|oˑ|hː|ʃː)")
 
-loplus = FST.re("(ɑ|ɑ̯|æː|ɑˑ|æ|æˑ|ɑː)")
+loplus = FST.re("(ɑː|ɑ|æː|ɑˑ|æ|ɑ̯|æˑ)")
 
 lounmarked = FST.re("(rː|rˑ|r)")
 
-lominus = FST.re("(øˑ|ʃː|nʲ|t|eˑ|sː|b̥|ɤ|uˑ|k|z̥|nː|iˑ|lʲˑ|lː|lˑ|y|tʲː|tːː|h|d̥|mː|ʃ|lʲː|oː|kː|nʲː|i̯|d̥ʲ|uːː|ʒ̊|tʲ|e|m|u̯|o|eːː|o̯|lʲ|ø|e̯|n|uː|tˑ|u̯ː|v|sˑ|ɤˑ|pːː|hˑ|ɤː|s|l|i̯ː|nˑ|tː|yː|ɡ̊|fː|yːː|ŋ|sʲ|j|iː|hː|pː|lʲːː|o̯ː|yˑ|øː|oˑ|i|mˑ|eː|sʲˑ|iːː|u|p|f|sʲː)")
+lominus = FST.re("(mˑ|pː|ŋ|tʲ|yː|d̥ʲ|t|lː|oː|øː|eː|ø|ɤː|i̯ː|sʲˑ|øˑ|l|kː|tʲː|tːː|pːː|eˑ|j|ʃ|z̥|tˑ|u̯ː|lʲˑ|s|u̯|o̯|ɤˑ|sˑ|ʒ̊|tː|n|k|yːː|sʲ|nʲː|hˑ|lʲː|sː|m|iˑ|nː|eːː|yˑ|p|v|sʲː|i̯|d̥|h|e̯|i|f|uˑ|e|iː|mː|lʲ|u|y|uː|o|ɤ|fː|o̯ː|nˑ|lˑ|b̥|uːː|iːː|ɡ̊|oˑ|lʲːː|hː|ʃː|nʲ)")
 
-backplus = FST.re("(ɤ|uˑ|ɑ|k|ɑ̯|h|oː|kː|uːː|u̯|o|o̯|uː|u̯ː|ɤˑ|hˑ|ɤː|ɡ̊|ɑˑ|ŋ|hː|o̯ː|oˑ|u|ɑː)")
+backplus = FST.re("(ɑː|ɑ|ŋ|oː|ɤː|kː|ɑˑ|u̯ː|u̯|o̯|ɤˑ|k|hˑ|ɑ̯|h|uˑ|u|uː|o|ɤ|o̯ː|uːː|ɡ̊|oˑ|hː)")
 
-backminus = FST.re("(øˑ|ʃː|nʲ|t|eˑ|sː|b̥|z̥|nː|iˑ|lʲˑ|lː|lˑ|y|tʲː|tːː|d̥|mː|ʃ|lʲː|nʲː|i̯|d̥ʲ|rː|ʒ̊|tʲ|e|m|eːː|lʲ|ø|e̯|n|æː|tˑ|v|rˑ|sˑ|pːː|s|l|i̯ː|nˑ|tː|yː|fː|yːː|æ|sʲ|j|iː|pː|lʲːː|yˑ|øː|i|mˑ|eː|sʲˑ|iːː|æˑ|p|f|sʲː|r)")
+backminus = FST.re("(mˑ|pː|tʲ|yː|d̥ʲ|t|lː|øː|eː|ø|i̯ː|sʲˑ|øˑ|l|tʲː|tːː|æː|pːː|eˑ|j|rː|ʃ|z̥|tˑ|lʲˑ|æ|s|sˑ|ʒ̊|tː|n|yːː|sʲ|nʲː|lʲː|sː|m|iˑ|nː|eːː|rˑ|yˑ|p|v|sʲː|r|i̯|d̥|e̯|i|f|e|iː|mː|lʲ|æˑ|y|fː|nˑ|lˑ|b̥|iːː|lʲːː|ʃː|nʲ)")
 
-roundplus = FST.re("(øˑ|uˑ|y|oː|uːː|u̯|o|o̯|ø|uː|u̯ː|yː|yːː|o̯ː|yˑ|øː|oˑ|u)")
+roundplus = FST.re("(yː|oː|øː|ø|øˑ|u̯ː|u̯|o̯|yːː|yˑ|uˑ|u|y|uː|o|o̯ː|uːː|oˑ)")
 
-roundminus = FST.re("(ʃː|nʲ|t|eˑ|sː|b̥|ɤ|ɑ|k|z̥|nː|iˑ|lʲˑ|lː|lˑ|ɑ̯|tʲː|tːː|h|d̥|mː|ʃ|lʲː|kː|nʲː|i̯|d̥ʲ|rː|ʒ̊|tʲ|e|m|eːː|lʲ|e̯|n|æː|tˑ|v|rˑ|sˑ|ɤˑ|pːː|hˑ|ɤː|s|l|i̯ː|nˑ|tː|ɡ̊|fː|ɑˑ|æ|ŋ|sʲ|j|iː|hː|pː|lʲːː|i|mˑ|eː|sʲˑ|iːː|æˑ|p|f|ɑː|sʲː|r)")
+roundminus = FST.re("(ɑː|mˑ|ɑ|pː|ŋ|tʲ|d̥ʲ|t|lː|eː|ɤː|i̯ː|sʲˑ|l|kː|tʲː|tːː|æː|pːː|ɑˑ|eˑ|j|rː|ʃ|z̥|tˑ|lʲˑ|æ|s|ɤˑ|sˑ|ʒ̊|tː|n|k|sʲ|nʲː|hˑ|lʲː|sː|ɑ̯|m|iˑ|nː|eːː|rˑ|p|v|sʲː|r|i̯|d̥|h|e̯|i|f|e|iː|mː|lʲ|æˑ|ɤ|fː|nˑ|lˑ|b̥|iːː|ɡ̊|lʲːː|hː|ʃː|nʲ)")
 
-velaricminus = FST.re("(øˑ|ʃː|nʲ|t|eˑ|sː|b̥|ɤ|uˑ|ɑ|k|z̥|nː|iˑ|lʲˑ|lː|lˑ|ɑ̯|y|tʲː|tːː|h|d̥|mː|ʃ|lʲː|oː|kː|nʲː|i̯|d̥ʲ|rː|uːː|ʒ̊|tʲ|e|m|u̯|o|eːː|o̯|lʲ|ø|e̯|n|æː|uː|tˑ|u̯ː|v|rˑ|sˑ|ɤˑ|pːː|hˑ|ɤː|s|l|i̯ː|nˑ|tː|yː|ɡ̊|fː|yːː|ɑˑ|æ|ŋ|sʲ|j|iː|hː|pː|lʲːː|o̯ː|yˑ|øː|oˑ|i|mˑ|eː|sʲˑ|iːː|u|æˑ|p|f|ɑː|sʲː|r)")
+velaricminus = FST.re("(ɑː|mˑ|ɑ|pː|ŋ|tʲ|yː|d̥ʲ|t|lː|oː|øː|eː|ø|ɤː|i̯ː|sʲˑ|øˑ|l|kː|tʲː|tːː|æː|pːː|ɑˑ|eˑ|j|rː|ʃ|z̥|tˑ|u̯ː|lʲˑ|æ|s|u̯|o̯|ɤˑ|sˑ|ʒ̊|tː|n|k|yːː|sʲ|nʲː|hˑ|lʲː|sː|ɑ̯|m|iˑ|nː|eːː|rˑ|yˑ|p|v|sʲː|r|i̯|d̥|h|e̯|i|f|uˑ|e|iː|mː|lʲ|u|æˑ|y|uː|o|ɤ|fː|o̯ː|nˑ|lˑ|b̥|uːː|iːː|ɡ̊|oˑ|lʲːː|hː|ʃː|nʲ)")
 
-tenseplus = FST.re("(øˑ|eˑ|ɤ|uˑ|ɑ|iˑ|ɑ̯|y|oː|i̯|uːː|e|u̯|o|eːː|o̯|ø|e̯|æː|uː|u̯ː|ɤˑ|ɤː|i̯ː|yː|yːː|ɑˑ|æ|iː|o̯ː|yˑ|øː|oˑ|i|eː|iːː|u|æˑ|ɑː)")
+tenseplus = FST.re("(ɑː|ɑ|yː|oː|øː|eː|ø|ɤː|i̯ː|øˑ|æː|ɑˑ|eˑ|u̯ː|æ|u̯|o̯|ɤˑ|yːː|ɑ̯|iˑ|eːː|yˑ|i̯|e̯|i|uˑ|e|iː|u|æˑ|y|uː|o|ɤ|o̯ː|uːː|iːː|oˑ)")
 
-tenseunmarked = FST.re("(ʃː|nʲ|t|sː|b̥|k|z̥|nː|lʲˑ|lː|lˑ|tʲː|tːː|h|d̥|mː|ʃ|lʲː|kː|nʲː|d̥ʲ|rː|ʒ̊|tʲ|m|lʲ|n|tˑ|v|rˑ|sˑ|pːː|hˑ|s|l|nˑ|tː|ɡ̊|fː|ŋ|sʲ|j|hː|pː|lʲːː|mˑ|sʲˑ|p|f|sʲː|r)")
+tenseunmarked = FST.re("(mˑ|pː|ŋ|tʲ|d̥ʲ|t|lː|sʲˑ|l|kː|tʲː|tːː|pːː|j|rː|ʃ|z̥|tˑ|lʲˑ|s|sˑ|ʒ̊|tː|n|k|sʲ|nʲː|hˑ|lʲː|sː|m|nː|rˑ|p|v|sʲː|r|d̥|h|f|mː|lʲ|fː|nˑ|lˑ|b̥|ɡ̊|lʲːː|hː|ʃː|nʲ)")
 
-longplus = FST.re("(ʃː|sː|nː|lː|tʲː|tːː|mː|lʲː|oː|kː|nʲː|rː|uːː|eːː|æː|uː|u̯ː|pːː|ɤː|i̯ː|tː|yː|fː|yːː|iː|hː|pː|lʲːː|o̯ː|øː|eː|iːː|ɑː|sʲː)")
+longplus = FST.re("(ɑː|pː|yː|lː|oː|øː|eː|ɤː|i̯ː|kː|tʲː|tːː|æː|pːː|rː|u̯ː|tː|yːː|nʲː|lʲː|sː|nː|eːː|sʲː|iː|mː|uː|fː|o̯ː|uːː|iːː|lʲːː|hː|ʃː)")
 
-longminus = FST.re("(øˑ|nʲ|t|eˑ|b̥|ɤ|uˑ|ɑ|k|z̥|iˑ|lʲˑ|lˑ|ɑ̯|y|h|d̥|ʃ|i̯|d̥ʲ|ʒ̊|tʲ|e|m|u̯|o|o̯|lʲ|ø|e̯|n|tˑ|v|rˑ|sˑ|ɤˑ|hˑ|s|l|nˑ|ɡ̊|ɑˑ|æ|ŋ|sʲ|j|yˑ|oˑ|i|mˑ|sʲˑ|u|æˑ|p|f|r)")
+longminus = FST.re("(mˑ|ɑ|ŋ|tʲ|d̥ʲ|t|ø|sʲˑ|øˑ|l|ɑˑ|eˑ|j|ʃ|z̥|tˑ|lʲˑ|æ|s|u̯|o̯|ɤˑ|sˑ|ʒ̊|n|k|sʲ|hˑ|ɑ̯|m|iˑ|rˑ|yˑ|p|v|r|i̯|d̥|h|e̯|i|f|uˑ|e|lʲ|u|æˑ|y|o|ɤ|nˑ|lˑ|b̥|ɡ̊|oˑ|nʲ)")
 
-hitoneunmarked = FST.re("(øˑ|ʃː|nʲ|t|eˑ|sː|b̥|ɤ|uˑ|ɑ|k|z̥|nː|iˑ|lʲˑ|lː|lˑ|ɑ̯|y|tʲː|tːː|h|d̥|mː|ʃ|lʲː|oː|kː|nʲː|i̯|d̥ʲ|rː|uːː|ʒ̊|tʲ|e|m|u̯|o|eːː|o̯|lʲ|ø|e̯|n|æː|uː|tˑ|u̯ː|v|rˑ|sˑ|ɤˑ|pːː|hˑ|ɤː|s|l|i̯ː|nˑ|tː|yː|ɡ̊|fː|yːː|ɑˑ|æ|ŋ|sʲ|j|iː|hː|pː|lʲːː|o̯ː|yˑ|øː|oˑ|i|mˑ|eː|sʲˑ|iːː|u|æˑ|p|f|ɑː|sʲː|r)")
+hitoneunmarked = FST.re("(ɑː|mˑ|ɑ|pː|ŋ|tʲ|yː|d̥ʲ|t|lː|oː|øː|eː|ø|ɤː|i̯ː|sʲˑ|øˑ|l|kː|tʲː|tːː|æː|pːː|ɑˑ|eˑ|j|rː|ʃ|z̥|tˑ|u̯ː|lʲˑ|æ|s|u̯|o̯|ɤˑ|sˑ|ʒ̊|tː|n|k|yːː|sʲ|nʲː|hˑ|lʲː|sː|ɑ̯|m|iˑ|nː|eːː|rˑ|yˑ|p|v|sʲː|r|i̯|d̥|h|e̯|i|f|uˑ|e|iː|mː|lʲ|u|æˑ|y|uː|o|ɤ|fː|o̯ː|nˑ|lˑ|b̥|uːː|iːː|ɡ̊|oˑ|lʲːː|hː|ʃː|nʲ)")
 
-hiregunmarked = FST.re("(øˑ|ʃː|nʲ|t|eˑ|sː|b̥|ɤ|uˑ|ɑ|k|z̥|nː|iˑ|lʲˑ|lː|lˑ|ɑ̯|y|tʲː|tːː|h|d̥|mː|ʃ|lʲː|oː|kː|nʲː|i̯|d̥ʲ|rː|uːː|ʒ̊|tʲ|e|m|u̯|o|eːː|o̯|lʲ|ø|e̯|n|æː|uː|tˑ|u̯ː|v|rˑ|sˑ|ɤˑ|pːː|hˑ|ɤː|s|l|i̯ː|nˑ|tː|yː|ɡ̊|fː|yːː|ɑˑ|æ|ŋ|sʲ|j|iː|hː|pː|lʲːː|o̯ː|yˑ|øː|oˑ|i|mˑ|eː|sʲˑ|iːː|u|æˑ|p|f|ɑː|sʲː|r)")
+hiregunmarked = FST.re("(ɑː|mˑ|ɑ|pː|ŋ|tʲ|yː|d̥ʲ|t|lː|oː|øː|eː|ø|ɤː|i̯ː|sʲˑ|øˑ|l|kː|tʲː|tːː|æː|pːː|ɑˑ|eˑ|j|rː|ʃ|z̥|tˑ|u̯ː|lʲˑ|æ|s|u̯|o̯|ɤˑ|sˑ|ʒ̊|tː|n|k|yːː|sʲ|nʲː|hˑ|lʲː|sː|ɑ̯|m|iˑ|nː|eːː|rˑ|yˑ|p|v|sʲː|r|i̯|d̥|h|e̯|i|f|uˑ|e|iː|mː|lʲ|u|æˑ|y|uː|o|ɤ|fː|o̯ː|nˑ|lˑ|b̥|uːː|iːː|ɡ̊|oˑ|lʲːː|hː|ʃː|nʲ)")
 
-halflongplus = FST.re("(øˑ|eˑ|uˑ|iˑ|lʲˑ|lˑ|tːː|uːː|eːː|tˑ|rˑ|sˑ|ɤˑ|pːː|hˑ|nˑ|yːː|ɑˑ|lʲːː|yˑ|oˑ|mˑ|sʲˑ|iːː|æˑ)")
+halflongplus = FST.re("(mˑ|sʲˑ|øˑ|tːː|pːː|ɑˑ|eˑ|tˑ|lʲˑ|ɤˑ|sˑ|yːː|hˑ|iˑ|eːː|rˑ|yˑ|uˑ|æˑ|nˑ|lˑ|uːː|iːː|oˑ|lʲːː)")
 
-halflongminus = FST.re("(ʃː|nʲ|t|sː|b̥|ɤ|ɑ|k|z̥|nː|lː|ɑ̯|y|tʲː|h|d̥|mː|ʃ|lʲː|oː|kː|nʲː|i̯|d̥ʲ|rː|ʒ̊|tʲ|e|m|u̯|o|o̯|lʲ|ø|e̯|n|æː|uː|u̯ː|v|ɤː|s|l|i̯ː|tː|yː|ɡ̊|fː|æ|ŋ|sʲ|j|iː|hː|pː|o̯ː|øː|i|eː|u|p|f|ɑː|sʲː|r)")
+halflongminus = FST.re("(ɑː|ɑ|pː|ŋ|tʲ|yː|d̥ʲ|t|lː|oː|øː|eː|ø|ɤː|i̯ː|l|kː|tʲː|æː|j|rː|ʃ|z̥|u̯ː|æ|s|u̯|o̯|ʒ̊|tː|n|k|sʲ|nʲː|lʲː|sː|ɑ̯|m|nː|p|v|sʲː|r|i̯|d̥|h|e̯|i|f|e|iː|mː|lʲ|u|y|uː|o|ɤ|fː|o̯ː|b̥|ɡ̊|hː|ʃː|nʲ)")
 
