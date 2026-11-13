@@ -61,7 +61,7 @@ pat = FST.re(sys.argv[1])
 
 everything = FST.re(
 	"$d @ $f0 @ $f1 @ $f2 @ $f3 @ $f4 @ $f5 @ $s @ $w @ $pat",
-	{'d':drop,'s':spaces,'w':word,'e':exceptions,
+	{'d':drop,'s':spaces,'w':word,
 	'f0':fix0,'f1':fix1,'f2':fix2,'f3':fix3,'f4':fix4,
 	'f5':fix5,'pat':pat}
 )
