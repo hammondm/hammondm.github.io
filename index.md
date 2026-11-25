@@ -16,7 +16,7 @@ I have an official web page [over here](https://sites.arizona.edu/hammond/), but
 
 **Materials associated with my books**
 
-1. [Programs](mathcode.zip) for my draft book on logic and formal language theory
+1. [Programs](mathcode.zip) for my book *Mathematical Methods and Modeling for Linguistics*
 1. [Programs](bookcode.zip) for my book *Python for Linguists*
 1. List of [errata](pythontypos.html) for my book *Python for Linguists*
 1. List of [errata](errata.html) from my book *The Phonology of English*.
