@@ -2,8 +2,6 @@ import re
 
 #generalizations about progressive <Vp>
 
-#do stems and lemma suffixes too
-
 vowels = "aeiouAEIOU"
 
 f = open('kortho.txt','r')
@@ -22,20 +20,22 @@ for line in lines:
 		stem = root[:-2]
 		stemvs = [v for v in stem if v in vowels]
 		if len(stemvs) == 0:
-			finalv = 'X'
+			term = 'X'
 		else:
-			finalv = stemvs[-1]
-			#finalv = stemvs[0]
-		print(f'{line}:\n\t{stemvs}')
-		if finalv in counts:
-			if ipform in counts[finalv]:
-				counts[finalv][ipform] += 1
-			else:
-				counts[finalv][ipform] = 1
-		else:
-			counts[finalv] = {ipform:1}
+			term = stemvs[-1]
 
-for rv in counts:
+			term = sfxvs + '-' + stemvs[-1]
+
+		print(f'{line}:\n\t{stemvs}')
+		if term in counts:
+			if ipform in counts[term]:
+				counts[term][ipform] += 1
+			else:
+				counts[term][ipform] = 1
+		else:
+			counts[term] = {ipform:1}
+
+for rv in sorted(counts):
 	print(rv)
 	for ip in counts[rv]:
 		print(f'\t{ip}: {counts[rv][ip]}')
